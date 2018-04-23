@@ -3,12 +3,16 @@ pipeline {
     
     stages {
         stage('Checkout') {
-            checkout scm
+            steps {
+                checkout scm
+            }
         }
         
         stage('Build') {
-            sh 'echo "Building..." | slack-cli -d test'
-            sh 'echo do some building here'
+            steps {
+                sh 'echo "Building..." | slack-cli -d test'
+                sh 'echo do some building here'
+            }
         }
     }
     post {
