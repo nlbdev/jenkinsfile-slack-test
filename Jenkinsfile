@@ -6,7 +6,7 @@ pipeline {
             steps {
                 sh 'echo "Building..." | slack-cli -d test'
                 sh 'echo do some building here'
-                touch "modules/nlb/book-to-pef/target/surefire-reports/*"
+                sh 'touch "modules/nlb/book-to-pef/target/surefire-reports/*"'
             }
         }
     }
