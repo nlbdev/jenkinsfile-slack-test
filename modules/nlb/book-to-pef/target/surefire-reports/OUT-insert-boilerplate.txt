@@ -1,0 +1,93 @@
+Running insert-boilerplate
+Testing with SAXON HE 9.5.1.5
+DTBook: Basic usage
+
+EPUB/HTML: Basic usage
+
+DTBook: Use title and author from doctitle and docauthor
+
+DTBook: normalize whitespace and respect suggested braille line breaks
+
+DTBook: insert suggested line break between title and subtitle
+
+DTBook: use only title if fulltitle doesn't fit and title is defined
+
+DTBook: inform about shortened title
+
+EPUB/HTML: Use title and author from doctitle and docauthor
+
+EPUB/HTML: normalize whitespace and respect suggested braille line breaks
+
+EPUB/HTML: insert suggested line break between title and subtitle
+
+EPUB/HTML: use only title if fulltitle doesn't fit and title is defined
+
+EPUB/HTML: inform about shortened title
+
+nlb:strings-to-lines
+
+nlb:strings-to-lines - words too long, but don't break them
+
+nlb:strings-to-lines - if words are too long, break them, otherwise only break on spaces
+
+nlb:strings-to-lines - fill lines completely before breaking, regardless of where the spaces are
+
+nlb:strings-to-lines - 'The Lord of the Rings: The Two Towers' - 0 explicit line breaks
+
+nlb:strings-to-lines - 'The Lord of the Rings: The Two Towers' - 1 explicit line break
+
+nlb:strings-to-lines - 'The Lord of the Rings: The Two Towers' - 2 explicit line break
+
+nlb:strings-to-lines - 'The Lord of the Rings: The Two Towers' - 3 explicit line break
+
+nlb:fit-name-to-lines - lastname, firstname
+
+nlb:fit-name-to-lines - 4 lines
+
+nlb:fit-name-to-lines - 3 lines
+
+nlb:fit-name-to-lines - 2 lines
+
+nlb:fit-name-to-lines - 2 lines
+
+nlb:fit-name-to-lines - 1 lines
+
+nlb:fit-name-to-lines - 1 lines
+
+nlb:fit-name-to-lines - ability to suggest line break with names with initials
+
+nlb:author-lines - 1 long author
+
+nlb:author-lines - 2 authors
+
+nlb:author-lines - 3 authors
+
+nlb:author-lines - 4 authors
+
+nlb:author-lines - ability to suggest line break
+
+nlb:translator-lines - 1 long translator
+
+nlb:translator-lines - 2 translators
+
+nlb:translator-lines - 3 translators
+
+nlb:translator-lines - ability to suggest line break
+
+nlb:title-lines - long title
+
+nlb:title-lines - too long title
+
+nlb:title-lines - long title with too long words
+
+nlb:title-lines - too long title with too long words
+
+nlb:title-lines - ability to suggest line break between
+
+nlb:element-text - ' John [br] Ronald[newline] Reuel Tolkien '
+text should be normalized and have newlines at the position of the br element
+nlb:element-text - title/subtitle classes
+text should have a newline before the subtitle
+Regression test: br element in doctitle causes too many nested function calls
+There should not be an error
+Tests run: 45, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 311,1 ms

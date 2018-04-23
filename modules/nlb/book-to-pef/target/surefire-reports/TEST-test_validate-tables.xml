@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuites tests="4" failures="0" time="0.6" errors="0" name="testvalidatetables"><testsuite timestamp="2018-04-20T13:47:19.585Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d1237e1" name="onlyWellformedTables" package="http://www.nlb.no/ns/pipeline/xproc" time="0.018">
+<properties><property name="input: source" value="&lt;book xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/book&gt; (Base URI: file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/xprocspec/test_validate-tables.xprocspec)"/>
+
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="validate-tables" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="thereShouldBeNoDocumentsOnTheReportPort" classname="validate-tables" assertions="1" time="0" status="SUCCESS"><system-out>there should be no documents on the report port: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:47:19.59Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d1245e1" name="oneMalformedTable" package="http://www.nlb.no/ns/pipeline/xproc" time="0.017">
+<properties><property name="input: source" value="&lt;book xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/book&gt; (Base URI: file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/xprocspec/test_validate-tables.xprocspec)"/>
+
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="validate-tables" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="thereShouldBeASingleReportDocumentOnTheReportPort" classname="validate-tables" assertions="1" time="0" status="SUCCESS"><system-out>there should be a single report document on the report port: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        </testsuites>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuites tests="8" failures="0" time="14.413" errors="0" name="testepub3topef"><testsuite timestamp="2018-04-20T13:40:38.559Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d18112e1" name="BasicTest" package="http://www.nlb.no/ns/pipeline/xproc" time="4.366">
+<properties>
+
+<property name="option: toc-depth" value="0"/>
+<property name="option: epub" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/resources/EPUB/package.opf"/>
+<property name="option: show-braille-page-numbers" value="true"/>
+<property name="option: show-print-page-numbers" value="true"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154024362/1/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154024362/1/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154024362/1/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="epub3-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="ExactlyOnePEFFileShouldBePresentInTheOutputDirectory" classname="epub3-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>Exactly one PEF file should be present in the output directory: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:40:38.564Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d18120e1" name="TestWithEpubFile" package="http://www.nlb.no/ns/pipeline/xproc" time="2.817">
+<properties>
+
+<property name="option: toc-depth" value="0"/>
+<property name="option: epub" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/resources/EPUB/package.opf"/>
+<property name="option: show-braille-page-numbers" value="true"/>
+<property name="option: show-print-page-numbers" value="true"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154024362/2/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154024362/2/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154024362/2/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="epub3-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="result" classname="epub3-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>result: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:40:38.57Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d18125e1" name="TestForPageNumber" package="http://www.nlb.no/ns/pipeline/xproc" time="2.497">
+<properties>
+
+<property name="option: toc-depth" value="0"/>
+<property name="option: epub" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/resources/EPUB_1/package.opf"/>
+<property name="option: show-braille-page-numbers" value="true"/>
+<property name="option: show-print-page-numbers" value="true"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154024362/3/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154024362/3/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154024362/3/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="epub3-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="result" classname="epub3-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>result: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:40:38.577Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d18130e1" name="TestForPageList" package="http://www.nlb.no/ns/pipeline/xproc" time="2.639">
+<properties>
+
+<property name="option: toc-depth" value="0"/>
+<property name="option: epub" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/resources/EPUB_2/package.opf"/>
+<property name="option: show-braille-page-numbers" value="true"/>
+<property name="option: show-print-page-numbers" value="true"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154024362/4/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154024362/4/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154024362/4/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="epub3-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="result" classname="epub3-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>result: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        </testsuites>

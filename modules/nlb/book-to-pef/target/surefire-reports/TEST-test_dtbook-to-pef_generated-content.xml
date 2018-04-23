@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuites tests="124" failures="0" time="85.519" errors="0" name="testdtbooktopefgeneratedcontent"><testsuite timestamp="2018-04-20T13:42:04.436Z" hostname="localhost" tests="4" errors="0" failures="0" skipped="0" id="d153737e1" name="titlepageBasicTestOfCompleteTitlepage" package="http://www.nlb.no/ns/pipeline/xproc" time="2.854">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/titlepage/1/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/titlepage/1/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/titlepage/1/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="thePEFShouldBe28RowsHigh" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the PEF should be 28 rows high: SUCCESS</system-out>
+<system-err/></testcase><testcase name="thePEFShouldBe32ColumnsWide" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the PEF should be 32 columns wide: SUCCESS</system-out>
+<system-err/></testcase><testcase name="theTitlepageShouldBeAsExpected" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the titlepage should be as expected: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.442Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d153747e1" name="titlepageWithExistingTitlepage" package="http://www.nlb.no/ns/pipeline/xproc" time="2.711">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/titlepage/2/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/titlepage/2/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/titlepage/2/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="theExistingTitlepageShouldBeDeleted" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the existing titlepage should be deleted: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.447Z" hostname="localhost" tests="3" errors="0" failures="0" skipped="0" id="d153754e1" name="author1Author" package="http://www.nlb.no/ns/pipeline/xproc" time="1.552">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/author/1/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/author/1/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/author/1/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="shouldContainTheAuthorAndTwoEmptyLines" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>should contain the author and two empty lines: SUCCESS</system-out>
+<system-err/></testcase><testcase name="thereShouldBeNone" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>there should be none: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.453Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d153761e1" name="author2Authors" package="http://www.nlb.no/ns/pipeline/xproc" time="1.746">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/author/2/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/author/2/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/author/2/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="shouldContainTheAuthorsAndTwoEmptyLines" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>should contain the authors and two empty lines: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.458Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d153766e1" name="author3Authors" package="http://www.nlb.no/ns/pipeline/xproc" time="1.608">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/author/3/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/author/3/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/author/3/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="shouldContainTheAuthorsAndTwoEmptyLines" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>should contain the authors and two empty lines: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.463Z" hostname="localhost" tests="3" errors="0" failures="0" skipped="0" id="d153771e1" name="author4Authors" package="http://www.nlb.no/ns/pipeline/xproc" time="1.574">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/author/4/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/author/4/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/author/4/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="shouldContainTheFirstTwoAuthorsMflOnTheThirdLineAndThenTwoEmptyLines" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>should contain the first two authors, 'mfl.' on the third line, and then two empty lines: SUCCESS</system-out>
+<system-err/></testcase><testcase name="shouldAllBeListedInFull" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>should all be listed in full: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.468Z" hostname="localhost" tests="3" errors="0" failures="0" skipped="0" id="d153776e1" name="titleLongTitleThatFits" package="http://www.nlb.no/ns/pipeline/xproc" time="1.714">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/title/1/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/title/1/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/title/1/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="shouldContainTheAuthorAndTwoEmptyLines" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>should contain the author and two empty lines: SUCCESS</system-out>
+<system-err/></testcase><testcase name="shouldNotBeListed" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>should not be listed: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.473Z" hostname="localhost" tests="3" errors="0" failures="0" skipped="0" id="d153783e1" name="titleLongTitleThatDoesNotFit" package="http://www.nlb.no/ns/pipeline/xproc" time="1.625">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/title/2/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/title/2/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/title/2/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="shouldContainTheAuthorAndTwoEmptyLines" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>should contain the author and two empty lines: SUCCESS</system-out>
+<system-err/></testcase><testcase name="shouldBeListedInFull" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>should be listed in full: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.478Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d153788e1" name="titleLongTitleThatFitsButWordsHaveToBeBroken" package="http://www.nlb.no/ns/pipeline/xproc" time="1.573">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/title/3/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/title/3/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/title/3/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="shouldContainTheAuthorAndTwoEmptyLines" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>should contain the author and two empty lines: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.483Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d153793e1" name="titleLongTitleThatDoesNotFitWithWordsThatHaveToBeBroken" package="http://www.nlb.no/ns/pipeline/xproc" time="1.632">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/title/4/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/title/4/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/title/4/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="shouldContainTheAuthorAndTwoEmptyLines" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>should contain the author and two empty lines: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.489Z" hostname="localhost" tests="3" errors="0" failures="0" skipped="0" id="d153798e1" name="translator1Translator" package="http://www.nlb.no/ns/pipeline/xproc" time="1.662">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/translator/1/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/translator/1/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/translator/1/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="shouldStartWithOversattAvAndThenListTheTranslatorsAndHaveTwoEmptyLinesAtTheEnd" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>should start with 'Oversatt av:', and then list the translator(s), and have two empty lines at the end: SUCCESS</system-out>
+<system-err/></testcase><testcase name="thereShouldBeNone" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>there should be none: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.494Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d153805e1" name="translator2Translators" package="http://www.nlb.no/ns/pipeline/xproc" time="1.602">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/translator/2/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/translator/2/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/translator/2/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="shouldStartWithOversattAvAndThenListTheTranslatorsAndHaveTwoEmptyLinesAtTheEnd" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>should start with 'Oversatt av:', and then list the translator(s), and have two empty lines at the end: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.5Z" hostname="localhost" tests="3" errors="0" failures="0" skipped="0" id="d153810e1" name="translator3Translators" package="http://www.nlb.no/ns/pipeline/xproc" time="1.631">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/translator/3/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/translator/3/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/translator/3/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="shouldStartWithOversattAvAndThenListTheTranslatorsAndHaveTwoEmptyLinesAtTheEnd" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>should start with 'Oversatt av:', and then list the translator(s), and have two empty lines at the end: SUCCESS</system-out>
+<system-err/></testcase><testcase name="shouldAllBeListedInFull" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>should all be listed in full: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.505Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d153815e1" name="translator1TranslatorWithALongName" package="http://www.nlb.no/ns/pipeline/xproc" time="1.527">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/translator/4/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/translator/4/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/translator/4/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="shouldStartWithOversattAvAndThenListTheTranslatorsAndHaveTwoEmptyLinesAtTheEnd" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>should start with 'Oversatt av:', and then list the translator(s), and have two empty lines at the end: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.51Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d153820e1" name="translator2TranslatorsWithLongNames" package="http://www.nlb.no/ns/pipeline/xproc" time="1.507">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/translator/5/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/translator/5/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/translator/5/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="shouldStartWithOversattAvAndThenListTheTranslatorsAndHaveTwoEmptyLinesAtTheEnd" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>should start with 'Oversatt av:', and then list the translator(s), and have two empty lines at the end: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.518Z" hostname="localhost" tests="5" errors="0" failures="0" skipped="0" id="d153825e1" name="nlbYearContractionGradeGrade0" package="http://www.nlb.no/ns/pipeline/xproc" time="1.515">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/nlb-year-grade/1/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/nlb-year-grade/1/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/nlb-year-grade/1/temp-dir"/>
+<property name="option: braille-standard" value="(dots:6)(grade:0)"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="line23ShouldContainNLBYear" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>line 23 should contain 'NLB - {year}': SUCCESS</system-out>
+<system-err/></testcase><testcase name="line24ShouldContainFullskrift" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>line 24 should contain 'Fullskrift': SUCCESS</system-out>
+<system-err/></testcase><testcase name="line25ShouldBeEmpty" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>line 25 should be empty: SUCCESS</system-out>
+<system-err/></testcase><testcase name="line26ShouldBeEmpty" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>line 26 should be empty: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.525Z" hostname="localhost" tests="5" errors="0" failures="0" skipped="0" id="d153838e1" name="nlbYearContractionGradeGrade1" package="http://www.nlb.no/ns/pipeline/xproc" time="1.5">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/nlb-year-grade/2/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/nlb-year-grade/2/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/nlb-year-grade/2/temp-dir"/>
+<property name="option: braille-standard" value="(dots:6)(grade:1)"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="line23ShouldContainNLBYear" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>line 23 should contain 'NLB - {year}': SUCCESS</system-out>
+<system-err/></testcase><testcase name="line24ShouldContainKortskrift1" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>line 24 should contain 'Kortskrift 1': SUCCESS</system-out>
+<system-err/></testcase><testcase name="line25ShouldBeEmpty" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>line 25 should be empty: SUCCESS</system-out>
+<system-err/></testcase><testcase name="line26ShouldBeEmpty" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>line 26 should be empty: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.532Z" hostname="localhost" tests="5" errors="0" failures="0" skipped="0" id="d153851e1" name="nlbYearContractionGradeGrade2" package="http://www.nlb.no/ns/pipeline/xproc" time="1.527">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/nlb-year-grade/3/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/nlb-year-grade/3/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/nlb-year-grade/3/temp-dir"/>
+<property name="option: braille-standard" value="(dots:6)(grade:2)"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="line23ShouldContainNLBYear" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>line 23 should contain 'NLB - {year}': SUCCESS</system-out>
+<system-err/></testcase><testcase name="line24ShouldContainKortskrift2" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>line 24 should contain 'Kortskrift 2': SUCCESS</system-out>
+<system-err/></testcase><testcase name="line25ShouldBeEmpty" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>line 25 should be empty: SUCCESS</system-out>
+<system-err/></testcase><testcase name="line26ShouldBeEmpty" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>line 26 should be empty: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.539Z" hostname="localhost" tests="5" errors="0" failures="0" skipped="0" id="d153864e1" name="nlbYearContractionGradeGrade3" package="http://www.nlb.no/ns/pipeline/xproc" time="1.497">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/nlb-year-grade/4/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/nlb-year-grade/4/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/nlb-year-grade/4/temp-dir"/>
+<property name="option: braille-standard" value="(dots:6)(grade:3)"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="line23ShouldContainNLBYear" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>line 23 should contain 'NLB - {year}': SUCCESS</system-out>
+<system-err/></testcase><testcase name="line24ShouldContainKortskrift3" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>line 24 should contain 'Kortskrift 3': SUCCESS</system-out>
+<system-err/></testcase><testcase name="line25ShouldBeEmpty" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>line 25 should be empty: SUCCESS</system-out>
+<system-err/></testcase><testcase name="line26ShouldBeEmpty" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>line 26 should be empty: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.544Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d153877e1" name="volume1Volume" package="http://www.nlb.no/ns/pipeline/xproc" time="1.497">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/volume/1/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/volume/1/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/volume/1/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="shouldContainHefte1Av1" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>should contain 'Hefte 1 av 1': SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.55Z" hostname="localhost" tests="4" errors="0" failures="0" skipped="0" id="d153882e1" name="volume2Volumes" package="http://www.nlb.no/ns/pipeline/xproc" time="1.553">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/volume/2/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/volume/2/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/volume/2/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="shouldContainHefte1Av2" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>should contain 'Hefte 1 av 2': SUCCESS</system-out>
+<system-err/></testcase><testcase name="shouldContainHefte2Av2" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>should contain 'Hefte 2 av 2': SUCCESS</system-out>
+<system-err/></testcase><testcase name="shouldEqualRows126OfTheSecondVolume" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>should equal rows 1-26 of the second volume: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.557Z" hostname="localhost" tests="5" errors="0" failures="0" skipped="0" id="d153887e1" name="aboutAboutPageContent" package="http://www.nlb.no/ns/pipeline/xproc" time="1.516">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/about/1/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/about/1/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/about/1/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="shouldContainOmBoka" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>should contain 'Om boka': SUCCESS</system-out>
+<system-err/></testcase><testcase name="shouldContainAntallSider" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>should contain 'Antall sider': SUCCESS</system-out>
+<system-err/></testcase><testcase name="shouldContainBokaSkalIkkeReturneres" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>should contain 'Boka skal ikke returneres.': SUCCESS</system-out>
+<system-err/></testcase><testcase name="shouldContainFeilEllerManglerKanMeldesTilPunktnlbNo" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>should contain 'Feil eller mangler kan meldes til punkt@nlb.no.': SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.562Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d153900e1" name="tocTocdepth=0" package="http://www.nlb.no/ns/pipeline/xproc" time="1.644">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: toc-depth" value="0"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/toc/1/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/toc/1/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/toc/1/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="thereShouldNotBeATOC" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>there should not be a TOC: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.567Z" hostname="localhost" tests="3" errors="0" failures="0" skipped="0" id="d153907e1" name="tocTocdepth=1" package="http://www.nlb.no/ns/pipeline/xproc" time="2.572">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: toc-depth" value="1"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/toc/2/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/toc/2/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/toc/2/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="thereShouldBeATOC" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>there should be a TOC: SUCCESS</system-out>
+<system-err/></testcase><testcase name="theTOCDepthShouldBe1" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the TOC depth should be 1: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.573Z" hostname="localhost" tests="3" errors="0" failures="0" skipped="0" id="d153916e1" name="tocTocdepth=2" package="http://www.nlb.no/ns/pipeline/xproc" time="2.751">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: toc-depth" value="2"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/toc/3/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/toc/3/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/toc/3/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="thereShouldBeATOC" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>there should be a TOC: SUCCESS</system-out>
+<system-err/></testcase><testcase name="theTOCDepthShouldBe2" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the TOC depth should be 2: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.579Z" hostname="localhost" tests="3" errors="0" failures="0" skipped="0" id="d153925e1" name="tocTocdepth=3" package="http://www.nlb.no/ns/pipeline/xproc" time="2.866">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: toc-depth" value="3"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/toc/4/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/toc/4/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/toc/4/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="thereShouldBeATOC" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>there should be a TOC: SUCCESS</system-out>
+<system-err/></testcase><testcase name="theTOCDepthShouldBe3" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the TOC depth should be 3: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.585Z" hostname="localhost" tests="3" errors="0" failures="0" skipped="0" id="d153934e1" name="tocTocdepth=4" package="http://www.nlb.no/ns/pipeline/xproc" time="2.771">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: toc-depth" value="4"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/toc/5/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/toc/5/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/toc/5/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="thereShouldBeATOC" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>there should be a TOC: SUCCESS</system-out>
+<system-err/></testcase><testcase name="theTOCDepthShouldBe3" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the TOC depth should be 3: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.59Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d153943e1" name="NoHeadingsNoTOC" package="http://www.nlb.no/ns/pipeline/xproc" time="1.528">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: toc-depth" value="1"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/toc/6/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/toc/6/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/toc/6/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="thereShouldNotBeATOC" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>there should not be a TOC: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.597Z" hostname="localhost" tests="5" errors="0" failures="0" skipped="2" id="d153950e1" name="pefsectionsDuplex=true" package="http://www.nlb.no/ns/pipeline/xproc" time="2.464">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: duplex" value="true"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/pef-sections/1/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/pef-sections/1/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/pef-sections/1/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="theTitlepageShouldBeInTheFirstSection" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the titlepage should be in the first section: SUCCESS</system-out>
+<system-err/></testcase><testcase name="theAboutPageShouldBeInTheFirstSection" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the about page should be in the first section: SUCCESS</system-out>
+<system-err/></testcase><testcase name="theTocShouldBeInTheFirstSection" classname="dtbook-to-pef" assertions="1" time="0"><skipped type="xprocspec.skip" message="https://github.com/nlbdev/pipeline/issues/126">https://github.com/nlbdev/pipeline/issues/126</skipped><system-out>the toc should be in the first section: SKIPPED</system-out>
+<system-err/></testcase><testcase name="theNongeneratedContentShouldStartInTheSecondSection" classname="dtbook-to-pef" assertions="1" time="0"><skipped type="xprocspec.skip" message="https://github.com/nlbdev/pipeline/issues/126">https://github.com/nlbdev/pipeline/issues/126</skipped><system-out>the non-generated content should start in the second section: SKIPPED</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.603Z" hostname="localhost" tests="5" errors="0" failures="0" skipped="2" id="d153959e1" name="pefsectionsDuplex=false" package="http://www.nlb.no/ns/pipeline/xproc" time="2.481">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: duplex" value="false"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/pef-sections/2/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/pef-sections/2/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/pef-sections/2/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="theTitlepageShouldBeInTheFirstSection" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the titlepage should be in the first section: SUCCESS</system-out>
+<system-err/></testcase><testcase name="theAboutPageShouldBeInTheFirstSection" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the about page should be in the first section: SUCCESS</system-out>
+<system-err/></testcase><testcase name="theTocShouldBeInTheFirstSection" classname="dtbook-to-pef" assertions="1" time="0"><skipped type="xprocspec.skip" message="https://github.com/nlbdev/pipeline/issues/126">https://github.com/nlbdev/pipeline/issues/126</skipped><system-out>the toc should be in the first section: SKIPPED</system-out>
+<system-err/></testcase><testcase name="theNongeneratedContentShouldStartInTheSecondSection" classname="dtbook-to-pef" assertions="1" time="0"><skipped type="xprocspec.skip" message="https://github.com/nlbdev/pipeline/issues/126">https://github.com/nlbdev/pipeline/issues/126</skipped><system-out>the non-generated content should start in the second section: SKIPPED</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.614Z" hostname="localhost" tests="20" errors="0" failures="0" skipped="6" id="d153968e1" name="pefsectionsMultipleVolumes" package="http://www.nlb.no/ns/pipeline/xproc" time="3.272">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/pef-sections/3/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/pef-sections/3/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/pef-sections/3/temp-dir"/>
+<property name="option: show-braille-page-numbers" value="false"/>
+<property name="option: show-print-page-numbers" value="false"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="thereShouldBe3Volumes" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>there should be 3 volumes: SUCCESS</system-out>
+<system-err/></testcase><testcase name="theFirstSectionOfTheFirstVolumeShouldContainATitlepage" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the first section of the first volume should contain a titlepage: SUCCESS</system-out>
+<system-err/></testcase><testcase name="theFirstSectionOfTheFirstVolumeShouldContainAnAboutPage" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the first section of the first volume should contain an about page: SUCCESS</system-out>
+<system-err/></testcase><testcase name="theFirstSectionOfTheFirstVolumeShouldContainAToc" classname="dtbook-to-pef" assertions="1" time="0"><skipped type="xprocspec.skip" message="https://github.com/nlbdev/pipeline/issues/126">https://github.com/nlbdev/pipeline/issues/126</skipped><system-out>the first section of the first volume should contain a toc: SKIPPED</system-out>
+<system-err/></testcase><testcase name="theFirstSectionOfTheFirstVolumeShouldNotContainAnyNongeneratedContent" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the first section of the first volume should not contain any non-generated content: SUCCESS</system-out>
+<system-err/></testcase><testcase name="theSecondSectionOfTheFirstVolumeShouldContainNongeneratedContent" classname="dtbook-to-pef" assertions="1" time="0"><skipped type="xprocspec.skip" message="https://github.com/nlbdev/pipeline/issues/126">https://github.com/nlbdev/pipeline/issues/126</skipped><system-out>the second section of the first volume should contain non-generated content: SKIPPED</system-out>
+<system-err/></testcase><testcase name="theFirstSectionOfTheSecondVolumeShouldContainATitlepage" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the first section of the second volume should contain a titlepage: SUCCESS</system-out>
+<system-err/></testcase><testcase name="theFirstSectionOfTheSecondVolumeShouldNotContainAnAboutPage" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the first section of the second volume should not contain an about page: SUCCESS</system-out>
+<system-err/></testcase><testcase name="theFirstSectionOfTheSecondVolumeShouldContainAToc" classname="dtbook-to-pef" assertions="1" time="0"><skipped type="xprocspec.skip" message="https://github.com/nlbdev/pipeline/issues/126">https://github.com/nlbdev/pipeline/issues/126</skipped><system-out>the first section of the second volume should contain a toc: SKIPPED</system-out>
+<system-err/></testcase><testcase name="theFirstSectionOfTheSecondVolumeShouldNotContainAnyNongeneratedContent" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the first section of the second volume should not contain any non-generated content: SUCCESS</system-out>
+<system-err/></testcase><testcase name="theSecondSectionOfTheSecondVolumeShouldContainNongeneratedContent" classname="dtbook-to-pef" assertions="1" time="0"><skipped type="xprocspec.skip" message="https://github.com/nlbdev/pipeline/issues/126">https://github.com/nlbdev/pipeline/issues/126</skipped><system-out>the second section of the second volume should contain non-generated content: SKIPPED</system-out>
+<system-err/></testcase><testcase name="theFirstSectionOfTheThirdVolumeShouldContainATitlepage" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the first section of the third volume should contain a titlepage: SUCCESS</system-out>
+<system-err/></testcase><testcase name="theFirstSectionOfTheThirdVolumeShouldNotContainAnAboutPage" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the first section of the third volume should not contain an about page: SUCCESS</system-out>
+<system-err/></testcase><testcase name="theFirstSectionOfTheThirdVolumeShouldContainAToc" classname="dtbook-to-pef" assertions="1" time="0"><skipped type="xprocspec.skip" message="https://github.com/nlbdev/pipeline/issues/126">https://github.com/nlbdev/pipeline/issues/126</skipped><system-out>the first section of the third volume should contain a toc: SKIPPED</system-out>
+<system-err/></testcase><testcase name="theFirstSectionOfTheThirdVolumeShouldNotContainAnyNongeneratedContent" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the first section of the third volume should not contain any non-generated content: SUCCESS</system-out>
+<system-err/></testcase><testcase name="theSecondSectionOfTheThirdVolumeShouldContainNongeneratedContent" classname="dtbook-to-pef" assertions="1" time="0"><skipped type="xprocspec.skip" message="https://github.com/nlbdev/pipeline/issues/126">https://github.com/nlbdev/pipeline/issues/126</skipped><system-out>the second section of the third volume should contain non-generated content: SKIPPED</system-out>
+<system-err/></testcase><testcase name="theFirstTocShouldBeADocumentTocWithAHeadline" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the first toc should be a document toc with a headline: SUCCESS</system-out>
+<system-err/></testcase><testcase name="theSecondTocShouldBeAVolumeTocWithAHeadline" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the second toc should be a volume toc with a headline: SUCCESS</system-out>
+<system-err/></testcase><testcase name="theThirdTocShouldBeAVolumeTocWithAHeadline" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the third toc should be a volume toc with a headline: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.62Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d153993e1" name="DTBookFrontmatterShouldNotBeDuplicatedIssue93" package="http://www.nlb.no/ns/pipeline/xproc" time="1.592">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/4/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/4/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/4/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="TheTextForordetSkalShouldOnlyOccurOnce" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>The text 'Forordet skal' should only occur once: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.626Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d154000e1" name="doubleLinespacingShouldWorkInsideTheDTBookFrontmatterSeeCommentOnIssue93SingleLineSpacing" package="http://www.nlb.no/ns/pipeline/xproc" time="1.616">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: line-spacing" value="single"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/5/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/5/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/5/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="TheRowAfterTheRowContainingForordetSkalShouldNotBeEmptyAndThereShouldBeNoRowgap" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>The row after the row containing 'Forordet skal', should not be empty and there should be no rowgap: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.633Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d154007e1" name="doubleLinespacingShouldWorkInsideTheDTBookFrontmatterSeeCommentOnIssue93DoubleLineSpacing" package="http://www.nlb.no/ns/pipeline/xproc" time="1.633">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: line-spacing" value="double"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/6/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/6/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/6/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="EitherRowgapShouldBe4OrTheRowAfterTheRowContainingForordetSkalShouldBeEmpty" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>Either rowgap should be 4, or the row after the row containing 'Forordet skal', should be empty: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:04.639Z" hostname="localhost" tests="3" errors="0" failures="0" skipped="0" id="d154014e1" name="marginsInFrontmatterShouldBeTheSameAsInBodymatterSeeCommentOnIssue93" package="http://www.nlb.no/ns/pipeline/xproc" time="1.758">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: page-width" value="32"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/7/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/7/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154039529/7/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="TheLeftMarginsShouldBeTheSameInFrontmatterAndBodymatter" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>The left margins should be the same in frontmatter and bodymatter: SUCCESS</system-out>
+<system-err/></testcase><testcase name="TheRightMarginsShouldBeTheSameInFrontmatterAndBodymatter" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>The right margins should be the same in frontmatter and bodymatter: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        </testsuites>

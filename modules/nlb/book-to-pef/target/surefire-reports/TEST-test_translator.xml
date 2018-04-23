@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuites tests="34" failures="0" time="5.254" errors="0" name="testtranslator"><testsuite timestamp="2018-04-20T13:40:22.43Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d8572e1" name="6dotGrade012And3Grade0" package="http://www.daisy.org/ns/pipeline/xproc/internal" time="0.153">
+<properties><property name="input: source" value="&lt;div xmlns=&#34;http://www.w3.org/1999/xhtml&#34; ...&gt;...&lt;/div&gt; (Base URI: file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/xprocspec/test_translator.xprocspec)"/>
+
+<property name="option: grade" value="0"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="result" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>result: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:40:22.437Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d8578e1" name="6dotGrade012And3Grade1" package="http://www.daisy.org/ns/pipeline/xproc/internal" time="0.125">
+<properties><property name="input: source" value="&lt;div xmlns=&#34;http://www.w3.org/1999/xhtml&#34; ...&gt;...&lt;/div&gt; (Base URI: file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/xprocspec/test_translator.xprocspec)"/>
+
+<property name="option: grade" value="1"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="result" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>result: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:40:22.443Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d8583e1" name="6dotGrade012And3Grade2" package="http://www.daisy.org/ns/pipeline/xproc/internal" time="0.118">
+<properties><property name="input: source" value="&lt;div xmlns=&#34;http://www.w3.org/1999/xhtml&#34; ...&gt;...&lt;/div&gt; (Base URI: file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/xprocspec/test_translator.xprocspec)"/>
+
+<property name="option: grade" value="2"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="result" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>result: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:40:22.449Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d8588e1" name="6dotGrade012And3Grade3" package="http://www.daisy.org/ns/pipeline/xproc/internal" time="0.113">
+<properties><property name="input: source" value="&lt;div xmlns=&#34;http://www.w3.org/1999/xhtml&#34; ...&gt;...&lt;/div&gt; (Base URI: file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/xprocspec/test_translator.xprocspec)"/>
+
+<property name="option: grade" value="3"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="result" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>result: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:40:22.455Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d8593e1" name="8dotGrade0Grade0" package="http://www.daisy.org/ns/pipeline/xproc/internal" time="0.099">
+<properties><property name="input: source" value="&lt;div xmlns=&#34;http://www.w3.org/1999/xhtml&#34; ...&gt;...&lt;/div&gt; (Base URI: file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/xprocspec/test_translator.xprocspec)"/>
+
+<property name="option: dots" value="8"/>
+<property name="option: grade" value="0"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="result" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>result: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:40:22.461Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d8598e1" name="MarkingOfTextlevelSemanticsWithBrailleIndicatorsForNorwegian" package="http://www.daisy.org/ns/pipeline/xproc/internal" time="0.138">
+<properties><property name="input: source" value="&lt;div xmlns=&#34;http://www.w3.org/1999/xhtml&#34; ...&gt;...&lt;/div&gt; (Base URI: file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/xprocspec/test_translator.xprocspec)"/>
+
+<property name="option: grade" value="0"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="result" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>result: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:40:22.467Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d8603e1" name="SectionInUncontractedBraille" package="http://www.daisy.org/ns/pipeline/xproc/internal" time="0.098">
+<properties><property name="input: source" value="&lt;div xmlns=&#34;http://www.w3.org/1999/xhtml&#34; ...&gt;...&lt;/div&gt; (Base URI: file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/xprocspec/test_translator.xprocspec)"/>
+
+<property name="option: grade" value="1"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="result" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>result: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:40:22.473Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d8608e1" name="testForBoldItalicStrikeThroughAndStrongForHtml" package="http://www.daisy.org/ns/pipeline/xproc/internal" time="0.119">
+<properties><property name="input: source" value="&lt;div xmlns=&#34;http://www.w3.org/1999/xhtml&#34; ...&gt;...&lt;/div&gt; (Base URI: file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/xprocspec/test_translator.xprocspec)"/>
+
+<property name="option: grade" value="0"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="result" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>result: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:40:22.48Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d8613e1" name="testForBoldItalicStrikeThroughAndStrongForDTbook" package="http://www.daisy.org/ns/pipeline/xproc/internal" time="0.129">
+<properties><property name="input: source" value="&lt;div xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/div&gt; (Base URI: file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/xprocspec/test_translator.xprocspec)"/>
+
+<property name="option: grade" value="0"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="result" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>result: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:40:22.486Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d8618e1" name="nonstandardHyphenation" package="http://www.daisy.org/ns/pipeline/xproc/internal" time="0.14">
+<properties><property name="input: source" value="&lt;div xmlns=&#34;http://www.w3.org/1999/xhtml&#34; ...&gt;...&lt;/div&gt; (Base URI: file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/xprocspec/test_translator.xprocspec)"/>
+
+<property name="option: grade" value="0"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="result" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>result: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:40:22.492Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d8623e1" name="texttransformuncontracted" package="http://www.daisy.org/ns/pipeline/xproc/internal" time="0.112">
+<properties><property name="input: source" value="&lt;bodymatter xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/bodymatter&gt; (Base URI: file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/xprocspec/test_translator.xprocspec)"/>
+
+<property name="option: grade" value="1"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="result" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>result: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:40:22.497Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d8628e1" name="mixedLangForcenorwegian=false" package="http://www.daisy.org/ns/pipeline/xproc/internal" time="0.312">
+<properties><property name="input: source" value="&lt;bodymatter xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/bodymatter&gt; (Base URI: file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/xprocspec/test_translator.xprocspec)"/>
+
+<property name="option: grade" value="1"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="result" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>result: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:40:22.503Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d8633e1" name="norwegianWithinOtherLanguageForcenorwegian=false" package="http://www.daisy.org/ns/pipeline/xproc/internal" time="0.108">
+<properties><property name="input: source" value="&lt;level1 xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/level1&gt; (Base URI: file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/xprocspec/test_translator.xprocspec)"/>
+
+<property name="option: grade" value="1"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="result" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>result: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:40:22.51Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d8638e1" name="mixedLangWithinBlock" package="http://www.daisy.org/ns/pipeline/xproc/internal" time="0.1">
+<properties><property name="input: source" value="&lt;bodymatter xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/bodymatter&gt; (Base URI: file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/xprocspec/test_translator.xprocspec)"/>
+
+<property name="option: grade" value="1"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="resultTrue" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>result (true): SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:40:22.516Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d8645e1" name="regressionTestForErrorPftexttransformFailedWhenTexttransformUncontractedIsUsedTogetherWithForcenorwegian=false" package="http://www.daisy.org/ns/pipeline/xproc/internal" time="0.087">
+<properties><property name="input: source" value="&lt;p xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/p&gt; (Base URI: file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/xprocspec/test_translator.xprocspec)"/>
+
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="ThereShouldBeExactly1OutputDocument" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>There should be exactly 1 output document: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:40:22.523Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d8652e1" name="undefinedCharactersShouldTranslateTo⠢InAllLanguages" package="http://www.daisy.org/ns/pipeline/xproc/internal" time="0.09">
+<properties><property name="input: source" value="&lt;bodymatter xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/bodymatter&gt; (Base URI: file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/xprocspec/test_translator.xprocspec)"/>
+
+<property name="option: grade" value="1"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="result" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>result: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:40:22.528Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d8657e1" name="subscriptAndSuperscript" package="http://www.daisy.org/ns/pipeline/xproc/internal" time="0.093">
+<properties><property name="input: source" value="&lt;bodymatter xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/bodymatter&gt; (Base URI: file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/xprocspec/test_translator.xprocspec)"/>
+
+<property name="option: grade" value="1"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="result" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>result: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        </testsuites>

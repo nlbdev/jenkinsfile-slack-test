@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuites tests="4" failures="0" time="3.325" errors="0" name="testhtmltopef"><testsuite timestamp="2018-04-20T13:42:17.952Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d5806e1" name="BasicTest" package="http://www.nlb.no/ns/pipeline/xproc" time="1.478">
+<properties>
+
+<property name="option: toc-depth" value="0"/>
+<property name="option: html" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/resources/HTML/book.xhtml"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-201804201542148/1/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-201804201542148/1/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-201804201542148/1/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="html-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="ExactlyOnePEFFileShouldBePresentInTheOutputDirectory" classname="html-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>Exactly one PEF file should be present in the output directory: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:17.957Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d5814e1" name="ImagesFiguresFigcaptionsAndAlttext" package="http://www.nlb.no/ns/pipeline/xproc" time="1.037">
+<properties>
+
+<property name="option: toc-depth" value="0"/>
+<property name="option: html" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/resources/html-to-pef/2/book.xhtml"/>
+<property name="option: braille-standard" value="(dots:6)(grade:0)"/>
+<property name="option: show-braille-page-numbers" value="false"/>
+<property name="option: show-print-page-numbers" value="false"/>
+<property name="option: page-height" value="150"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-201804201542148/2/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-201804201542148/2/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-201804201542148/2/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="html-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="result" classname="html-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>result: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        </testsuites>

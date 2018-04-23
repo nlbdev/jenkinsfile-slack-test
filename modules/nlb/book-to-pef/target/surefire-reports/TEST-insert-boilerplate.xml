@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:test="http://www.jenitennison.com/xslt/unit-test"
+           xmlns:x="http://www.jenitennison.com/xslt/xspec"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           name="xslt.insert-boilerplate"
+           errors="0"
+           failures="0"
+           skipped="count(//x:test[@pending='true'])"
+           time="0.311">
+   <testcase classname="xslt.insert-boilerplate" name="DTBook: Basic usage"/>
+   <testcase classname="xslt.insert-boilerplate" name="EPUB/HTML: Basic usage"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="DTBook: Use title and author from doctitle and docauthor"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="DTBook: normalize whitespace and respect suggested braille line breaks"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="DTBook: insert suggested line break between title and subtitle"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="DTBook: use only title if fulltitle doesn't fit and title is defined"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="DTBook: inform about shortened title"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="EPUB/HTML: Use title and author from doctitle and docauthor"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="EPUB/HTML: normalize whitespace and respect suggested braille line breaks"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="EPUB/HTML: insert suggested line break between title and subtitle"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="EPUB/HTML: use only title if fulltitle doesn't fit and title is defined"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="EPUB/HTML: inform about shortened title"/>
+   <testcase classname="xslt.insert-boilerplate" name="nlb:strings-to-lines"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="nlb:strings-to-lines - words too long, but don't break them"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="nlb:strings-to-lines - if words are too long, break them, otherwise only break on spaces"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="nlb:strings-to-lines - fill lines completely before breaking, regardless of where the spaces are"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="nlb:strings-to-lines - 'The Lord of the Rings: The Two Towers' - 0 explicit line breaks"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="nlb:strings-to-lines - 'The Lord of the Rings: The Two Towers' - 1 explicit line break"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="nlb:strings-to-lines - 'The Lord of the Rings: The Two Towers' - 2 explicit line break"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="nlb:strings-to-lines - 'The Lord of the Rings: The Two Towers' - 3 explicit line break"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="nlb:fit-name-to-lines - lastname, firstname"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="nlb:fit-name-to-lines - 4 lines"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="nlb:fit-name-to-lines - 3 lines"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="nlb:fit-name-to-lines - 2 lines"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="nlb:fit-name-to-lines - 2 lines"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="nlb:fit-name-to-lines - 1 lines"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="nlb:fit-name-to-lines - 1 lines"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="nlb:fit-name-to-lines - ability to suggest line break with names with initials"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="nlb:author-lines - 1 long author"/>
+   <testcase classname="xslt.insert-boilerplate" name="nlb:author-lines - 2 authors"/>
+   <testcase classname="xslt.insert-boilerplate" name="nlb:author-lines - 3 authors"/>
+   <testcase classname="xslt.insert-boilerplate" name="nlb:author-lines - 4 authors"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="nlb:author-lines - ability to suggest line break"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="nlb:translator-lines - 1 long translator"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="nlb:translator-lines - 2 translators"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="nlb:translator-lines - 3 translators"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="nlb:translator-lines - ability to suggest line break"/>
+   <testcase classname="xslt.insert-boilerplate" name="nlb:title-lines - long title"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="nlb:title-lines - too long title"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="nlb:title-lines - long title with too long words"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="nlb:title-lines - too long title with too long words"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="nlb:title-lines - ability to suggest line break between"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="nlb:element-text - ' John [br] Ronald[newline]  Reuel Tolkien ' text should be normalized and have newlines at the position of the br element"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="nlb:element-text - title/subtitle classes text should have a newline before the subtitle"/>
+   <testcase classname="xslt.insert-boilerplate"
+             name="Regression test: br element in doctitle causes too many nested function calls There should not be an error"/>
+</testsuite>

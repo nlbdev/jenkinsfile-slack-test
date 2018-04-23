@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuites tests="28" failures="0" time="32.754" errors="0" name="testdtbooktopefnotes"><testsuite timestamp="2018-04-20T13:48:52.644Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d62168e1" name="AutomaticNumberingOfNotes" package="http://www.nlb.no/ns/pipeline/xproc" time="1.96">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/xprocspec/test_dtbook-to-pef_notes.xprocspec)"/>
+
+<property name="option: toc-depth" value="0"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154820169/notes-numbering/pef-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154820169/notes-numbering/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="result" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>result: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:48:52.652Z" hostname="localhost" tests="5" errors="0" failures="0" skipped="0" id="d62174e1" name="VolumeNotes" package="http://www.nlb.no/ns/pipeline/xproc" time="2.083">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/xprocspec/test_dtbook-to-pef_notes.xprocspec)"/>
+
+<property name="option: toc-depth" value="0"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154820169/volume-notes/pef-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154820169/volume-notes/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="ThereShouldBe3Volumes" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>There should be 3 volumes: SUCCESS</system-out>
+<system-err/></testcase><testcase name="resultFirstVolume" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>result - first volume: SUCCESS</system-out>
+<system-err/></testcase><testcase name="resultSecondVolume" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>result - second volume: SUCCESS</system-out>
+<system-err/></testcase><testcase name="resultThirdVolume" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>result - third volume: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:48:52.658Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d62181e1" name="Footnotes" package="http://www.nlb.no/ns/pipeline/xproc" time="2.02">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/xprocspec/test_dtbook-to-pef_notes.xprocspec)"/>
+
+<property name="option: toc-depth" value="0"/>
+<property name="option: notes-placement" value="bottom-of-page"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154820169/footnotes/pef-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154820169/footnotes/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="resultSecondVolume" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>result - second volume: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:48:52.665Z" hostname="localhost" tests="4" errors="0" failures="0" skipped="0" id="d62186e1" name="NotesAtEndOfBook" package="http://www.nlb.no/ns/pipeline/xproc" time="1.966">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/xprocspec/test_dtbook-to-pef_notes.xprocspec)"/>
+
+<property name="option: toc-depth" value="0"/>
+<property name="option: notes-placement" value="end-of-book"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154820169/end-of-book-notes/pef-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154820169/end-of-book-notes/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="ThereShouldBe2Volumes" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>There should be 2 volumes: SUCCESS</system-out>
+<system-err/></testcase><testcase name="resultFirstVolume" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>result - first volume: SUCCESS</system-out>
+<system-err/></testcase><testcase name="resultSecondVolume" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>result - second volume: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:48:52.67Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d62193e1" name="NotesFallbackMechanism" package="http://www.nlb.no/ns/pipeline/xproc" time="2">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/xprocspec/test_dtbook-to-pef_notes.xprocspec)"/>
+
+<property name="option: toc-depth" value="0"/>
+<property name="option: notes-placement" value="bottom-of-page"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154820169/notes-fallback/pef-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154820169/notes-fallback/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="result" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>result: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:48:52.675Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d62198e1" name="testForTextDescribingPlacementOfNotesInGeneratedContentOmBokaSmallNotesWithNotesplacement=bottomofpage" package="http://www.nlb.no/ns/pipeline/xproc" time="2.77">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: notes-placement" value="bottom-of-page"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154820169/8/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154820169/8/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154820169/8/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="thePageShouldContainNoterErPlassertNederstPåHverSide" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the page should contain 'Noter er plassert nederst på hver side.': SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:48:52.68Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d62205e1" name="testForTextDescribingPlacementOfNotesInGeneratedContentOmBokaSmallNotesWithNotesplacement=endofvolume" package="http://www.nlb.no/ns/pipeline/xproc" time="2.787">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: notes-placement" value="end-of-volume"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154820169/9/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154820169/9/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154820169/9/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="thePageShouldContainNoterErPlassertISluttenAvHvertHefte" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the page should contain 'Noter er plassert i slutten av hvert hefte.': SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:48:52.685Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d62212e1" name="testForTextDescribingPlacementOfNotesInGeneratedContentOmBokaSmallNotesWithNotesplacement=endofbook" package="http://www.nlb.no/ns/pipeline/xproc" time="2.667">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: notes-placement" value="end-of-book"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154820169/10/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154820169/10/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154820169/10/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="thePageShouldContainNoterErPlassertBakerstIBoken" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the page should contain 'Noter er plassert bakerst i boken.': SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:48:52.691Z" hostname="localhost" tests="3" errors="0" failures="0" skipped="0" id="d62219e1" name="testForTextDescribingPlacementOfNotesInGeneratedContentOmBokaBigNotesWithNotesplacement=bottomofpage" package="http://www.nlb.no/ns/pipeline/xproc" time="2.85">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: notes-placement" value="bottom-of-page"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154820169/11/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154820169/11/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154820169/11/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="thePageShouldNotContainNoterErPlassertNederstPåHverSide" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the page should not contain 'Noter er plassert nederst på hver side.': SUCCESS</system-out>
+<system-err/></testcase><testcase name="thePageShouldContainNoterErPlassertISluttenAvHvertHefte" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the page should contain 'Noter er plassert i slutten av hvert hefte.': SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:48:52.695Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d62228e1" name="testForTextDescribingPlacementOfNotesInGeneratedContentOmBokaBigNotesWithNotesplacement=endofvolume" package="http://www.nlb.no/ns/pipeline/xproc" time="2.774">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: notes-placement" value="end-of-volume"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154820169/12/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154820169/12/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154820169/12/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="thePageShouldContainNoterErPlassertISluttenAvHvertHefte" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the page should contain 'Noter er plassert i slutten av hvert hefte.': SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:48:52.7Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d62235e1" name="testForTextDescribingPlacementOfNotesInGeneratedContentOmBokaBigNotesWithNotesplacement=endofbook" package="http://www.nlb.no/ns/pipeline/xproc" time="2.687">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: notes-placement" value="end-of-book"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154820169/13/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154820169/13/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154820169/13/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="thePageShouldContainNoterErPlassertBakerstIBoken" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the page should contain 'Noter er plassert bakerst i boken.': SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        </testsuites>

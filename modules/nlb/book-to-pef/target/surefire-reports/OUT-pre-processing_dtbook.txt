@@ -1,0 +1,17 @@
+Running pre-processing_dtbook
+Testing with SAXON HE 9.5.1.5
+automatically give number to noterefs that are not already numbered
+
+automatically give number to notes that are not already numbered
+
+the precedingseparator class should be replaced with a hr element
+
+the precedingemptyline class should be replaced with a hr element with a emptyline class
+
+move colophon to rearmatter (with existing rearmatter)
+
+move colophon to rearmatter (without existing rearmatter)
+
+remove titlepage and print toc
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 56,47 ms

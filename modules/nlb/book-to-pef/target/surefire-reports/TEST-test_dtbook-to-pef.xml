@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuites tests="3" failures="0" time="4.895" errors="0" name="testdtbooktopef"><testsuite timestamp="2018-04-20T13:58:32.941Z" hostname="localhost" tests="3" errors="0" failures="0" skipped="0" id="d3892e1" name="BasicTest" package="http://www.nlb.no/ns/pipeline/xproc" time="3.132">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/xprocspec/test_dtbook-to-pef.xprocspec)"/>
+
+<property name="option: toc-depth" value="0"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420155828514/1/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420155828514/1/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420155828514/1/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="theConversionShouldNotFail" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the conversion should not fail: SUCCESS</system-out>
+<system-err/></testcase><testcase name="ExactlyOnePEFFileShouldBePresentInTheOutputDirectory" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>Exactly one PEF file should be present in the output directory: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        </testsuites>

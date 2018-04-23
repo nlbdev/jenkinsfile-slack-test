@@ -1,0 +1,1000 @@
+15:39:54.498 [main] INFO  o.o.pax.exam.spi.DefaultExamSystem - Pax Exam System (Version: 3.3.0) created.
+15:39:54.505 [main] DEBUG o.ops4j.store.intern.TemporaryStore - Storage Area is /tmp/1524231594504-0
+15:39:54.525 [main] INFO  o.o.pax.exam.junit.impl.ProbeRunner - creating PaxExam runner for class NLBTest
+15:39:54.528 [main] DEBUG o.ops4j.pax.exam.spi.PaxExamRuntime - Found TestContainerFactory: org.ops4j.pax.exam.nat.internal.NativeTestContainerFactory
+15:39:54.566 [main] INFO  org.daisy.pipeline.pax.exam.Options - mavenBundlesWithDependencies(
+	mavenBundle("org.daisy.pipeline.modules.braille:css-utils:3.5.0-SNAPSHOT"),
+	mavenBundle("org.daisy.pipeline.modules.braille:pef-utils:2.2.1"),
+	mavenBundle("org.daisy.pipeline.modules.braille:liblouis-core:5.0.0-SNAPSHOT"),
+	mavenBundle("org.daisy.pipeline.modules.braille:liblouis-utils:1.5.0"),
+	mavenBundle("org.daisy.pipeline.modules.braille:liblouis-tables:3.2.0-1-SNAPSHOT"),
+	mavenBundle("org.daisy.pipeline.modules.braille:liblouis-native:jar:linux:1.5.0-SNAPSHOT"),
+	mavenBundle("org.daisy.pipeline.modules.braille:libhyphen-core:4.1.2"),
+	mavenBundle("org.daisy.pipeline.modules.braille:libhyphen-libreoffice-tables:4.0.0-2"),
+	mavenBundle("org.daisy.pipeline.modules.braille:libhyphen-native:jar:linux:1.2.0"),
+	mavenBundle("org.daisy.pipeline.modules.braille:dotify-formatter:1.12.2-SNAPSHOT"),
+	mavenBundle("org.daisy.pipeline.modules.braille:dtbook-to-pef:5.1.0-SNAPSHOT"),
+	mavenBundle("org.daisy.pipeline.modules.braille:epub3-to-pef:2.1.0-SNAPSHOT"),
+	mavenBundle("org.daisy.pipeline.modules.braille:html-to-pef:2.7.0-SNAPSHOT"),
+	mavenBundle("org.daisy.pipeline.modules.braille:xml-to-pef:3.1.0-SNAPSHOT"),
+	mavenBundle("org.daisy.pipeline.modules:file-utils:1.3.3"),
+	mavenBundle("org.daisy.pipeline.modules:common-utils:1.1.4"),
+	mavenBundle("org.daisy.pipeline.modules:html-utils:3.0.1"),
+	mavenBundle("org.daisy.pipeline.modules:zip-utils:2.0.1"),
+	mavenBundle("org.daisy.pipeline.modules:mediatype-utils:1.0.4"),
+	mavenBundle("org.daisy.pipeline.modules:file-utils:1.3.3"),
+	mavenBundle("org.daisy.pipeline.modules:fileset-utils:1.2.4"),
+	mavenBundle("org.daisy.pipeline.modules:common-entities:1.1.0"),
+	mavenBundle("org.daisy.pipeline:calabash-adapter:2.0.6"),
+	mavenBundle("org.slf4j:jul-to-slf4j:1.7.2"),
+	mavenBundle("org.daisy.pipeline:logging-activator:2.0.2"),
+	mavenBundle("org.daisy.libs:jing:20120724.0.0"),
+	mavenBundle("org.daisy.maven:xprocspec-runner:1.1.0"),
+	mavenBundle("org.daisy.xprocspec:xprocspec:1.2.0"),
+	mavenBundle("org.daisy.pipeline:calabash-adapter:2.0.6"),
+	mavenBundle("org.daisy.maven:xproc-engine-daisy-pipeline:1.10.2"),
+	mavenBundle("org.daisy.maven:xspec-runner:1.0.2"),
+	mavenBundle("org.daisy.pipeline:saxon-adapter:1.2"),
+	mavenBundle("ch.qos.logback:logback-classic:1.0.11"),
+	mavenBundle("org.slf4j:jcl-over-slf4j:1.7.2"))
+15:39:55.915 [main] INFO  org.daisy.pipeline.pax.exam.Options - Forcing transitive dependency "org.daisy.braille:braille-css:1.13.1-SNAPSHOT" (version as in project) because it would otherwise resolve to version "1.13.0" (via "org.daisy.pipeline.modules.braille:css-core:3.0.1")
+15:39:56.431 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency com.nwalsh:nwalsh-annotations: not a valid bundle.
+15:39:56.432 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency junit:junit: not a valid bundle.
+15:39:56.432 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency org.hamcrest:hamcrest-core: not a valid bundle.
+15:39:56.432 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency org.atteo.classindex:classindex: not a valid bundle.
+15:39:56.432 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency org.apache.httpcomponents:httpcore: not a valid bundle.
+15:39:56.432 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency org.restlet.jee:org.restlet.ext.fileupload: not a valid bundle.
+15:39:56.434 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency org.restlet.jee:org.restlet.ext.slf4j: not a valid bundle.
+15:39:56.434 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency org.ccil.cowan.tagsoup:tagsoup: not a valid bundle.
+15:39:56.434 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency org.restlet.jee:org.restlet: not a valid bundle.
+15:39:56.435 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency relaxngDatatype:relaxngDatatype: not a valid bundle.
+15:39:56.436 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency com.sun.xml.bind.jaxb:isorelax: not a valid bundle.
+15:39:56.436 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency org.xmlresolver:xmlresolver: not a valid bundle.
+15:39:56.436 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency org.apache.httpcomponents:httpclient: not a valid bundle.
+15:39:56.437 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency org.apache.ant:ant: not a valid bundle.
+15:39:56.437 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency org.apache.ant:ant-launcher: not a valid bundle.
+15:39:56.441 [main] INFO  org.daisy.pipeline.pax.exam.Options - Forcing transitive dependency "net.java.dev.jna:jna:4.0.0" (version as in project) because it would otherwise resolve to version "3.5.2" (via "org.liblouis:liblouis-java:3.1.0")
+15:39:56.887 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency com.nwalsh:nwalsh-annotations: not a valid bundle.
+15:39:56.887 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency junit:junit: not a valid bundle.
+15:39:56.887 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency org.hamcrest:hamcrest-core: not a valid bundle.
+15:39:56.887 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency org.atteo.classindex:classindex: not a valid bundle.
+15:39:56.887 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency org.apache.httpcomponents:httpcore: not a valid bundle.
+15:39:56.887 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency org.restlet.jee:org.restlet.ext.fileupload: not a valid bundle.
+15:39:56.889 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency org.restlet.jee:org.restlet.ext.slf4j: not a valid bundle.
+15:39:56.889 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency org.ccil.cowan.tagsoup:tagsoup: not a valid bundle.
+15:39:56.889 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency org.restlet.jee:org.restlet: not a valid bundle.
+15:39:56.890 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency relaxngDatatype:relaxngDatatype: not a valid bundle.
+15:39:56.891 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency com.sun.xml.bind.jaxb:isorelax: not a valid bundle.
+15:39:56.891 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency org.xmlresolver:xmlresolver: not a valid bundle.
+15:39:56.891 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency org.apache.httpcomponents:httpclient: not a valid bundle.
+15:39:56.892 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency org.apache.ant:ant: not a valid bundle.
+15:39:56.892 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency org.apache.ant:ant-launcher: not a valid bundle.
+15:39:56.956 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency org.apache.httpcomponents:httpmime: not a valid bundle.
+15:39:56.957 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency org.apache.httpcomponents:httpclient-cache: not a valid bundle.
+15:39:56.957 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency org.apache.httpcomponents:fluent-hc: not a valid bundle.
+15:39:56.957 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency org.apache.httpcomponents:httpcore-nio: not a valid bundle.
+15:39:56.959 [main] INFO  org.daisy.pipeline.pax.exam.Options - Ignoring dependency xml-apis:xml-apis: not a valid bundle.
+15:39:56.964 [main] INFO  org.daisy.pipeline.pax.exam.Options - resolved to: MavenBundle[]{
+	mavenBundle("ch.qos.logback:logback-classic:1.0.11(start@34)"),
+	mavenBundle("ch.qos.logback:logback-core:1.0.11(start@34)"),
+	mavenBundle("com.fasterxml.woodstox:woodstox-core:5.0.2(start@13)"),
+	mavenBundle("com.google.guava:guava:15.0(start@4)"),
+	mavenBundle("com.googlecode.texhyphj:texhyphj:1.2(start@13)"),
+	mavenBundle("com.ibm.icu:icu4j:49.1(start@4)"),
+	mavenBundle("com.sun.xml.bind:jaxb-extra-osgi:2.2.11(start@4)"),
+	mavenBundle("commons-codec:commons-codec:1.6(start@25)"),
+	mavenBundle("commons-fileupload:commons-fileupload:1.3(start@4)"),
+	mavenBundle("commons-io:commons-io:2.3(start@4)"),
+	mavenBundle("javax.servlet:javax.servlet-api:3.1.0(start@4)"),
+	mavenBundle("net.java.dev.jna:jna:4.0.0(start@6)"),
+	mavenBundle("net.java.dev.msv:msv-core:2013.6.1(start@4)"),
+	mavenBundle("net.java.dev.msv:xsdlib:2013.6.1(start@4)"),
+	mavenBundle("nu.validator.htmlparser:htmlparser:1.4(start@4)"),
+	mavenBundle("org.apache.commons:commons-lang3:3.4(start@4)"),
+	mavenBundle("org.apache.httpcomponents:httpclient-osgi:4.2.5(start@25)"),
+	mavenBundle("org.apache.httpcomponents:httpcore-osgi:4.2.4(start@25)"),
+	mavenBundle("org.apache.logging.log4j:log4j-api:2.1(start@4)"),
+	mavenBundle("org.apache.logging.log4j:log4j-core:2.1(start@4)"),
+	mavenBundle("org.apache.servicemix.bundles:org.apache.servicemix.bundles.antlr-runtime:3.5.2_1(start@4)"),
+	mavenBundle("org.apache.servicemix.bundles:org.apache.servicemix.bundles.xmlresolver:1.2_5(start@32)"),
+	mavenBundle("org.codehaus.woodstox:stax2-api:3.1.1(start@25)"),
+	mavenBundle("org.codehaus.woodstox:woodstox-core-lgpl:4.1.2(start@25)"),
+	mavenBundle("org.daisy.bindings:jhyphen:1.0.0(start@10)"),
+	mavenBundle("org.daisy.braille:braille-css:1.13.1-SNAPSHOT(start@4)"),
+	mavenBundle("org.daisy.braille:braille-utils.api:3.0.1(start@6)"),
+	mavenBundle("org.daisy.braille:braille-utils.impl:3.0.0(start@5)"),
+	mavenBundle("org.daisy.braille:braille-utils.pef-tools:2.2.0(start@5)"),
+	mavenBundle("org.daisy.dotify:dotify.api:4.1.0(start@13)"),
+	mavenBundle("org.daisy.dotify:dotify.common:4.1.0(start@13)"),
+	mavenBundle("org.daisy.dotify:dotify.formatter.impl:4.1.0(start@13)"),
+	mavenBundle("org.daisy.dotify:dotify.hyphenator.impl:4.0.0(start@13)"),
+	mavenBundle("org.daisy.dotify:dotify.task.impl:4.1.0(start@13)"),
+	mavenBundle("org.daisy.dotify:dotify.text.impl:4.0.0(start@13)"),
+	mavenBundle("org.daisy.dotify:dotify.translator.impl:4.0.0(start@13)"),
+	mavenBundle("org.daisy.libs:com.xmlcalabash:1.1.9-p2-95(start@4)"),
+	mavenBundle("org.daisy.libs:io.bit3.jsass:4.1.0-p1(start@4)"),
+	mavenBundle("org.daisy.libs:jing:20120724.0.0(start@28)"),
+	mavenBundle("org.daisy.libs:jstyleparser:1.20-p11(start@4)"),
+	mavenBundle("org.daisy.libs:saxon-he:9.5.1.5-1(start@4)"),
+	mavenBundle("org.daisy.maven:xproc-engine-api:1.0.1(start@29)"),
+	mavenBundle("org.daisy.maven:xproc-engine-daisy-pipeline:1.10.2(start@31)"),
+	mavenBundle("org.daisy.maven:xprocspec-runner:1.1.0(start@29)"),
+	mavenBundle("org.daisy.maven:xspec-runner:1.0.2(start@32)"),
+	mavenBundle("org.daisy.pipeline.modules.braille:common-utils:5.3.0(start@4)"),
+	mavenBundle("org.daisy.pipeline.modules.braille:css-core:3.0.1(start@4)"),
+	mavenBundle("org.daisy.pipeline.modules.braille:css-utils:3.5.0-SNAPSHOT(start@4)"),
+	mavenBundle("org.daisy.pipeline.modules.braille:dotify-calabash:2.1.1(start@13)"),
+	mavenBundle("org.daisy.pipeline.modules.braille:dotify-core:2.1.1(start@13)"),
+	mavenBundle("org.daisy.pipeline.modules.braille:dotify-formatter:1.12.2-SNAPSHOT(start@13)"),
+	mavenBundle("org.daisy.pipeline.modules.braille:dotify-saxon:2.2.1(start@13)"),
+	mavenBundle("org.daisy.pipeline.modules.braille:dotify-utils:2.1.1(start@13)"),
+	mavenBundle("org.daisy.pipeline.modules.braille:dtbook-to-pef:5.1.0-SNAPSHOT(start@14)"),
+	mavenBundle("org.daisy.pipeline.modules.braille:epub3-to-pef:2.1.0-SNAPSHOT(start@15)"),
+	mavenBundle("org.daisy.pipeline.modules.braille:html-to-pef:2.7.0-SNAPSHOT(start@16)"),
+	mavenBundle("org.daisy.pipeline.modules.braille:libhyphen-core:4.1.2(start@10)"),
+	mavenBundle("org.daisy.pipeline.modules.braille:libhyphen-libreoffice-tables:4.0.0-2(start@11)"),
+	mavenBundle("org.daisy.pipeline.modules.braille:libhyphen-native:jar:linux:1.2.0(start@12)"),
+	mavenBundle("org.daisy.pipeline.modules.braille:liblouis-calabash:2.0.5(start@7)"),
+	mavenBundle("org.daisy.pipeline.modules.braille:liblouis-core:5.0.0-SNAPSHOT(start@6)"),
+	mavenBundle("org.daisy.pipeline.modules.braille:liblouis-native:jar:linux:1.5.0-SNAPSHOT(start@9)"),
+	mavenBundle("org.daisy.pipeline.modules.braille:liblouis-saxon:2.0.4(start@7)"),
+	mavenBundle("org.daisy.pipeline.modules.braille:liblouis-tables:3.2.0-1-SNAPSHOT(start@8)"),
+	mavenBundle("org.daisy.pipeline.modules.braille:liblouis-utils:1.5.0(start@7)"),
+	mavenBundle("org.daisy.pipeline.modules.braille:obfl-utils:1.1.3(start@14)"),
+	mavenBundle("org.daisy.pipeline.modules.braille:pef-calabash:3.2.1(start@5)"),
+	mavenBundle("org.daisy.pipeline.modules.braille:pef-core:2.1.2(start@6)"),
+	mavenBundle("org.daisy.pipeline.modules.braille:pef-saxon:2.1.1(start@5)"),
+	mavenBundle("org.daisy.pipeline.modules.braille:pef-utils:2.2.1(start@5)"),
+	mavenBundle("org.daisy.pipeline.modules.braille:xml-to-pef:3.1.0-SNAPSHOT(start@17)"),
+	mavenBundle("org.daisy.pipeline.modules:common-entities:1.1.0(start@24)"),
+	mavenBundle("org.daisy.pipeline.modules:common-utils:1.1.4(start@19)"),
+	mavenBundle("org.daisy.pipeline.modules:dtbook-utils:1.0.3(start@14)"),
+	mavenBundle("org.daisy.pipeline.modules:file-utils:1.3.3(start@18)"),
+	mavenBundle("org.daisy.pipeline.modules:fileset-utils:1.2.4(start@23)"),
+	mavenBundle("org.daisy.pipeline.modules:html-utils:3.0.1(start@20)"),
+	mavenBundle("org.daisy.pipeline.modules:mediatype-utils:1.0.4(start@22)"),
+	mavenBundle("org.daisy.pipeline.modules:metadata-utils:1.0.2(start@14)"),
+	mavenBundle("org.daisy.pipeline.modules:validation-utils:1.0.4(start@14)"),
+	mavenBundle("org.daisy.pipeline.modules:zip-utils:2.0.1(start@21)"),
+	mavenBundle("org.daisy.pipeline:calabash-adapter:2.0.6(start@25)"),
+	mavenBundle("org.daisy.pipeline:common-utils:2.1.4(start@25)"),
+	mavenBundle("org.daisy.pipeline:framework-core:3.2.0(start@25)"),
+	mavenBundle("org.daisy.pipeline:logging-activator:2.0.2(start@27)"),
+	mavenBundle("org.daisy.pipeline:modules-registry:2.0.2(start@25)"),
+	mavenBundle("org.daisy.pipeline:saxon-adapter:1.2(start@33)"),
+	mavenBundle("org.daisy.pipeline:woodstox-osgi-adapter:2.0.1(start@25)"),
+	mavenBundle("org.daisy.pipeline:xmlcatalog:2.0.3(start@25)"),
+	mavenBundle("org.daisy.pipeline:xpath-registry:1.0.2(start@25)"),
+	mavenBundle("org.daisy.pipeline:xproc-api:2.0.2(start@25)"),
+	mavenBundle("org.daisy.streamline:streamline-api:1.0.0(start@13)"),
+	mavenBundle("org.daisy.streamline:streamline-engine:1.1.0(start@13)"),
+	mavenBundle("org.daisy.xprocspec:xprocspec:1.2.0(start@30)"),
+	mavenBundle("org.liblouis:liblouis-java:3.1.0(start@6)"),
+	mavenBundle("org.slf4j:jcl-over-slf4j:1.7.2(start@35)"),
+	mavenBundle("org.slf4j:jul-to-slf4j:1.7.2(start@26)"),
+	mavenBundle("org.slf4j:slf4j-api:1.7.2(start@25)"),
+	mavenBundle("org.unbescape:unbescape:1.1.0.RELEASE(start@4)")}
+15:39:56.965 [main] DEBUG o.o.pax.exam.spi.DefaultExamSystem - creating default probe
+15:39:56.966 [main] DEBUG o.o.p.e.spi.reactors.ReactorManager - No User defined probe hook found
+15:39:56.967 [main] DEBUG o.o.p.e.s.intern.DefaultTestAddress - NEW ADDRESS= PaxExam-32600860-96ea-45ce-a1a3-55469a1491cf parent=null root=[TestAddress:PaxExam-32600860-96ea-45ce-a1a3-55469a1491cf root:PaxExam-32600860-96ea-45ce-a1a3-55469a1491cf] args=[Ljava.lang.Object;@7e0b9178
+15:39:56.967 [main] DEBUG o.o.p.e.s.intern.DefaultTestAddress - NEW ADDRESS= PaxExam-0af22aac-bae7-4bf8-b7b0-8109e9237d4d parent=null root=[TestAddress:PaxExam-0af22aac-bae7-4bf8-b7b0-8109e9237d4d root:PaxExam-0af22aac-bae7-4bf8-b7b0-8109e9237d4d] args=[Ljava.lang.Object;@408a247c
+15:39:56.967 [main] DEBUG o.o.p.e.s.intern.DefaultTestAddress - NEW ADDRESS= PaxExam-ce441510-178a-4589-93c3-67e5efda33ce parent=null root=[TestAddress:PaxExam-ce441510-178a-4589-93c3-67e5efda33ce root:PaxExam-ce441510-178a-4589-93c3-67e5efda33ce] args=[Ljava.lang.Object;@62a8fd44
+15:39:56.967 [main] DEBUG o.o.p.e.s.intern.DefaultTestAddress - NEW ADDRESS= PaxExam-b7470c89-6bc4-4f14-8992-0cf137c40972 parent=null root=[TestAddress:PaxExam-b7470c89-6bc4-4f14-8992-0cf137c40972 root:PaxExam-b7470c89-6bc4-4f14-8992-0cf137c40972] args=[Ljava.lang.Object;@2e6ba49a
+15:39:56.967 [main] DEBUG o.o.p.e.s.intern.DefaultTestAddress - NEW ADDRESS= PaxExam-feee98ee-af25-43bf-96f9-bf4a51f4a5b7 parent=null root=[TestAddress:PaxExam-feee98ee-af25-43bf-96f9-bf4a51f4a5b7 root:PaxExam-feee98ee-af25-43bf-96f9-bf4a51f4a5b7] args=[Ljava.lang.Object;@5f5b5ca4
+15:39:56.967 [main] DEBUG o.o.p.e.s.intern.DefaultTestAddress - NEW ADDRESS= PaxExam-9d7f2e62-a9f4-4376-944c-f99ace88188f parent=null root=[TestAddress:PaxExam-9d7f2e62-a9f4-4376-944c-f99ace88188f root:PaxExam-9d7f2e62-a9f4-4376-944c-f99ace88188f] args=[Ljava.lang.Object;@4ee33af7
+15:39:56.968 [main] DEBUG o.o.p.e.s.intern.DefaultTestAddress - NEW ADDRESS= PaxExam-abdd1958-edfc-4368-96ea-25c3927a77ba parent=null root=[TestAddress:PaxExam-abdd1958-edfc-4368-96ea-25c3927a77ba root:PaxExam-abdd1958-edfc-4368-96ea-25c3927a77ba] args=[Ljava.lang.Object;@6b04acb2
+15:39:56.968 [main] DEBUG o.o.pax.exam.spi.DefaultExamReactor - Staging reactor with probes: 1 using strategy: org.ops4j.pax.exam.spi.reactors.PerClass@18388a3c
+15:39:56.968 [main] DEBUG o.ops4j.store.intern.TemporaryStore - Storage Area is /tmp/1524231594504-0
+15:39:56.972 [main] DEBUG o.o.p.e.s.intern.DefaultTestAddress - NEW ADDRESS= PaxExam-a40c1796-d10f-4ba0-878f-f1260076a034 parent=[TestAddress:PaxExam-32600860-96ea-45ce-a1a3-55469a1491cf root:PaxExam-32600860-96ea-45ce-a1a3-55469a1491cf] root=[TestAddress:PaxExam-32600860-96ea-45ce-a1a3-55469a1491cf root:PaxExam-32600860-96ea-45ce-a1a3-55469a1491cf] args=[Ljava.lang.Object;@49b07ee3
+15:39:56.972 [main] DEBUG o.o.p.e.s.intern.DefaultTestAddress - NEW ADDRESS= PaxExam-26cc2e15-f252-4e3d-bd01-e087b40ac8a2 parent=[TestAddress:PaxExam-0af22aac-bae7-4bf8-b7b0-8109e9237d4d root:PaxExam-0af22aac-bae7-4bf8-b7b0-8109e9237d4d] root=[TestAddress:PaxExam-0af22aac-bae7-4bf8-b7b0-8109e9237d4d root:PaxExam-0af22aac-bae7-4bf8-b7b0-8109e9237d4d] args=[Ljava.lang.Object;@352e612e
+15:39:56.972 [main] DEBUG o.o.p.e.s.intern.DefaultTestAddress - NEW ADDRESS= PaxExam-4a537073-75e6-4b35-b954-8b0ec8bd5f27 parent=[TestAddress:PaxExam-ce441510-178a-4589-93c3-67e5efda33ce root:PaxExam-ce441510-178a-4589-93c3-67e5efda33ce] root=[TestAddress:PaxExam-ce441510-178a-4589-93c3-67e5efda33ce root:PaxExam-ce441510-178a-4589-93c3-67e5efda33ce] args=[Ljava.lang.Object;@65f00478
+15:39:56.972 [main] DEBUG o.o.p.e.s.intern.DefaultTestAddress - NEW ADDRESS= PaxExam-dc92a5af-c792-4210-8760-61870bf2b309 parent=[TestAddress:PaxExam-b7470c89-6bc4-4f14-8992-0cf137c40972 root:PaxExam-b7470c89-6bc4-4f14-8992-0cf137c40972] root=[TestAddress:PaxExam-b7470c89-6bc4-4f14-8992-0cf137c40972 root:PaxExam-b7470c89-6bc4-4f14-8992-0cf137c40972] args=[Ljava.lang.Object;@2424686b
+15:39:56.972 [main] DEBUG o.o.p.e.s.intern.DefaultTestAddress - NEW ADDRESS= PaxExam-c881ba88-fff2-4cf1-b15d-5473fd7e2173 parent=[TestAddress:PaxExam-feee98ee-af25-43bf-96f9-bf4a51f4a5b7 root:PaxExam-feee98ee-af25-43bf-96f9-bf4a51f4a5b7] root=[TestAddress:PaxExam-feee98ee-af25-43bf-96f9-bf4a51f4a5b7 root:PaxExam-feee98ee-af25-43bf-96f9-bf4a51f4a5b7] args=[Ljava.lang.Object;@6ea94d6a
+15:39:56.972 [main] DEBUG o.o.p.e.s.intern.DefaultTestAddress - NEW ADDRESS= PaxExam-adeb9a77-10c5-46f1-9b1f-fc97d8586060 parent=[TestAddress:PaxExam-9d7f2e62-a9f4-4376-944c-f99ace88188f root:PaxExam-9d7f2e62-a9f4-4376-944c-f99ace88188f] root=[TestAddress:PaxExam-9d7f2e62-a9f4-4376-944c-f99ace88188f root:PaxExam-9d7f2e62-a9f4-4376-944c-f99ace88188f] args=[Ljava.lang.Object;@28486680
+15:39:56.972 [main] DEBUG o.o.p.e.s.intern.DefaultTestAddress - NEW ADDRESS= PaxExam-10d72cd9-b098-4e70-8189-d3fc331c02fc parent=[TestAddress:PaxExam-abdd1958-edfc-4368-96ea-25c3927a77ba root:PaxExam-abdd1958-edfc-4368-96ea-25c3927a77ba] root=[TestAddress:PaxExam-abdd1958-edfc-4368-96ea-25c3927a77ba root:PaxExam-abdd1958-edfc-4368-96ea-25c3927a77ba] args=[Ljava.lang.Object;@4d7e7435
+15:39:56.972 [main] INFO  o.o.pax.exam.junit.impl.ProbeRunner - running test class NLBTest
+15:39:56.972 [main] DEBUG o.ops4j.store.intern.TemporaryStore - Storage Area is /tmp/1524231594504-0
+15:39:56.973 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - ==== Framework properties:
+15:39:56.973 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - org.osgi.framework.bootdelegation = sun.*
+15:39:56.973 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - org.osgi.framework.storage = /tmp/1524231594504-0
+15:39:56.973 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - org.osgi.framework.system.packages.extra = org.w3c.dom.traversal;uses:="org.w3c.dom";version="0.0.0.1",javax.xml.stream;version="1.0.1",com.sun.org.apache.xml.internal.resolver,com.sun.org.apache.xml.internal.resolver.tools,org.ops4j.pax.exam;version=3.3.0,org.ops4j.pax.exam.options;version=3.3.0,org.ops4j.pax.exam.util;version=3.3.0
+15:39:56.973 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - ==== System properties:
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - awt.toolkit = sun.awt.X11.XToolkit
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - basedir = /home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - cache = /home/jostein/daisy-pipeline/pipeline/.maven-cache
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - com.xmlcalabash.config.user = 
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - file.encoding = UTF-8
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - file.encoding.pkg = sun.io
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - file.separator = /
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - java.awt.printerjob = sun.print.PSPrinterJob
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - java.class.path = /home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/test-classes:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/classes:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/common-utils/5.3.0/common-utils-5.3.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/dotify/dotify.api/4.1.0/dotify.api-4.1.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/braille/braille-css/1.13.1-SNAPSHOT/braille-css-1.13.1-SNAPSHOT.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/com/google/guava/guava/15.0/guava-15.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/libs/saxon-he/9.5.1.5-1/saxon-he-9.5.1.5-1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/libs/com.xmlcalabash/1.1.9-p2-95/com.xmlcalabash-1.1.9-p2-95.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/com/nwalsh/nwalsh-annotations/1.0.0/nwalsh-annotations-1.0.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/atteo/classindex/classindex/3.3/classindex-3.3.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/slf4j/jcl-over-slf4j/1.7.2/jcl-over-slf4j-1.7.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/httpcomponents/httpcore/4.2.5/httpcore-4.2.5.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/restlet/jee/org.restlet.ext.fileupload/2.2.2/org.restlet.ext.fileupload-2.2.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/commons-fileupload/commons-fileupload/1.3/commons-fileupload-1.3.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/com/sun/xml/bind/jaxb-extra-osgi/2.2.11/jaxb-extra-osgi-2.2.11.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/nu/validator/htmlparser/htmlparser/1.4/htmlparser-1.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/restlet/jee/org.restlet.ext.slf4j/2.2.2/org.restlet.ext.slf4j-2.2.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/osgi/org.osgi.core/5.0.0/org.osgi.core-5.0.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/restlet/jee/org.restlet/2.2.2/org.restlet-2.2.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/logging/log4j/log4j-core/2.1/log4j-core-2.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/net/java/dev/msv/msv-core/2013.6.1/msv-core-2013.6.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/net/java/dev/msv/xsdlib/2013.6.1/xsdlib-2013.6.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/relaxngDatatype/relaxngDatatype/20020414/relaxngDatatype-20020414.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/com/sun/xml/bind/jaxb/isorelax/20090621/isorelax-20090621.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/xmlresolver/xmlresolver/0.12.3/xmlresolver-0.12.3.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/logging/log4j/log4j-api/2.1/log4j-api-2.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/httpcomponents/httpclient/4.2.5/httpclient-4.2.5.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/com/ibm/icu/icu4j/49.1/icu4j-49.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/ant/ant/1.9.4/ant-1.9.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/ant/ant-launcher/1.9.4/ant-launcher-1.9.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/css-core/3.0.1/css-core-3.0.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/liblouis-core/5.0.0-SNAPSHOT/liblouis-core-5.0.0-SNAPSHOT.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/liblouis/liblouis-java/3.1.0/liblouis-java-3.1.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/net/java/dev/jna/jna/4.0.0/jna-4.0.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/braille/braille-utils.api/3.0.1/braille-utils.api-3.0.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/pef-core/2.1.2/pef-core-2.1.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/libhyphen-core/4.1.2/libhyphen-core-4.1.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/bindings/jhyphen/1.0.0/jhyphen-1.0.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/libhyphen-native/1.2.0/libhyphen-native-1.2.0-linux.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/dtbook-to-pef/5.1.0-SNAPSHOT/dtbook-to-pef-5.1.0-SNAPSHOT.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/dtbook-utils/1.0.3/dtbook-utils-1.0.3.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/validation-utils/1.0.4/validation-utils-1.0.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/metadata-utils/1.0.2/metadata-utils-1.0.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/obfl-utils/1.1.3/obfl-utils-1.1.3.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/epub3-to-pef/2.1.0-SNAPSHOT/epub3-to-pef-2.1.0-SNAPSHOT.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/html-to-pef/2.7.0-SNAPSHOT/html-to-pef-2.7.0-SNAPSHOT.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/html-utils/3.0.1/html-utils-3.0.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/xml-to-pef/3.1.0-SNAPSHOT/xml-to-pef-3.1.0-SNAPSHOT.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/osgi/org.osgi.compendium/5.0.0/org.osgi.compendium-5.0.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/common-utils/1.1.4/common-utils-1.1.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/css-utils/3.5.0-SNAPSHOT/css-utils-3.5.0-SNAPSHOT.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/libs/jstyleparser/1.20-p11/jstyleparser-1.20-p11.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/servicemix/bundles/org.apache.servicemix.bundles.antlr-runtime/3.5.2_1/org.apache.servicemix.bundles.antlr-runtime-3.5.2_1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/unbescape/unbescape/1.1.0.RELEASE/unbescape-1.1.0.RELEASE.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/libs/io.bit3.jsass/4.1.0-p1/io.bit3.jsass-4.1.0-p1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/commons-io/commons-io/2.3/commons-io-2.3.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/file-utils/1.3.3/file-utils-1.3.3.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/fileset-utils/1.2.4/fileset-utils-1.2.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/liblouis-tables/3.2.0-1-SNAPSHOT/liblouis-tables-3.2.0-1-SNAPSHOT.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/liblouis-utils/1.5.0/liblouis-utils-1.5.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/liblouis-saxon/2.0.4/liblouis-saxon-2.0.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/liblouis-calabash/2.0.5/liblouis-calabash-2.0.5.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/mediatype-utils/1.0.4/mediatype-utils-1.0.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/zip-utils/2.0.1/zip-utils-2.0.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/liblouis-native/1.5.0-SNAPSHOT/liblouis-native-1.5.0-SNAPSHOT-linux.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/framework-core/3.2.0/framework-core-3.2.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/libs/jing/20151127.0.0/jing-20151127.0.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/common-utils/2.1.4/common-utils-2.1.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/xproc-api/2.0.2/xproc-api-2.0.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/woodstox-osgi-adapter/2.0.1/woodstox-osgi-adapter-2.0.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/codehaus/woodstox/woodstox-core-lgpl/4.1.2/woodstox-core-lgpl-4.1.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/codehaus/woodstox/stax2-api/3.1.1/stax2-api-3.1.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/libhyphen-libreoffice-tables/4.0.0-2/libhyphen-libreoffice-tables-4.0.0-2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/dotify-formatter/1.12.2-SNAPSHOT/dotify-formatter-1.12.2-SNAPSHOT.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/dotify/dotify.common/4.1.0/dotify.common-4.1.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/dotify-utils/2.1.1/dotify-utils-2.1.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/dotify-core/2.1.1/dotify-core-2.1.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/dotify-saxon/2.2.1/dotify-saxon-2.2.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/dotify-calabash/2.1.1/dotify-calabash-2.1.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/streamline/streamline-api/1.0.0/streamline-api-1.0.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/streamline/streamline-engine/1.1.0/streamline-engine-1.1.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/dotify/dotify.formatter.impl/4.1.0/dotify.formatter.impl-4.1.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/com/fasterxml/woodstox/woodstox-core/5.0.2/woodstox-core-5.0.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/dotify/dotify.text.impl/4.0.0/dotify.text.impl-4.0.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/dotify/dotify.hyphenator.impl/4.0.0/dotify.hyphenator.impl-4.0.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/com/googlecode/texhyphj/texhyphj/1.2/texhyphj-1.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/dotify/dotify.task.impl/4.1.0/dotify.task.impl-4.1.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/dotify/dotify.translator.impl/4.0.0/dotify.translator.impl-4.0.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/pef-utils/2.2.1/pef-utils-2.2.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/pef-saxon/2.1.1/pef-saxon-2.1.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/pef-calabash/3.2.1/pef-calabash-3.2.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/braille/braille-utils.pef-tools/2.2.0/braille-utils.pef-tools-2.2.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/braille/braille-utils.impl/3.0.0/braille-utils.impl-3.0.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/common-entities/1.1.0/common-entities-1.1.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/calabash-adapter/2.0.6/calabash-adapter-2.0.6.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/xpath-registry/1.0.2/xpath-registry-1.0.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules-registry/2.0.2/modules-registry-2.0.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/xmlcatalog/2.0.3/xmlcatalog-2.0.3.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/httpcomponents/httpclient-osgi/4.2.5/httpclient-osgi-4.2.5.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/commons-codec/commons-codec/1.6/commons-codec-1.6.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/httpcomponents/httpmime/4.2.5/httpmime-4.2.5.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/httpcomponents/httpclient-cache/4.2.5/httpclient-cache-4.2.5.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/httpcomponents/fluent-hc/4.2.5/fluent-hc-4.2.5.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/httpcomponents/httpcore-osgi/4.2.4/httpcore-osgi-4.2.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/httpcomponents/httpcore-nio/4.2.4/httpcore-nio-4.2.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/slf4j/jul-to-slf4j/1.7.2/jul-to-slf4j-1.7.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/logging-activator/2.0.2/logging-activator-2.0.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/build/modules-test-helper/1.0.1/modules-test-helper-1.0.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/junit/junit/4.10/junit-4.10.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/maven/xprocspec-runner/1.1.0/xprocspec-runner-1.1.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/maven/xproc-engine-api/1.0.1/xproc-engine-api-1.0.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/maven/xspec-runner/1.0.2/xspec-runner-1.0.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/servicemix/bundles/org.apache.servicemix.bundles.xmlresolver/1.2_5/org.apache.servicemix.bundles.xmlresolver-1.2_5.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/pax-exam-helper/2.3.0/pax-exam-helper-2.3.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/sonatype/aether/aether-api/1.13.1/aether-api-1.13.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/sonatype/aether/aether-util/1.13.1/aether-util-1.13.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/sonatype/aether/aether-connector-wagon/1.13.1/aether-connector-wagon-1.13.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/sonatype/aether/aether-spi/1.13.1/aether-spi-1.13.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/codehaus/plexus/plexus-classworlds/2.4/plexus-classworlds-2.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/sonatype/sisu/sisu-inject-plexus/2.2.3/sisu-inject-plexus-2.2.3.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/sonatype/sisu/sisu-inject-bean/2.2.3/sisu-inject-bean-2.2.3.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/sonatype/sisu/sisu-guice/3.0.3/sisu-guice-3.0.3-no_aop.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/maven/maven-aether-provider/3.0.4/maven-aether-provider-3.0.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/maven/maven-model/3.0.4/maven-model-3.0.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/maven/maven-model-builder/3.0.4/maven-model-builder-3.0.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/maven/maven-repository-metadata/3.0.4/maven-repository-metadata-3.0.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/sonatype/aether/aether-impl/1.13.1/aether-impl-1.13.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/codehaus/plexus/plexus-utils/2.0.6/plexus-utils-2.0.6.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/maven/wagon/wagon-provider-api/2.2/wagon-provider-api-2.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/maven/wagon/wagon-http/2.2/wagon-http-2.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/maven/wagon/wagon-http-shared4/2.2/wagon-http-shared4-2.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/jsoup/jsoup/1.6.1/jsoup-1.6.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/maven/wagon/wagon-file/2.2/wagon-file-2.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/maven/maven-settings/3.0.4/maven-settings-3.0.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/maven/maven-settings-builder/3.0.4/maven-settings-builder-3.0.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/exam/pax-exam/3.3.0/pax-exam-3.3.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/base/ops4j-base-lang/1.4.0/ops4j-base-lang-1.4.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/base/ops4j-base-store/1.4.0/ops4j-base-store-1.4.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/base/ops4j-base-io/1.4.0/ops4j-base-io-1.4.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/base/ops4j-base-util-property/1.4.0/ops4j-base-util-property-1.4.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/felix/org.apache.felix.main/4.4.1/org.apache.felix.main-4.4.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/felix/org.apache.felix.framework/4.4.1/org.apache.felix.framework-4.4.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/exam/pax-exam-container-native/3.3.0/pax-exam-container-native-3.3.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/exam/pax-exam-spi/3.3.0/pax-exam-spi-3.3.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/base/ops4j-base-spi/1.4.0/ops4j-base-spi-1.4.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/tinybundles/tinybundles/2.0.0/tinybundles-2.0.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/swissbox/pax-swissbox-core/1.7.0/pax-swissbox-core-1.7.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/swissbox/pax-swissbox-lifecycle/1.7.0/pax-swissbox-lifecycle-1.7.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/swissbox/pax-swissbox-tracker/1.7.0/pax-swissbox-tracker-1.7.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/base/ops4j-base-net/1.4.0/ops4j-base-net-1.4.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/base/ops4j-base-monitors/1.4.0/ops4j-base-monitors-1.4.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/url/pax-url-link/1.6.0/pax-url-link-1.6.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/url/pax-url-classpath/1.6.0/pax-url-classpath-1.6.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/url/pax-url-reference/1.6.0/pax-url-reference-1.6.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/swissbox/pax-swissbox-optional-jcl/1.7.0/pax-swissbox-optional-jcl-1.7.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/url/pax-url-commons/1.6.0/pax-url-commons-1.6.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/swissbox/pax-swissbox-property/1.7.0/pax-swissbox-property-1.7.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/url/pax-url-wrap/1.6.0/pax-url-wrap-1.6.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/swissbox/pax-swissbox-bnd/1.7.0/pax-swissbox-bnd-1.7.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/biz/aQute/bnd/bndlib/2.1.0/bndlib-2.1.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/exam/pax-exam-junit4/3.3.0/pax-exam-junit4-3.3.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/exam/pax-exam-link-mvn/3.3.0/pax-exam-link-mvn-3.3.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/url/pax-url-aether/1.6.0/pax-url-aether-1.6.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/url/pax-url-maven-commons/1.6.0/pax-url-maven-commons-1.6.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/base/ops4j-base-util-xml/1.4.0/ops4j-base-util-xml-1.4.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/base/ops4j-base-util-collections/1.4.0/ops4j-base-util-collections-1.4.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/maven/wagon/wagon-http-lightweight/1.0/wagon-http-lightweight-1.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/maven/wagon/wagon-http-shared/1.0/wagon-http-shared-1.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/com/google/collections/google-collections/1.0/google-collections-1.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/ch/qos/logback/logback-classic/1.0.11/logback-classic-1.0.11.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/ch/qos/logback/logback-core/1.0.11/logback-core-1.0.11.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/javax/inject/javax.inject/1/javax.inject-1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/xprocspec/xprocspec/1.2.0/xprocspec-1.2.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/maven/xproc-engine-daisy-pipeline/1.10.2/xproc-engine-daisy-pipeline-1.10.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/saxon-adapter/1.2/saxon-adapter-1.2.jar:
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - java.class.version = 52.0
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - java.endorsed.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - java.ext.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - java.home = /usr/lib/jvm/java-8-openjdk-amd64/jre
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - java.io.tmpdir = /tmp
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - java.library.path = :/home/jostein/glc/lib32:/home/jostein/glc/lib64:/usr/lib64:/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - java.protocol.handler.pkgs = org.ops4j.pax.url
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - java.runtime.name = OpenJDK Runtime Environment
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - java.runtime.version = 1.8.0_162-8u162-b12-0ubuntu0.17.10.2-b12
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - java.specification.name = Java Platform API Specification
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - java.specification.vendor = Oracle Corporation
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - java.specification.version = 1.8
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - java.vendor = Oracle Corporation
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - java.vendor.url = http://java.oracle.com/
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - java.version = 1.8.0_162
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - java.vm.info = mixed mode
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - java.vm.name = OpenJDK 64-Bit Server VM
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - java.vm.specification.name = Java Virtual Machine Specification
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - java.vm.specification.vendor = Oracle Corporation
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - java.vm.specification.version = 1.8
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - java.vm.vendor = Oracle Corporation
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - java.vm.version = 25.162-b12
+15:39:56.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - line.separator = 
+
+15:39:56.975 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - localRepository = /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:39:56.975 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - logback.configurationFile = file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/resources/logback.xml
+15:39:56.975 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - org.daisy.org.ops4j.pax.url.mvn.settings = /home/jostein/daisy-pipeline/pipeline/settings.xml
+15:39:56.975 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - org.daisy.pipeline.xproc.configuration = /home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/resources/config-calabash.xml
+15:39:56.975 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - org.ops4j.pax.url.mvn.localRepository = /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:39:56.975 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - os.arch = amd64
+15:39:56.975 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - os.name = Linux
+15:39:56.975 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - os.version = 4.13.0-041300rc7-generic
+15:39:56.975 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - path.separator = :
+15:39:56.975 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - pax.exam.invoker = junit
+15:39:56.975 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - pax.exam.service.timeout = 10000
+15:39:56.975 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - sun.arch.data.model = 64
+15:39:56.975 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - sun.boot.class.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes
+15:39:56.975 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - sun.boot.library.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64
+15:39:56.975 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - sun.cpu.endian = little
+15:39:56.975 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - sun.cpu.isalist = 
+15:39:56.975 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - sun.desktop = gnome
+15:39:56.975 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - sun.io.unicode.encoding = UnicodeLittle
+15:39:56.975 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - sun.java.command = /home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/surefire/surefirebooter96285783699133860.jar /home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/surefire/surefire2476872963591820872tmp /home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/surefire/surefire_08201345747062510518tmp
+15:39:56.975 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - sun.java.launcher = SUN_STANDARD
+15:39:56.975 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - sun.jnu.encoding = UTF-8
+15:39:56.975 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+15:39:56.975 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - sun.os.patch.level = unknown
+15:39:56.975 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - surefire.real.class.path = /home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/surefire/surefirebooter96285783699133860.jar
+15:39:56.975 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - surefire.test.class.path = /home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/test-classes:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/classes:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/common-utils/5.3.0/common-utils-5.3.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/dotify/dotify.api/4.1.0/dotify.api-4.1.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/braille/braille-css/1.13.1-SNAPSHOT/braille-css-1.13.1-SNAPSHOT.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/com/google/guava/guava/15.0/guava-15.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/libs/saxon-he/9.5.1.5-1/saxon-he-9.5.1.5-1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/libs/com.xmlcalabash/1.1.9-p2-95/com.xmlcalabash-1.1.9-p2-95.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/com/nwalsh/nwalsh-annotations/1.0.0/nwalsh-annotations-1.0.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/atteo/classindex/classindex/3.3/classindex-3.3.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/slf4j/jcl-over-slf4j/1.7.2/jcl-over-slf4j-1.7.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/httpcomponents/httpcore/4.2.5/httpcore-4.2.5.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/restlet/jee/org.restlet.ext.fileupload/2.2.2/org.restlet.ext.fileupload-2.2.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/commons-fileupload/commons-fileupload/1.3/commons-fileupload-1.3.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/com/sun/xml/bind/jaxb-extra-osgi/2.2.11/jaxb-extra-osgi-2.2.11.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/nu/validator/htmlparser/htmlparser/1.4/htmlparser-1.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/restlet/jee/org.restlet.ext.slf4j/2.2.2/org.restlet.ext.slf4j-2.2.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/osgi/org.osgi.core/5.0.0/org.osgi.core-5.0.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/restlet/jee/org.restlet/2.2.2/org.restlet-2.2.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/logging/log4j/log4j-core/2.1/log4j-core-2.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/net/java/dev/msv/msv-core/2013.6.1/msv-core-2013.6.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/net/java/dev/msv/xsdlib/2013.6.1/xsdlib-2013.6.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/relaxngDatatype/relaxngDatatype/20020414/relaxngDatatype-20020414.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/com/sun/xml/bind/jaxb/isorelax/20090621/isorelax-20090621.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/xmlresolver/xmlresolver/0.12.3/xmlresolver-0.12.3.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/logging/log4j/log4j-api/2.1/log4j-api-2.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/httpcomponents/httpclient/4.2.5/httpclient-4.2.5.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/com/ibm/icu/icu4j/49.1/icu4j-49.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/ant/ant/1.9.4/ant-1.9.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/ant/ant-launcher/1.9.4/ant-launcher-1.9.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/css-core/3.0.1/css-core-3.0.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/liblouis-core/5.0.0-SNAPSHOT/liblouis-core-5.0.0-SNAPSHOT.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/liblouis/liblouis-java/3.1.0/liblouis-java-3.1.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/net/java/dev/jna/jna/4.0.0/jna-4.0.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/braille/braille-utils.api/3.0.1/braille-utils.api-3.0.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/pef-core/2.1.2/pef-core-2.1.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/libhyphen-core/4.1.2/libhyphen-core-4.1.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/bindings/jhyphen/1.0.0/jhyphen-1.0.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/libhyphen-native/1.2.0/libhyphen-native-1.2.0-linux.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/dtbook-to-pef/5.1.0-SNAPSHOT/dtbook-to-pef-5.1.0-SNAPSHOT.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/dtbook-utils/1.0.3/dtbook-utils-1.0.3.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/validation-utils/1.0.4/validation-utils-1.0.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/metadata-utils/1.0.2/metadata-utils-1.0.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/obfl-utils/1.1.3/obfl-utils-1.1.3.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/epub3-to-pef/2.1.0-SNAPSHOT/epub3-to-pef-2.1.0-SNAPSHOT.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/html-to-pef/2.7.0-SNAPSHOT/html-to-pef-2.7.0-SNAPSHOT.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/html-utils/3.0.1/html-utils-3.0.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/xml-to-pef/3.1.0-SNAPSHOT/xml-to-pef-3.1.0-SNAPSHOT.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/osgi/org.osgi.compendium/5.0.0/org.osgi.compendium-5.0.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/common-utils/1.1.4/common-utils-1.1.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/css-utils/3.5.0-SNAPSHOT/css-utils-3.5.0-SNAPSHOT.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/libs/jstyleparser/1.20-p11/jstyleparser-1.20-p11.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/servicemix/bundles/org.apache.servicemix.bundles.antlr-runtime/3.5.2_1/org.apache.servicemix.bundles.antlr-runtime-3.5.2_1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/unbescape/unbescape/1.1.0.RELEASE/unbescape-1.1.0.RELEASE.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/libs/io.bit3.jsass/4.1.0-p1/io.bit3.jsass-4.1.0-p1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/commons-io/commons-io/2.3/commons-io-2.3.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/file-utils/1.3.3/file-utils-1.3.3.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/fileset-utils/1.2.4/fileset-utils-1.2.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/liblouis-tables/3.2.0-1-SNAPSHOT/liblouis-tables-3.2.0-1-SNAPSHOT.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/liblouis-utils/1.5.0/liblouis-utils-1.5.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/liblouis-saxon/2.0.4/liblouis-saxon-2.0.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/liblouis-calabash/2.0.5/liblouis-calabash-2.0.5.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/mediatype-utils/1.0.4/mediatype-utils-1.0.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/zip-utils/2.0.1/zip-utils-2.0.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/liblouis-native/1.5.0-SNAPSHOT/liblouis-native-1.5.0-SNAPSHOT-linux.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/framework-core/3.2.0/framework-core-3.2.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/libs/jing/20151127.0.0/jing-20151127.0.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/common-utils/2.1.4/common-utils-2.1.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/xproc-api/2.0.2/xproc-api-2.0.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/woodstox-osgi-adapter/2.0.1/woodstox-osgi-adapter-2.0.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/codehaus/woodstox/woodstox-core-lgpl/4.1.2/woodstox-core-lgpl-4.1.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/codehaus/woodstox/stax2-api/3.1.1/stax2-api-3.1.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/libhyphen-libreoffice-tables/4.0.0-2/libhyphen-libreoffice-tables-4.0.0-2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/dotify-formatter/1.12.2-SNAPSHOT/dotify-formatter-1.12.2-SNAPSHOT.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/dotify/dotify.common/4.1.0/dotify.common-4.1.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/dotify-utils/2.1.1/dotify-utils-2.1.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/dotify-core/2.1.1/dotify-core-2.1.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/dotify-saxon/2.2.1/dotify-saxon-2.2.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/dotify-calabash/2.1.1/dotify-calabash-2.1.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/streamline/streamline-api/1.0.0/streamline-api-1.0.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/streamline/streamline-engine/1.1.0/streamline-engine-1.1.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/dotify/dotify.formatter.impl/4.1.0/dotify.formatter.impl-4.1.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/com/fasterxml/woodstox/woodstox-core/5.0.2/woodstox-core-5.0.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/dotify/dotify.text.impl/4.0.0/dotify.text.impl-4.0.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/dotify/dotify.hyphenator.impl/4.0.0/dotify.hyphenator.impl-4.0.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/com/googlecode/texhyphj/texhyphj/1.2/texhyphj-1.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/dotify/dotify.task.impl/4.1.0/dotify.task.impl-4.1.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/dotify/dotify.translator.impl/4.0.0/dotify.translator.impl-4.0.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/pef-utils/2.2.1/pef-utils-2.2.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/pef-saxon/2.1.1/pef-saxon-2.1.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/pef-calabash/3.2.1/pef-calabash-3.2.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/braille/braille-utils.pef-tools/2.2.0/braille-utils.pef-tools-2.2.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/braille/braille-utils.impl/3.0.0/braille-utils.impl-3.0.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/common-entities/1.1.0/common-entities-1.1.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/calabash-adapter/2.0.6/calabash-adapter-2.0.6.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/xpath-registry/1.0.2/xpath-registry-1.0.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules-registry/2.0.2/modules-registry-2.0.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/xmlcatalog/2.0.3/xmlcatalog-2.0.3.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/httpcomponents/httpclient-osgi/4.2.5/httpclient-osgi-4.2.5.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/commons-codec/commons-codec/1.6/commons-codec-1.6.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/httpcomponents/httpmime/4.2.5/httpmime-4.2.5.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/httpcomponents/httpclient-cache/4.2.5/httpclient-cache-4.2.5.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/httpcomponents/fluent-hc/4.2.5/fluent-hc-4.2.5.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/httpcomponents/httpcore-osgi/4.2.4/httpcore-osgi-4.2.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/httpcomponents/httpcore-nio/4.2.4/httpcore-nio-4.2.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/slf4j/jul-to-slf4j/1.7.2/jul-to-slf4j-1.7.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/logging-activator/2.0.2/logging-activator-2.0.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/build/modules-test-helper/1.0.1/modules-test-helper-1.0.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/junit/junit/4.10/junit-4.10.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/maven/xprocspec-runner/1.1.0/xprocspec-runner-1.1.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/maven/xproc-engine-api/1.0.1/xproc-engine-api-1.0.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/maven/xspec-runner/1.0.2/xspec-runner-1.0.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/servicemix/bundles/org.apache.servicemix.bundles.xmlresolver/1.2_5/org.apache.servicemix.bundles.xmlresolver-1.2_5.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/pax-exam-helper/2.3.0/pax-exam-helper-2.3.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/sonatype/aether/aether-api/1.13.1/aether-api-1.13.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/sonatype/aether/aether-util/1.13.1/aether-util-1.13.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/sonatype/aether/aether-connector-wagon/1.13.1/aether-connector-wagon-1.13.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/sonatype/aether/aether-spi/1.13.1/aether-spi-1.13.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/codehaus/plexus/plexus-classworlds/2.4/plexus-classworlds-2.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/sonatype/sisu/sisu-inject-plexus/2.2.3/sisu-inject-plexus-2.2.3.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/sonatype/sisu/sisu-inject-bean/2.2.3/sisu-inject-bean-2.2.3.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/sonatype/sisu/sisu-guice/3.0.3/sisu-guice-3.0.3-no_aop.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/maven/maven-aether-provider/3.0.4/maven-aether-provider-3.0.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/maven/maven-model/3.0.4/maven-model-3.0.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/maven/maven-model-builder/3.0.4/maven-model-builder-3.0.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/maven/maven-repository-metadata/3.0.4/maven-repository-metadata-3.0.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/sonatype/aether/aether-impl/1.13.1/aether-impl-1.13.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/codehaus/plexus/plexus-utils/2.0.6/plexus-utils-2.0.6.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/maven/wagon/wagon-provider-api/2.2/wagon-provider-api-2.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/maven/wagon/wagon-http/2.2/wagon-http-2.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/maven/wagon/wagon-http-shared4/2.2/wagon-http-shared4-2.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/jsoup/jsoup/1.6.1/jsoup-1.6.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/maven/wagon/wagon-file/2.2/wagon-file-2.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/maven/maven-settings/3.0.4/maven-settings-3.0.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/maven/maven-settings-builder/3.0.4/maven-settings-builder-3.0.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/exam/pax-exam/3.3.0/pax-exam-3.3.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/base/ops4j-base-lang/1.4.0/ops4j-base-lang-1.4.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/base/ops4j-base-store/1.4.0/ops4j-base-store-1.4.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/base/ops4j-base-io/1.4.0/ops4j-base-io-1.4.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/base/ops4j-base-util-property/1.4.0/ops4j-base-util-property-1.4.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/felix/org.apache.felix.main/4.4.1/org.apache.felix.main-4.4.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/felix/org.apache.felix.framework/4.4.1/org.apache.felix.framework-4.4.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/exam/pax-exam-container-native/3.3.0/pax-exam-container-native-3.3.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/exam/pax-exam-spi/3.3.0/pax-exam-spi-3.3.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/base/ops4j-base-spi/1.4.0/ops4j-base-spi-1.4.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/tinybundles/tinybundles/2.0.0/tinybundles-2.0.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/swissbox/pax-swissbox-core/1.7.0/pax-swissbox-core-1.7.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/swissbox/pax-swissbox-lifecycle/1.7.0/pax-swissbox-lifecycle-1.7.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/swissbox/pax-swissbox-tracker/1.7.0/pax-swissbox-tracker-1.7.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/base/ops4j-base-net/1.4.0/ops4j-base-net-1.4.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/base/ops4j-base-monitors/1.4.0/ops4j-base-monitors-1.4.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/url/pax-url-link/1.6.0/pax-url-link-1.6.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/url/pax-url-classpath/1.6.0/pax-url-classpath-1.6.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/url/pax-url-reference/1.6.0/pax-url-reference-1.6.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/swissbox/pax-swissbox-optional-jcl/1.7.0/pax-swissbox-optional-jcl-1.7.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/url/pax-url-commons/1.6.0/pax-url-commons-1.6.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/swissbox/pax-swissbox-property/1.7.0/pax-swissbox-property-1.7.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/url/pax-url-wrap/1.6.0/pax-url-wrap-1.6.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/swissbox/pax-swissbox-bnd/1.7.0/pax-swissbox-bnd-1.7.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/biz/aQute/bnd/bndlib/2.1.0/bndlib-2.1.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/exam/pax-exam-junit4/3.3.0/pax-exam-junit4-3.3.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/exam/pax-exam-link-mvn/3.3.0/pax-exam-link-mvn-3.3.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/url/pax-url-aether/1.6.0/pax-url-aether-1.6.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/url/pax-url-maven-commons/1.6.0/pax-url-maven-commons-1.6.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/base/ops4j-base-util-xml/1.4.0/ops4j-base-util-xml-1.4.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/base/ops4j-base-util-collections/1.4.0/ops4j-base-util-collections-1.4.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/maven/wagon/wagon-http-lightweight/1.0/wagon-http-lightweight-1.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/maven/wagon/wagon-http-shared/1.0/wagon-http-shared-1.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/com/google/collections/google-collections/1.0/google-collections-1.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/ch/qos/logback/logback-classic/1.0.11/logback-classic-1.0.11.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/ch/qos/logback/logback-core/1.0.11/logback-core-1.0.11.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/javax/inject/javax.inject/1/javax.inject-1.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/xprocspec/xprocspec/1.2.0/xprocspec-1.2.0.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/maven/xproc-engine-daisy-pipeline/1.10.2/xproc-engine-daisy-pipeline-1.10.2.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar:/home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/saxon-adapter/1.2/saxon-adapter-1.2.jar:
+15:39:56.975 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - user.country = NO
+15:39:56.975 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - user.dir = /home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef
+15:39:56.975 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - user.home = /home/jostein
+15:39:56.975 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - user.language = nb
+15:39:56.976 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - user.name = jostein
+15:39:56.976 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - user.timezone = Europe/Oslo
+15:39:56.976 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - workspace = /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:39:57.089 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.ops4j.pax.exam/pax-exam/3.3.0]
+15:39:57.090 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:39:57.092 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:39:57.092 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.ops4j.pax.exam:pax-exam:jar:3.3.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/exam/pax-exam/3.3.0/pax-exam-3.3.0.jar
+15:39:57.096 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@2) UrlProvisionOption{url='RawUrlReference{url='link:classpath:META-INF/links/org.ops4j.pax.exam.link'}'}
+15:39:57.101 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.ops4j.pax.exam/pax-exam-inject/3.3.0]
+15:39:57.102 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:39:57.103 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:39:57.105 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using connector WagonRepositoryConnector with priority 0 for https://oss.sonatype.org/content/groups/staging/
+15:39:57.780 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using connector WagonRepositoryConnector with priority 0 for http://repo1.maven.org/maven2/
+15:39:58.266 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.ops4j.pax.exam:pax-exam-inject:jar:3.3.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/exam/pax-exam-inject/3.3.0/pax-exam-inject-3.3.0.jar
+15:39:58.268 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@2) UrlProvisionOption{url='RawUrlReference{url='link:classpath:META-INF/links/org.ops4j.pax.exam.inject.link'}'}
+15:39:58.271 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.ops4j.pax.exam/pax-exam-extender-service/3.3.0]
+15:39:58.272 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:39:58.272 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:39:58.272 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using connector WagonRepositoryConnector with priority 0 for https://oss.sonatype.org/content/groups/staging/
+15:39:58.686 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using connector WagonRepositoryConnector with priority 0 for http://repo1.maven.org/maven2/
+15:39:58.910 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.ops4j.pax.exam:pax-exam-extender-service:jar:3.3.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/exam/pax-exam-extender-service/3.3.0/pax-exam-extender-service-3.3.0.jar
+15:39:58.913 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@2) UrlProvisionOption{url='RawUrlReference{url='link:classpath:META-INF/links/org.ops4j.pax.extender.service.link'}'}
+15:39:58.919 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.osgi/org.osgi.compendium/4.2.0]
+15:39:58.919 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:39:58.920 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:39:58.920 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.osgi:org.osgi.compendium:jar:4.2.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/osgi/org.osgi.compendium/4.2.0/org.osgi.compendium-4.2.0.jar
+15:39:58.922 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@2) UrlProvisionOption{url='RawUrlReference{url='link:classpath:META-INF/links/org.osgi.compendium.link'}'}
+15:39:58.925 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.ops4j.base/ops4j-base/1.4.0]
+15:39:58.925 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:39:58.926 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:39:58.926 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using connector WagonRepositoryConnector with priority 0 for https://oss.sonatype.org/content/groups/staging/
+15:40:03.890 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using connector WagonRepositoryConnector with priority 0 for http://repo1.maven.org/maven2/
+15:40:03.937 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.ops4j.base:ops4j-base:jar:1.4.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/base/ops4j-base/1.4.0/ops4j-base-1.4.0.jar
+15:40:03.938 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@2) UrlProvisionOption{url='RawUrlReference{url='link:classpath:META-INF/links/org.ops4j.base.link'}'}
+15:40:03.941 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.ops4j.pax.swissbox/pax-swissbox-core/1.7.0]
+15:40:03.941 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:03.942 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:03.942 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.ops4j.pax.swissbox:pax-swissbox-core:jar:1.7.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/swissbox/pax-swissbox-core/1.7.0/pax-swissbox-core-1.7.0.jar
+15:40:03.943 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@2) UrlProvisionOption{url='RawUrlReference{url='link:classpath:META-INF/links/org.ops4j.pax.swissbox.core.link'}'}
+15:40:03.946 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.ops4j.pax.swissbox/pax-swissbox-extender/1.7.0]
+15:40:03.947 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:03.947 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:03.948 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using connector WagonRepositoryConnector with priority 0 for https://oss.sonatype.org/content/groups/staging/
+15:40:04.384 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using connector WagonRepositoryConnector with priority 0 for http://repo1.maven.org/maven2/
+15:40:04.637 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.ops4j.pax.swissbox:pax-swissbox-extender:jar:1.7.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/swissbox/pax-swissbox-extender/1.7.0/pax-swissbox-extender-1.7.0.jar
+15:40:04.640 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@2) UrlProvisionOption{url='RawUrlReference{url='link:classpath:META-INF/links/org.ops4j.pax.swissbox.extender.link'}'}
+15:40:04.646 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.ops4j.pax.swissbox/pax-swissbox-framework/1.7.0]
+15:40:04.646 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:04.647 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:04.647 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.ops4j.pax.swissbox:pax-swissbox-framework:jar:1.7.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/swissbox/pax-swissbox-framework/1.7.0/pax-swissbox-framework-1.7.0.jar
+15:40:04.648 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@2) UrlProvisionOption{url='RawUrlReference{url='link:classpath:META-INF/links/org.ops4j.pax.swissbox.framework.link'}'}
+15:40:04.650 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.ops4j.pax.swissbox/pax-swissbox-lifecycle/1.7.0]
+15:40:04.650 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:04.651 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:04.651 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.ops4j.pax.swissbox:pax-swissbox-lifecycle:jar:1.7.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/swissbox/pax-swissbox-lifecycle/1.7.0/pax-swissbox-lifecycle-1.7.0.jar
+15:40:04.652 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@2) UrlProvisionOption{url='RawUrlReference{url='link:classpath:META-INF/links/org.ops4j.pax.swissbox.lifecycle.link'}'}
+15:40:04.654 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.ops4j.pax.swissbox/pax-swissbox-tracker/1.7.0]
+15:40:04.654 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:04.654 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:04.654 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.ops4j.pax.swissbox:pax-swissbox-tracker:jar:1.7.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/swissbox/pax-swissbox-tracker/1.7.0/pax-swissbox-tracker-1.7.0.jar
+15:40:04.655 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@2) UrlProvisionOption{url='RawUrlReference{url='link:classpath:META-INF/links/org.ops4j.pax.swissbox.tracker.link'}'}
+15:40:04.657 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.apache.geronimo.specs/geronimo-atinject_1.0_spec/1.0]
+15:40:04.657 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:04.658 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:04.658 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using connector WagonRepositoryConnector with priority 0 for https://oss.sonatype.org/content/groups/staging/
+15:40:05.146 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using connector WagonRepositoryConnector with priority 0 for http://repo1.maven.org/maven2/
+15:40:05.169 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.apache.geronimo.specs:geronimo-atinject_1.0_spec:jar:1.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/geronimo/specs/geronimo-atinject_1.0_spec/1.0/geronimo-atinject_1.0_spec-1.0.jar
+15:40:05.170 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@2) UrlProvisionOption{url='RawUrlReference{url='link:classpath:META-INF/links/org.apache.geronimo.specs.atinject.link'}'}
+15:40:05.172 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.apache.felix/org.apache.felix.scr/1.6.2/jar]
+15:40:05.172 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:05.172 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:05.172 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using connector WagonRepositoryConnector with priority 0 for https://oss.sonatype.org/content/groups/staging/
+15:40:05.597 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using connector WagonRepositoryConnector with priority 0 for http://repo1.maven.org/maven2/
+15:40:05.872 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.apache.felix:org.apache.felix.scr:jar:1.6.2) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/felix/org.apache.felix.scr/1.6.2/org.apache.felix.scr-1.6.2.jar
+15:40:05.876 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.apache.felix:org.apache.felix.scr:1.6.2")
+15:40:05.880 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) UrlProvisionOption{url='RawUrlReference{url='reference:file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/mod-nlb-1.10.0-SNAPSHOT.jar'}'}
+15:40:05.885 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.ops4j.pax.tipi/org.ops4j.pax.tipi.junit/4.11.0.1]
+15:40:05.885 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:05.886 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:05.886 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using connector WagonRepositoryConnector with priority 0 for https://oss.sonatype.org/content/groups/staging/
+15:40:06.340 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using connector WagonRepositoryConnector with priority 0 for http://repo1.maven.org/maven2/
+15:40:06.549 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.ops4j.pax.tipi:org.ops4j.pax.tipi.junit:jar:4.11.0.1) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/tipi/org.ops4j.pax.tipi.junit/4.11.0.1/org.ops4j.pax.tipi.junit-4.11.0.1.jar
+15:40:06.552 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@2) JUnitBundlesOption{url=link:classpath:META-INF/links/org.ops4j.pax.tipi.junit.link}
+15:40:06.555 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.ops4j.pax.tipi/org.ops4j.pax.tipi.hamcrest.core/1.3.0.1]
+15:40:06.555 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:06.556 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:06.556 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using connector WagonRepositoryConnector with priority 0 for https://oss.sonatype.org/content/groups/staging/
+15:40:06.995 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using connector WagonRepositoryConnector with priority 0 for http://repo1.maven.org/maven2/
+15:40:07.108 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.ops4j.pax.tipi:org.ops4j.pax.tipi.hamcrest.core:jar:1.3.0.1) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/tipi/org.ops4j.pax.tipi.hamcrest.core/1.3.0.1/org.ops4j.pax.tipi.hamcrest.core-1.3.0.1.jar
+15:40:07.110 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) UrlProvisionOption{url='RawUrlReference{url='link:classpath:META-INF/links/org.ops4j.pax.tipi.hamcrest.core.link'}'}
+15:40:07.114 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.ops4j.pax.exam/pax-exam-invoker-junit/3.3.0]
+15:40:07.115 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.116 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.116 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using connector WagonRepositoryConnector with priority 0 for https://oss.sonatype.org/content/groups/staging/
+15:40:07.537 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using connector WagonRepositoryConnector with priority 0 for http://repo1.maven.org/maven2/
+15:40:07.772 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.ops4j.pax.exam:pax-exam-invoker-junit:jar:3.3.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/ops4j/pax/exam/pax-exam-invoker-junit/3.3.0/pax-exam-invoker-junit-3.3.0.jar
+15:40:07.776 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) UrlProvisionOption{url='RawUrlReference{url='link:classpath:META-INF/links/org.ops4j.pax.exam.invoker.junit.link'}'}
+15:40:07.781 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.build/modules-test-helper/1.0.1/jar]
+15:40:07.781 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.781 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.781 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.build:modules-test-helper:jar:1.0.1) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/build/modules-test-helper/1.0.1/modules-test-helper-1.0.1.jar
+15:40:07.782 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.build:modules-test-helper:1.0.1")
+15:40:07.784 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules.braille/libhyphen-core/4.1.2/jar]
+15:40:07.784 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.784 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.784 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules.braille:libhyphen-core:jar:4.1.2) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/libhyphen-core/4.1.2/libhyphen-core-4.1.2.jar
+15:40:07.785 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules.braille:libhyphen-core:4.1.2(start@10)")
+15:40:07.787 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.slf4j/jcl-over-slf4j/1.7.2/jar]
+15:40:07.787 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.787 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.787 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.slf4j:jcl-over-slf4j:jar:1.7.2) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/slf4j/jcl-over-slf4j/1.7.2/jcl-over-slf4j-1.7.2.jar
+15:40:07.788 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.slf4j:jcl-over-slf4j:1.7.2(start@35)")
+15:40:07.790 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline/common-utils/2.1.4/jar]
+15:40:07.790 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.790 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.791 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline:common-utils:jar:2.1.4) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/common-utils/2.1.4/common-utils-2.1.4.jar
+15:40:07.792 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline:common-utils:2.1.4(start@25)")
+15:40:07.793 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules.braille/xml-to-pef/3.1.0-SNAPSHOT/jar]
+15:40:07.793 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.794 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.794 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Skipped remote update check for org.daisy.pipeline.modules.braille:xml-to-pef:3.1.0-SNAPSHOT/maven-metadata.xml, locally installed metadata up-to-date.
+15:40:07.794 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Skipped remote update check for org.daisy.pipeline.modules.braille:xml-to-pef:3.1.0-SNAPSHOT/maven-metadata.xml, locally installed metadata up-to-date.
+15:40:07.794 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules.braille:xml-to-pef:jar:3.1.0-SNAPSHOT) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/xml-to-pef/3.1.0-SNAPSHOT/xml-to-pef-3.1.0-SNAPSHOT.jar
+15:40:07.795 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules.braille:xml-to-pef:3.1.0-SNAPSHOT(start@17)")
+15:40:07.797 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules.braille/common-utils/5.3.0/jar]
+15:40:07.797 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.797 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.798 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules.braille:common-utils:jar:5.3.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/common-utils/5.3.0/common-utils-5.3.0.jar
+15:40:07.799 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules.braille:common-utils:5.3.0(start@4)")
+15:40:07.800 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules.braille/liblouis-native/1.5.0-SNAPSHOT/jar/linux]
+15:40:07.801 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.801 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.801 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Skipped remote update check for org.daisy.pipeline.modules.braille:liblouis-native:1.5.0-SNAPSHOT/maven-metadata.xml, locally installed metadata up-to-date.
+15:40:07.801 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Skipped remote update check for org.daisy.pipeline.modules.braille:liblouis-native:1.5.0-SNAPSHOT/maven-metadata.xml, locally installed metadata up-to-date.
+15:40:07.801 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules.braille:liblouis-native:jar:linux:1.5.0-SNAPSHOT) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/liblouis-native/1.5.0-SNAPSHOT/liblouis-native-1.5.0-SNAPSHOT-linux.jar
+15:40:07.802 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules.braille:liblouis-native:jar:linux:1.5.0-SNAPSHOT(start@9)")
+15:40:07.804 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:com.fasterxml.woodstox/woodstox-core/5.0.2/jar]
+15:40:07.804 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.804 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.805 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (com.fasterxml.woodstox:woodstox-core:jar:5.0.2) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/com/fasterxml/woodstox/woodstox-core/5.0.2/woodstox-core-5.0.2.jar
+15:40:07.806 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("com.fasterxml.woodstox:woodstox-core:5.0.2(start@13)")
+15:40:07.808 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:commons-fileupload/commons-fileupload/1.3/jar]
+15:40:07.808 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.808 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.808 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (commons-fileupload:commons-fileupload:jar:1.3) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/commons-fileupload/commons-fileupload/1.3/commons-fileupload-1.3.jar
+15:40:07.809 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("commons-fileupload:commons-fileupload:1.3(start@4)")
+15:40:07.810 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules.braille/epub3-to-pef/2.1.0-SNAPSHOT/jar]
+15:40:07.811 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.811 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.811 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Skipped remote update check for org.daisy.pipeline.modules.braille:epub3-to-pef:2.1.0-SNAPSHOT/maven-metadata.xml, locally installed metadata up-to-date.
+15:40:07.811 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Skipped remote update check for org.daisy.pipeline.modules.braille:epub3-to-pef:2.1.0-SNAPSHOT/maven-metadata.xml, locally installed metadata up-to-date.
+15:40:07.811 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules.braille:epub3-to-pef:jar:2.1.0-SNAPSHOT) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/epub3-to-pef/2.1.0-SNAPSHOT/epub3-to-pef-2.1.0-SNAPSHOT.jar
+15:40:07.812 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules.braille:epub3-to-pef:2.1.0-SNAPSHOT(start@15)")
+15:40:07.813 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.maven/xprocspec-runner/1.1.0/jar]
+15:40:07.814 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.814 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.814 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.maven:xprocspec-runner:jar:1.1.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/maven/xprocspec-runner/1.1.0/xprocspec-runner-1.1.0.jar
+15:40:07.815 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.maven:xprocspec-runner:1.1.0(start@29)")
+15:40:07.816 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.unbescape/unbescape/1.1.0.RELEASE/jar]
+15:40:07.816 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.817 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.817 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.unbescape:unbescape:jar:1.1.0.RELEASE) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/unbescape/unbescape/1.1.0.RELEASE/unbescape-1.1.0.RELEASE.jar
+15:40:07.818 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.unbescape:unbescape:1.1.0.RELEASE(start@4)")
+15:40:07.819 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules.braille/dotify-formatter/1.12.2-SNAPSHOT/jar]
+15:40:07.819 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.820 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.820 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Skipped remote update check for org.daisy.pipeline.modules.braille:dotify-formatter:1.12.2-SNAPSHOT/maven-metadata.xml, locally installed metadata up-to-date.
+15:40:07.820 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Skipped remote update check for org.daisy.pipeline.modules.braille:dotify-formatter:1.12.2-SNAPSHOT/maven-metadata.xml, locally installed metadata up-to-date.
+15:40:07.820 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules.braille:dotify-formatter:jar:1.12.2-SNAPSHOT) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/dotify-formatter/1.12.2-SNAPSHOT/dotify-formatter-1.12.2-SNAPSHOT.jar
+15:40:07.821 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules.braille:dotify-formatter:1.12.2-SNAPSHOT(start@13)")
+15:40:07.823 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.dotify/dotify.text.impl/4.0.0/jar]
+15:40:07.823 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.823 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.823 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.dotify:dotify.text.impl:jar:4.0.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/dotify/dotify.text.impl/4.0.0/dotify.text.impl-4.0.0.jar
+15:40:07.824 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.dotify:dotify.text.impl:4.0.0(start@13)")
+15:40:07.826 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules.braille/dtbook-to-pef/5.1.0-SNAPSHOT/jar]
+15:40:07.826 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.826 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.826 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Skipped remote update check for org.daisy.pipeline.modules.braille:dtbook-to-pef:5.1.0-SNAPSHOT/maven-metadata.xml, locally installed metadata up-to-date.
+15:40:07.826 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Skipped remote update check for org.daisy.pipeline.modules.braille:dtbook-to-pef:5.1.0-SNAPSHOT/maven-metadata.xml, locally installed metadata up-to-date.
+15:40:07.827 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules.braille:dtbook-to-pef:jar:5.1.0-SNAPSHOT) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/dtbook-to-pef/5.1.0-SNAPSHOT/dtbook-to-pef-5.1.0-SNAPSHOT.jar
+15:40:07.827 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules.braille:dtbook-to-pef:5.1.0-SNAPSHOT(start@14)")
+15:40:07.829 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:commons-codec/commons-codec/1.6/jar]
+15:40:07.829 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.829 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.829 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (commons-codec:commons-codec:jar:1.6) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/commons-codec/commons-codec/1.6/commons-codec-1.6.jar
+15:40:07.831 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("commons-codec:commons-codec:1.6(start@25)")
+15:40:07.832 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules.braille/liblouis-saxon/2.0.4/jar]
+15:40:07.833 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.833 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.833 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules.braille:liblouis-saxon:jar:2.0.4) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/liblouis-saxon/2.0.4/liblouis-saxon-2.0.4.jar
+15:40:07.834 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules.braille:liblouis-saxon:2.0.4(start@7)")
+15:40:07.835 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:com.googlecode.texhyphj/texhyphj/1.2/jar]
+15:40:07.835 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.836 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.836 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (com.googlecode.texhyphj:texhyphj:jar:1.2) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/com/googlecode/texhyphj/texhyphj/1.2/texhyphj-1.2.jar
+15:40:07.837 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("com.googlecode.texhyphj:texhyphj:1.2(start@13)")
+15:40:07.838 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:nu.validator.htmlparser/htmlparser/1.4/jar]
+15:40:07.838 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.839 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.839 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (nu.validator.htmlparser:htmlparser:jar:1.4) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/nu/validator/htmlparser/htmlparser/1.4/htmlparser-1.4.jar
+15:40:07.840 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("nu.validator.htmlparser:htmlparser:1.4(start@4)")
+15:40:07.841 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.libs/com.xmlcalabash/1.1.9-p2-95/jar]
+15:40:07.841 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.842 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.842 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.libs:com.xmlcalabash:jar:1.1.9-p2-95) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/libs/com.xmlcalabash/1.1.9-p2-95/com.xmlcalabash-1.1.9-p2-95.jar
+15:40:07.844 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.libs:com.xmlcalabash:1.1.9-p2-95(start@4)")
+15:40:07.846 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules.braille/css-core/3.0.1/jar]
+15:40:07.846 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.846 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.846 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules.braille:css-core:jar:3.0.1) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/css-core/3.0.1/css-core-3.0.1.jar
+15:40:07.847 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules.braille:css-core:3.0.1(start@4)")
+15:40:07.848 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules/zip-utils/2.0.1/jar]
+15:40:07.848 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.849 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.849 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules:zip-utils:jar:2.0.1) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/zip-utils/2.0.1/zip-utils-2.0.1.jar
+15:40:07.850 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules:zip-utils:2.0.1(start@21)")
+15:40:07.851 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules.braille/liblouis-tables/3.2.0-1-SNAPSHOT/jar]
+15:40:07.851 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.851 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.851 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Skipped remote update check for org.daisy.pipeline.modules.braille:liblouis-tables:3.2.0-1-SNAPSHOT/maven-metadata.xml, locally installed metadata up-to-date.
+15:40:07.851 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Skipped remote update check for org.daisy.pipeline.modules.braille:liblouis-tables:3.2.0-1-SNAPSHOT/maven-metadata.xml, locally installed metadata up-to-date.
+15:40:07.852 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules.braille:liblouis-tables:jar:3.2.0-1-SNAPSHOT) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/liblouis-tables/3.2.0-1-SNAPSHOT/liblouis-tables-3.2.0-1-SNAPSHOT.jar
+15:40:07.854 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules.braille:liblouis-tables:3.2.0-1-SNAPSHOT(start@8)")
+15:40:07.855 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:com.sun.xml.bind/jaxb-extra-osgi/2.2.11/jar]
+15:40:07.855 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.856 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.856 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (com.sun.xml.bind:jaxb-extra-osgi:jar:2.2.11) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/com/sun/xml/bind/jaxb-extra-osgi/2.2.11/jaxb-extra-osgi-2.2.11.jar
+15:40:07.858 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("com.sun.xml.bind:jaxb-extra-osgi:2.2.11(start@4)")
+15:40:07.860 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.antlr-runtime/3.5.2_1/jar]
+15:40:07.860 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.860 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.860 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.apache.servicemix.bundles:org.apache.servicemix.bundles.antlr-runtime:jar:3.5.2_1) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/servicemix/bundles/org.apache.servicemix.bundles.antlr-runtime/3.5.2_1/org.apache.servicemix.bundles.antlr-runtime-3.5.2_1.jar
+15:40:07.861 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.apache.servicemix.bundles:org.apache.servicemix.bundles.antlr-runtime:3.5.2_1(start@4)")
+15:40:07.863 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules.braille/obfl-utils/1.1.3/jar]
+15:40:07.863 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.863 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.863 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules.braille:obfl-utils:jar:1.1.3) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/obfl-utils/1.1.3/obfl-utils-1.1.3.jar
+15:40:07.864 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules.braille:obfl-utils:1.1.3(start@14)")
+15:40:07.865 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules.braille/html-to-pef/2.7.0-SNAPSHOT/jar]
+15:40:07.865 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.865 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.865 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Skipped remote update check for org.daisy.pipeline.modules.braille:html-to-pef:2.7.0-SNAPSHOT/maven-metadata.xml, locally installed metadata up-to-date.
+15:40:07.866 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Skipped remote update check for org.daisy.pipeline.modules.braille:html-to-pef:2.7.0-SNAPSHOT/maven-metadata.xml, locally installed metadata up-to-date.
+15:40:07.866 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules.braille:html-to-pef:jar:2.7.0-SNAPSHOT) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/html-to-pef/2.7.0-SNAPSHOT/html-to-pef-2.7.0-SNAPSHOT.jar
+15:40:07.867 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules.braille:html-to-pef:2.7.0-SNAPSHOT(start@16)")
+15:40:07.868 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.slf4j/slf4j-api/1.7.2/jar]
+15:40:07.868 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.868 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.868 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.slf4j:slf4j-api:jar:1.7.2) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar
+15:40:07.869 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.slf4j:slf4j-api:1.7.2(start@25)")
+15:40:07.870 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:ch.qos.logback/logback-classic/1.0.11/jar]
+15:40:07.870 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.871 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.871 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (ch.qos.logback:logback-classic:jar:1.0.11) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/ch/qos/logback/logback-classic/1.0.11/logback-classic-1.0.11.jar
+15:40:07.873 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("ch.qos.logback:logback-classic:1.0.11(start@34)")
+15:40:07.874 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:net.java.dev.msv/msv-core/2013.6.1/jar]
+15:40:07.874 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.874 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.874 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (net.java.dev.msv:msv-core:jar:2013.6.1) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/net/java/dev/msv/msv-core/2013.6.1/msv-core-2013.6.1.jar
+15:40:07.877 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("net.java.dev.msv:msv-core:2013.6.1(start@4)")
+15:40:07.878 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules.braille/libhyphen-libreoffice-tables/4.0.0-2/jar]
+15:40:07.878 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.879 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.879 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules.braille:libhyphen-libreoffice-tables:jar:4.0.0-2) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/libhyphen-libreoffice-tables/4.0.0-2/libhyphen-libreoffice-tables-4.0.0-2.jar
+15:40:07.880 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules.braille:libhyphen-libreoffice-tables:4.0.0-2(start@11)")
+15:40:07.881 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.bindings/jhyphen/1.0.0/jar]
+15:40:07.882 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.882 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.882 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.bindings:jhyphen:jar:1.0.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/bindings/jhyphen/1.0.0/jhyphen-1.0.0.jar
+15:40:07.883 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.bindings:jhyphen:1.0.0(start@10)")
+15:40:07.884 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:commons-io/commons-io/2.3/jar]
+15:40:07.884 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.884 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.885 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (commons-io:commons-io:jar:2.3) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/commons-io/commons-io/2.3/commons-io-2.3.jar
+15:40:07.885 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("commons-io:commons-io:2.3(start@4)")
+15:40:07.887 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules.braille/liblouis-core/5.0.0-SNAPSHOT/jar]
+15:40:07.887 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.887 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.887 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Skipped remote update check for org.daisy.pipeline.modules.braille:liblouis-core:5.0.0-SNAPSHOT/maven-metadata.xml, locally installed metadata up-to-date.
+15:40:07.887 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Skipped remote update check for org.daisy.pipeline.modules.braille:liblouis-core:5.0.0-SNAPSHOT/maven-metadata.xml, locally installed metadata up-to-date.
+15:40:07.888 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules.braille:liblouis-core:jar:5.0.0-SNAPSHOT) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/liblouis-core/5.0.0-SNAPSHOT/liblouis-core-5.0.0-SNAPSHOT.jar
+15:40:07.889 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules.braille:liblouis-core:5.0.0-SNAPSHOT(start@6)")
+15:40:07.890 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.maven/xproc-engine-daisy-pipeline/1.10.2/jar]
+15:40:07.890 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.890 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.890 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.maven:xproc-engine-daisy-pipeline:jar:1.10.2) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/maven/xproc-engine-daisy-pipeline/1.10.2/xproc-engine-daisy-pipeline-1.10.2.jar
+15:40:07.891 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.maven:xproc-engine-daisy-pipeline:1.10.2(start@31)")
+15:40:07.893 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules/common-entities/1.1.0/jar]
+15:40:07.893 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.893 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.893 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules:common-entities:jar:1.1.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/common-entities/1.1.0/common-entities-1.1.0.jar
+15:40:07.894 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules:common-entities:1.1.0(start@24)")
+15:40:07.895 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.maven/xproc-engine-api/1.0.1/jar]
+15:40:07.895 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.896 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.896 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.maven:xproc-engine-api:jar:1.0.1) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/maven/xproc-engine-api/1.0.1/xproc-engine-api-1.0.1.jar
+15:40:07.896 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.maven:xproc-engine-api:1.0.1(start@29)")
+15:40:07.898 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.dotify/dotify.hyphenator.impl/4.0.0/jar]
+15:40:07.898 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.898 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.898 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.dotify:dotify.hyphenator.impl:jar:4.0.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/dotify/dotify.hyphenator.impl/4.0.0/dotify.hyphenator.impl-4.0.0.jar
+15:40:07.900 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.dotify:dotify.hyphenator.impl:4.0.0(start@13)")
+15:40:07.901 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.apache.httpcomponents/httpcore-osgi/4.2.4/jar]
+15:40:07.901 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.901 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.901 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.apache.httpcomponents:httpcore-osgi:jar:4.2.4) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/httpcomponents/httpcore-osgi/4.2.4/httpcore-osgi-4.2.4.jar
+15:40:07.903 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.apache.httpcomponents:httpcore-osgi:4.2.4(start@25)")
+15:40:07.904 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.apache.logging.log4j/log4j-api/2.1/jar]
+15:40:07.904 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.904 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.904 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.apache.logging.log4j:log4j-api:jar:2.1) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/logging/log4j/log4j-api/2.1/log4j-api-2.1.jar
+15:40:07.905 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.apache.logging.log4j:log4j-api:2.1(start@4)")
+15:40:07.906 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.streamline/streamline-api/1.0.0/jar]
+15:40:07.907 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.907 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.907 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.streamline:streamline-api:jar:1.0.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/streamline/streamline-api/1.0.0/streamline-api-1.0.0.jar
+15:40:07.908 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.streamline:streamline-api:1.0.0(start@13)")
+15:40:07.909 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.xmlresolver/1.2_5/jar]
+15:40:07.909 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.909 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.910 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.apache.servicemix.bundles:org.apache.servicemix.bundles.xmlresolver:jar:1.2_5) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/servicemix/bundles/org.apache.servicemix.bundles.xmlresolver/1.2_5/org.apache.servicemix.bundles.xmlresolver-1.2_5.jar
+15:40:07.910 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.apache.servicemix.bundles:org.apache.servicemix.bundles.xmlresolver:1.2_5(start@32)")
+15:40:07.912 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules.braille/pef-utils/2.2.1/jar]
+15:40:07.912 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.912 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.912 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules.braille:pef-utils:jar:2.2.1) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/pef-utils/2.2.1/pef-utils-2.2.1.jar
+15:40:07.913 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules.braille:pef-utils:2.2.1(start@5)")
+15:40:07.914 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:com.ibm.icu/icu4j/49.1/jar]
+15:40:07.914 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.915 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.915 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (com.ibm.icu:icu4j:jar:49.1) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/com/ibm/icu/icu4j/49.1/icu4j-49.1.jar
+15:40:07.921 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("com.ibm.icu:icu4j:49.1(start@4)")
+15:40:07.922 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.dotify/dotify.common/4.1.0/jar]
+15:40:07.922 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.923 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.923 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.dotify:dotify.common:jar:4.1.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/dotify/dotify.common/4.1.0/dotify.common-4.1.0.jar
+15:40:07.924 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.dotify:dotify.common:4.1.0(start@13)")
+15:40:07.925 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.apache.logging.log4j/log4j-core/2.1/jar]
+15:40:07.925 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.925 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.925 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.apache.logging.log4j:log4j-core:jar:2.1) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/logging/log4j/log4j-core/2.1/log4j-core-2.1.jar
+15:40:07.927 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.apache.logging.log4j:log4j-core:2.1(start@4)")
+15:40:07.929 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules.braille/dotify-core/2.1.1/jar]
+15:40:07.929 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.929 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.929 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules.braille:dotify-core:jar:2.1.1) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/dotify-core/2.1.1/dotify-core-2.1.1.jar
+15:40:07.930 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules.braille:dotify-core:2.1.1(start@13)")
+15:40:07.931 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.codehaus.woodstox/woodstox-core-lgpl/4.1.2/jar]
+15:40:07.931 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.931 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.931 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.codehaus.woodstox:woodstox-core-lgpl:jar:4.1.2) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/codehaus/woodstox/woodstox-core-lgpl/4.1.2/woodstox-core-lgpl-4.1.2.jar
+15:40:07.933 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.codehaus.woodstox:woodstox-core-lgpl:4.1.2(start@25)")
+15:40:07.934 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.codehaus.woodstox/stax2-api/3.1.1/jar]
+15:40:07.934 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.935 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.935 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.codehaus.woodstox:stax2-api:jar:3.1.1) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/codehaus/woodstox/stax2-api/3.1.1/stax2-api-3.1.1.jar
+15:40:07.936 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.codehaus.woodstox:stax2-api:3.1.1(start@25)")
+15:40:07.937 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.maven/xspec-runner/1.0.2/jar]
+15:40:07.937 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.938 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.938 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.maven:xspec-runner:jar:1.0.2) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/maven/xspec-runner/1.0.2/xspec-runner-1.0.2.jar
+15:40:07.938 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.maven:xspec-runner:1.0.2(start@32)")
+15:40:07.940 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules.braille/css-utils/3.5.0-SNAPSHOT/jar]
+15:40:07.940 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.940 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.940 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Skipped remote update check for org.daisy.pipeline.modules.braille:css-utils:3.5.0-SNAPSHOT/maven-metadata.xml, locally installed metadata up-to-date.
+15:40:07.940 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Skipped remote update check for org.daisy.pipeline.modules.braille:css-utils:3.5.0-SNAPSHOT/maven-metadata.xml, locally installed metadata up-to-date.
+15:40:07.940 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules.braille:css-utils:jar:3.5.0-SNAPSHOT) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/css-utils/3.5.0-SNAPSHOT/css-utils-3.5.0-SNAPSHOT.jar
+15:40:07.941 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules.braille:css-utils:3.5.0-SNAPSHOT(start@4)")
+15:40:07.943 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules.braille/pef-saxon/2.1.1/jar]
+15:40:07.943 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.943 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.943 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules.braille:pef-saxon:jar:2.1.1) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/pef-saxon/2.1.1/pef-saxon-2.1.1.jar
+15:40:07.944 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules.braille:pef-saxon:2.1.1(start@5)")
+15:40:07.945 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.dotify/dotify.formatter.impl/4.1.0/jar]
+15:40:07.945 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.945 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.945 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.dotify:dotify.formatter.impl:jar:4.1.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/dotify/dotify.formatter.impl/4.1.0/dotify.formatter.impl-4.1.0.jar
+15:40:07.947 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.dotify:dotify.formatter.impl:4.1.0(start@13)")
+15:40:07.948 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.braille/braille-utils.pef-tools/2.2.0/jar]
+15:40:07.948 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.948 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.949 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.braille:braille-utils.pef-tools:jar:2.2.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/braille/braille-utils.pef-tools/2.2.0/braille-utils.pef-tools-2.2.0.jar
+15:40:07.950 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.braille:braille-utils.pef-tools:2.2.0(start@5)")
+15:40:07.951 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline/calabash-adapter/2.0.6/jar]
+15:40:07.951 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.951 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.951 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline:calabash-adapter:jar:2.0.6) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/calabash-adapter/2.0.6/calabash-adapter-2.0.6.jar
+15:40:07.952 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline:calabash-adapter:2.0.6(start@25)")
+15:40:07.953 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.braille/braille-utils.api/3.0.1/jar]
+15:40:07.953 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.954 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.954 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.braille:braille-utils.api:jar:3.0.1) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/braille/braille-utils.api/3.0.1/braille-utils.api-3.0.1.jar
+15:40:07.955 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.braille:braille-utils.api:3.0.1(start@6)")
+15:40:07.956 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules.braille/dotify-saxon/2.2.1/jar]
+15:40:07.956 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.956 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.956 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules.braille:dotify-saxon:jar:2.2.1) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/dotify-saxon/2.2.1/dotify-saxon-2.2.1.jar
+15:40:07.957 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules.braille:dotify-saxon:2.2.1(start@13)")
+15:40:07.958 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline/woodstox-osgi-adapter/2.0.1/jar]
+15:40:07.958 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.959 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.959 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline:woodstox-osgi-adapter:jar:2.0.1) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/woodstox-osgi-adapter/2.0.1/woodstox-osgi-adapter-2.0.1.jar
+15:40:07.960 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline:woodstox-osgi-adapter:2.0.1(start@25)")
+15:40:07.961 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules/metadata-utils/1.0.2/jar]
+15:40:07.961 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.961 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.961 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules:metadata-utils:jar:1.0.2) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/metadata-utils/1.0.2/metadata-utils-1.0.2.jar
+15:40:07.962 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules:metadata-utils:1.0.2(start@14)")
+15:40:07.963 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline/xpath-registry/1.0.2/jar]
+15:40:07.963 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.964 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.964 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline:xpath-registry:jar:1.0.2) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/xpath-registry/1.0.2/xpath-registry-1.0.2.jar
+15:40:07.964 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline:xpath-registry:1.0.2(start@25)")
+15:40:07.965 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules.braille/liblouis-utils/1.5.0/jar]
+15:40:07.966 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.966 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.966 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules.braille:liblouis-utils:jar:1.5.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/liblouis-utils/1.5.0/liblouis-utils-1.5.0.jar
+15:40:07.967 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules.braille:liblouis-utils:1.5.0(start@7)")
+15:40:07.968 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.slf4j/jul-to-slf4j/1.7.2/jar]
+15:40:07.968 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.969 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.969 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.slf4j:jul-to-slf4j:jar:1.7.2) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/slf4j/jul-to-slf4j/1.7.2/jul-to-slf4j-1.7.2.jar
+15:40:07.969 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.slf4j:jul-to-slf4j:1.7.2(start@26)")
+15:40:07.970 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules/dtbook-utils/1.0.3/jar]
+15:40:07.971 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.971 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.971 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules:dtbook-utils:jar:1.0.3) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/dtbook-utils/1.0.3/dtbook-utils-1.0.3.jar
+15:40:07.972 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules:dtbook-utils:1.0.3(start@14)")
+15:40:07.973 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules/mediatype-utils/1.0.4/jar]
+15:40:07.973 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.973 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.973 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules:mediatype-utils:jar:1.0.4) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/mediatype-utils/1.0.4/mediatype-utils-1.0.4.jar
+15:40:07.974 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules:mediatype-utils:1.0.4(start@22)")
+15:40:07.975 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:ch.qos.logback/logback-core/1.0.11/jar]
+15:40:07.976 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.976 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.976 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (ch.qos.logback:logback-core:jar:1.0.11) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/ch/qos/logback/logback-core/1.0.11/logback-core-1.0.11.jar
+15:40:07.984 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("ch.qos.logback:logback-core:1.0.11(start@34)")
+15:40:07.985 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.streamline/streamline-engine/1.1.0/jar]
+15:40:07.985 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.985 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.986 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.streamline:streamline-engine:jar:1.1.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/streamline/streamline-engine/1.1.0/streamline-engine-1.1.0.jar
+15:40:07.986 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.streamline:streamline-engine:1.1.0(start@13)")
+15:40:07.987 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.dotify/dotify.api/4.1.0/jar]
+15:40:07.988 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.988 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.988 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.dotify:dotify.api:jar:4.1.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/dotify/dotify.api/4.1.0/dotify.api-4.1.0.jar
+15:40:07.989 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.dotify:dotify.api:4.1.0(start@13)")
+15:40:07.990 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules/fileset-utils/1.2.4/jar]
+15:40:07.990 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.991 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.991 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules:fileset-utils:jar:1.2.4) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/fileset-utils/1.2.4/fileset-utils-1.2.4.jar
+15:40:07.991 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules:fileset-utils:1.2.4(start@23)")
+15:40:07.992 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.apache.httpcomponents/httpclient-osgi/4.2.5/jar]
+15:40:07.993 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.993 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.993 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.apache.httpcomponents:httpclient-osgi:jar:4.2.5) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/httpcomponents/httpclient-osgi/4.2.5/httpclient-osgi-4.2.5.jar
+15:40:07.995 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.apache.httpcomponents:httpclient-osgi:4.2.5(start@25)")
+15:40:07.996 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules/common-utils/1.1.4/jar]
+15:40:07.996 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.996 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.996 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules:common-utils:jar:1.1.4) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/common-utils/1.1.4/common-utils-1.1.4.jar
+15:40:07.997 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules:common-utils:1.1.4(start@19)")
+15:40:07.998 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.dotify/dotify.translator.impl/4.0.0/jar]
+15:40:07.998 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:07.999 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:07.999 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.dotify:dotify.translator.impl:jar:4.0.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/dotify/dotify.translator.impl/4.0.0/dotify.translator.impl-4.0.0.jar
+15:40:08.000 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.dotify:dotify.translator.impl:4.0.0(start@13)")
+15:40:08.001 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.apache.commons/commons-lang3/3.4/jar]
+15:40:08.001 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:08.001 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:08.001 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.apache.commons:commons-lang3:jar:3.4) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar
+15:40:08.002 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.apache.commons:commons-lang3:3.4(start@4)")
+15:40:08.004 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:com.google.guava/guava/15.0/jar]
+15:40:08.004 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:08.004 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:08.004 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (com.google.guava:guava:jar:15.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/com/google/guava/guava/15.0/guava-15.0.jar
+15:40:08.006 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("com.google.guava:guava:15.0(start@4)")
+15:40:08.008 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline/logging-activator/2.0.2/jar]
+15:40:08.008 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:08.008 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:08.008 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline:logging-activator:jar:2.0.2) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/logging-activator/2.0.2/logging-activator-2.0.2.jar
+15:40:08.009 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline:logging-activator:2.0.2(start@27)")
+15:40:08.010 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules.braille/liblouis-calabash/2.0.5/jar]
+15:40:08.010 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:08.010 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:08.010 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules.braille:liblouis-calabash:jar:2.0.5) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/liblouis-calabash/2.0.5/liblouis-calabash-2.0.5.jar
+15:40:08.011 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules.braille:liblouis-calabash:2.0.5(start@7)")
+15:40:08.012 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.dotify/dotify.task.impl/4.1.0/jar]
+15:40:08.012 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:08.013 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:08.013 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.dotify:dotify.task.impl:jar:4.1.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/dotify/dotify.task.impl/4.1.0/dotify.task.impl-4.1.0.jar
+15:40:08.014 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.dotify:dotify.task.impl:4.1.0(start@13)")
+15:40:08.015 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules.braille/pef-calabash/3.2.1/jar]
+15:40:08.015 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:08.015 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:08.015 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules.braille:pef-calabash:jar:3.2.1) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/pef-calabash/3.2.1/pef-calabash-3.2.1.jar
+15:40:08.016 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules.braille:pef-calabash:3.2.1(start@5)")
+15:40:08.017 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline/framework-core/3.2.0/jar]
+15:40:08.017 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:08.018 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:08.018 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline:framework-core:jar:3.2.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/framework-core/3.2.0/framework-core-3.2.0.jar
+15:40:08.019 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline:framework-core:3.2.0(start@25)")
+15:40:08.020 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline/saxon-adapter/1.2/jar]
+15:40:08.020 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:08.020 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:08.020 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline:saxon-adapter:jar:1.2) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/saxon-adapter/1.2/saxon-adapter-1.2.jar
+15:40:08.021 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline:saxon-adapter:1.2(start@33)")
+15:40:08.023 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.libs/io.bit3.jsass/4.1.0-p1/jar]
+15:40:08.023 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:08.023 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:08.023 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.libs:io.bit3.jsass:jar:4.1.0-p1) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/libs/io.bit3.jsass/4.1.0-p1/io.bit3.jsass-4.1.0-p1.jar
+15:40:08.026 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.libs:io.bit3.jsass:4.1.0-p1(start@4)")
+15:40:08.028 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules/file-utils/1.3.3/jar]
+15:40:08.028 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:08.028 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:08.028 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules:file-utils:jar:1.3.3) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/file-utils/1.3.3/file-utils-1.3.3.jar
+15:40:08.029 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules:file-utils:1.3.3(start@18)")
+15:40:08.030 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.libs/saxon-he/9.5.1.5-1/jar]
+15:40:08.030 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:08.031 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:08.031 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.libs:saxon-he:jar:9.5.1.5-1) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/libs/saxon-he/9.5.1.5-1/saxon-he-9.5.1.5-1.jar
+15:40:08.035 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.libs:saxon-he:9.5.1.5-1(start@4)")
+15:40:08.036 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules.braille/dotify-utils/2.1.1/jar]
+15:40:08.036 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:08.037 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:08.037 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules.braille:dotify-utils:jar:2.1.1) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/dotify-utils/2.1.1/dotify-utils-2.1.1.jar
+15:40:08.038 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules.braille:dotify-utils:2.1.1(start@13)")
+15:40:08.039 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline/modules-registry/2.0.2/jar]
+15:40:08.039 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:08.039 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:08.039 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline:modules-registry:jar:2.0.2) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules-registry/2.0.2/modules-registry-2.0.2.jar
+15:40:08.040 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline:modules-registry:2.0.2(start@25)")
+15:40:08.041 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.braille/braille-css/1.13.1-SNAPSHOT/jar]
+15:40:08.041 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:08.041 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:08.041 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Skipped remote update check for org.daisy.braille:braille-css:1.13.1-SNAPSHOT/maven-metadata.xml, locally installed metadata up-to-date.
+15:40:08.042 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Skipped remote update check for org.daisy.braille:braille-css:1.13.1-SNAPSHOT/maven-metadata.xml, locally installed metadata up-to-date.
+15:40:08.042 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.braille:braille-css:jar:1.13.1-SNAPSHOT) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/braille/braille-css/1.13.1-SNAPSHOT/braille-css-1.13.1-SNAPSHOT.jar
+15:40:08.043 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.braille:braille-css:1.13.1-SNAPSHOT(start@4)")
+15:40:08.044 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules.braille/pef-core/2.1.2/jar]
+15:40:08.044 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:08.044 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:08.044 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules.braille:pef-core:jar:2.1.2) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/pef-core/2.1.2/pef-core-2.1.2.jar
+15:40:08.045 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules.braille:pef-core:2.1.2(start@6)")
+15:40:08.052 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.xprocspec/xprocspec/1.2.0/jar]
+15:40:08.052 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:08.052 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:08.053 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.xprocspec:xprocspec:jar:1.2.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/xprocspec/xprocspec/1.2.0/xprocspec-1.2.0.jar
+15:40:08.053 [main] DEBUG org.ops4j.pax.swissbox.bnd.BndUtils - Creating bundle for [wrap:mvn:org.daisy.xprocspec/xprocspec/1.2.0/jar$Bundle-SymbolicName=org.daisy.xprocspec&Bundle-Version=1.2.0]
+15:40:08.053 [main] DEBUG org.ops4j.pax.swissbox.bnd.BndUtils - Overwrite mode: KEEP
+15:40:08.103 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.xprocspec:xprocspec:1.2.0(start@30)")
+15:40:08.105 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules/validation-utils/1.0.4/jar]
+15:40:08.105 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:08.105 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:08.105 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules:validation-utils:jar:1.0.4) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/validation-utils/1.0.4/validation-utils-1.0.4.jar
+15:40:08.106 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules:validation-utils:1.0.4(start@14)")
+15:40:08.107 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules.braille/dotify-calabash/2.1.1/jar]
+15:40:08.107 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:08.107 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:08.107 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules.braille:dotify-calabash:jar:2.1.1) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/dotify-calabash/2.1.1/dotify-calabash-2.1.1.jar
+15:40:08.108 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules.braille:dotify-calabash:2.1.1(start@13)")
+15:40:08.109 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline/xmlcatalog/2.0.3/jar]
+15:40:08.109 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:08.110 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:08.110 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline:xmlcatalog:jar:2.0.3) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/xmlcatalog/2.0.3/xmlcatalog-2.0.3.jar
+15:40:08.111 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline:xmlcatalog:2.0.3(start@25)")
+15:40:08.112 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.braille/braille-utils.impl/3.0.0/jar]
+15:40:08.112 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:08.112 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:08.112 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.braille:braille-utils.impl:jar:3.0.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/braille/braille-utils.impl/3.0.0/braille-utils.impl-3.0.0.jar
+15:40:08.113 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.braille:braille-utils.impl:3.0.0(start@5)")
+15:40:08.114 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:net.java.dev.jna/jna/4.0.0/jar]
+15:40:08.114 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:08.115 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:08.115 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (net.java.dev.jna:jna:jar:4.0.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/net/java/dev/jna/jna/4.0.0/jna-4.0.0.jar
+15:40:08.118 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("net.java.dev.jna:jna:4.0.0(start@6)")
+15:40:08.119 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:net.java.dev.msv/xsdlib/2013.6.1/jar]
+15:40:08.119 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:08.119 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:08.119 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (net.java.dev.msv:xsdlib:jar:2013.6.1) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/net/java/dev/msv/xsdlib/2013.6.1/xsdlib-2013.6.1.jar
+15:40:08.120 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("net.java.dev.msv:xsdlib:2013.6.1(start@4)")
+15:40:08.121 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:javax.servlet/javax.servlet-api/3.1.0/jar]
+15:40:08.121 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:08.121 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:08.121 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (javax.servlet:javax.servlet-api:jar:3.1.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar
+15:40:08.122 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("javax.servlet:javax.servlet-api:3.1.0(start@4)")
+15:40:08.123 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.liblouis/liblouis-java/3.1.0/jar]
+15:40:08.123 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:08.124 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:08.124 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.liblouis:liblouis-java:jar:3.1.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/liblouis/liblouis-java/3.1.0/liblouis-java-3.1.0.jar
+15:40:08.125 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.liblouis:liblouis-java:3.1.0(start@6)")
+15:40:08.126 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline/xproc-api/2.0.2/jar]
+15:40:08.126 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:08.126 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:08.126 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline:xproc-api:jar:2.0.2) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/xproc-api/2.0.2/xproc-api-2.0.2.jar
+15:40:08.127 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline:xproc-api:2.0.2(start@25)")
+15:40:08.128 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules/html-utils/3.0.1/jar]
+15:40:08.128 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:08.128 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:08.128 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules:html-utils:jar:3.0.1) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/html-utils/3.0.1/html-utils-3.0.1.jar
+15:40:08.129 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules:html-utils:3.0.1(start@20)")
+15:40:08.131 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.pipeline.modules.braille/libhyphen-native/1.2.0/jar/linux]
+15:40:08.131 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:08.131 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:08.131 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.pipeline.modules.braille:libhyphen-native:jar:linux:1.2.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/pipeline/modules/braille/libhyphen-native/1.2.0/libhyphen-native-1.2.0-linux.jar
+15:40:08.132 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.pipeline.modules.braille:libhyphen-native:jar:linux:1.2.0(start@12)")
+15:40:08.133 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.libs/jing/20120724.0.0/jar]
+15:40:08.133 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:08.133 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:08.133 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.libs:jing:jar:20120724.0.0) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/libs/jing/20120724.0.0/jing-20120724.0.0.jar
+15:40:08.135 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.libs:jing:20120724.0.0(start@28)")
+15:40:08.136 [main] DEBUG o.o.pax.url.mvn.internal.Connection - Resolving [mvn:org.daisy.libs/jstyleparser/1.20-p11/jar]
+15:40:08.136 [main] DEBUG o.o.p.u.m.commons.MavenSettingsImpl - Profile [standard-with-extra-repos] is inactive (ignored).
+15:40:08.136 [main] DEBUG o.o.pax.url.mvn.internal.LogAdapter - Using manager SimpleLocalRepositoryManager with priority 0 for /home/jostein/daisy-pipeline/pipeline/.maven-workspace
+15:40:08.136 [main] DEBUG o.o.p.u.m.i.AetherBasedResolver - Resolved (org.daisy.libs:jstyleparser:jar:1.20-p11) as /home/jostein/daisy-pipeline/pipeline/.maven-workspace/org/daisy/libs/jstyleparser/1.20-p11/jstyleparser-1.20-p11.jar
+15:40:08.138 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - + Install (start@3) mavenBundle("org.daisy.libs:jstyleparser:1.20-p11(start@4)")
+15:40:08.140 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - Jump to startlevel: 5
+15:40:08.140 [main] DEBUG o.o.p.e.n.i.NativeTestContainer - start level 5 requested, current start level is 1
+15:40:08.273 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Creating bundle watcher with scanner [org.ops4j.pax.swissbox.extender.BundleManifestScanner@7fd4f0df]...
+15:40:08.276 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.apache.felix.framework]
+15:40:08.276 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.ops4j.pax.exam]
+15:40:08.277 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.ops4j.pax.exam.inject]
+15:40:08.277 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.ops4j.pax.exam.extender.service]
+15:40:08.279 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [osgi.cmpn]
+15:40:08.279 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.ops4j.base]
+15:40:08.279 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.ops4j.pax.swissbox.core]
+15:40:08.279 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.ops4j.pax.swissbox.extender]
+15:40:08.280 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.ops4j.pax.swissbox.framework]
+15:40:08.280 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.ops4j.pax.swissbox.lifecycle]
+15:40:08.281 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.ops4j.pax.swissbox.tracker]
+15:40:08.281 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.apache.geronimo.specs.geronimo-atinject_1.0_spec]
+15:40:08.281 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.ops4j.pax.tipi.junit]
+15:40:08.289 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.apache.felix.scr]
+15:40:08.315 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.braille.mod-nlb]
+15:40:08.337 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.ops4j.pax.tipi.hamcrest.core]
+15:40:08.340 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.ops4j.pax.exam.invoker.junit]
+15:40:08.342 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.build.modules-test-helper]
+15:40:08.343 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.braille.libhyphen-core]
+15:40:08.344 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [jcl.over.slf4j]
+15:40:08.344 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.common-utils]
+15:40:08.346 [FelixStartLevel] DEBUG o.d.c.properties.PropertyTracker - Property tracker up
+15:40:08.348 [FelixStartLevel] DEBUG o.d.c.properties.PropertyTracker - property publisher factory up
+15:40:08.348 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.braille.xml-to-pef]
+15:40:08.349 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.braille.common-utils]
+15:40:08.351 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.braille.liblouis-native-linux]
+15:40:08.354 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [com.fasterxml.woodstox.woodstox-core]
+15:40:08.354 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.apache.commons.fileupload]
+15:40:08.355 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.braille.epub3-to-pef]
+15:40:08.356 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.maven.xprocspec-runner]
+15:40:08.357 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.unbescape]
+15:40:08.360 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.braille.dotify-formatter]
+15:40:08.363 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.dotify.text.impl]
+15:40:08.364 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.braille.dtbook-to-pef]
+15:40:08.365 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.apache.commons.codec]
+15:40:08.365 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.braille.liblouis-saxon]
+15:40:08.366 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [com.googlecode.texhyphj]
+15:40:08.366 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [nu.validator.htmlparser]
+15:40:08.366 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.libs.com.xmlcalabash]
+15:40:08.366 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.braille.css-core]
+15:40:08.366 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.zip-utils]
+15:40:08.367 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.braille.liblouis-tables]
+15:40:08.368 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [com.sun.xml.bind.jaxb-extra-osgi]
+15:40:08.368 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.apache.servicemix.bundles.antlr-runtime]
+15:40:08.368 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.braille.obfl-utils]
+15:40:08.368 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.braille.html-to-pef]
+15:40:08.369 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [slf4j.api]
+15:40:08.369 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [ch.qos.logback.classic]
+15:40:08.371 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [net.java.dev.msv.core]
+15:40:08.372 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.braille.libhyphen-libreoffice-tables]
+15:40:08.373 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.bindings.jhyphen]
+15:40:08.373 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.apache.commons.io]
+15:40:08.373 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.braille.liblouis-core]
+15:40:08.377 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.maven.xproc-engine-daisy-pipeline]
+15:40:08.378 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.common-entities]
+15:40:08.378 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.maven.xproc-engine-api]
+15:40:08.379 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.dotify.hyphenator.impl]
+15:40:08.379 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.apache.httpcomponents.httpcore]
+15:40:08.398 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.apache.logging.log4j.api]
+15:40:08.398 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.streamline.api]
+15:40:08.400 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.apache.servicemix.bundles.xmlresolver]
+15:40:08.400 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.braille.pef-utils]
+15:40:08.401 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [com.ibm.icu]
+15:40:08.402 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.dotify.common]
+15:40:08.435 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.apache.logging.log4j.core]
+15:40:08.451 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.braille.dotify-core]
+15:40:08.458 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [woodstox-core-lgpl]
+15:40:08.458 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [stax2-api]
+15:40:08.459 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.maven.xspec-runner]
+15:40:08.459 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.braille.css-utils]
+15:40:08.460 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.braille.pef-saxon]
+15:40:08.462 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.dotify.formatter.impl]
+15:40:08.465 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.braille.utils.pef-tools]
+15:40:08.466 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.calabash-adapter]
+15:40:08.467 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.braille.utils.api]
+15:40:08.469 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.braille.dotify-saxon]
+15:40:08.471 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.woodstox-osgi-adapter]
+15:40:08.471 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.metadata-utils]
+15:40:08.472 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.xpath-registry]
+15:40:08.472 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.braille.liblouis-utils]
+15:40:08.473 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [jul.to.slf4j]
+15:40:08.474 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.dtbook-utils]
+15:40:08.474 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.mediatype-utils]
+15:40:08.474 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [ch.qos.logback.core]
+15:40:08.474 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.streamline.engine]
+15:40:08.475 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.dotify.api]
+15:40:08.479 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.fileset-utils]
+15:40:08.480 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.apache.httpcomponents.httpclient]
+15:40:08.480 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.common-utils]
+15:40:08.481 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.dotify.translator.impl]
+15:40:08.484 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.apache.commons.lang3]
+15:40:08.484 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [com.google.guava]
+15:40:08.486 [FelixStartLevel] DEBUG o.d.pipeline.logging.impl.Activator - earlyStartup slf4j SLF4JBridgeHandler...
+15:40:08.490 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.logging-activator]
+15:40:08.491 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.braille.liblouis-calabash]
+15:40:08.492 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.dotify.task.impl]
+15:40:08.495 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.braille.pef-calabash]
+15:40:08.497 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.framework-core]
+15:40:08.533 [FelixStartLevel] DEBUG o.d.p.s.impl.DefaultScriptRegistry - Activating datatype registry
+15:40:08.534 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.saxon-adapter]
+15:40:08.536 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.libs.io.bit3.jsass]
+15:40:08.536 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.file-utils]
+15:40:08.538 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [net.sf.saxon.saxon-he]
+15:40:08.539 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.braille.dotify-utils]
+15:40:08.541 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules-registry]
+15:40:08.542 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.braille.css]
+15:40:08.542 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.braille.pef-core]
+15:40:08.543 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.xprocspec]
+15:40:08.544 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.validation-utils]
+15:40:08.544 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.modules.braille.dotify-calabash]
+15:40:08.545 [FelixStartLevel] DEBUG o.o.p.s.extender.BundleWatcher - Scanning bundle [org.daisy.pipeline.xmlcatalog]
+15:40:08.584 [FelixStartLevel] DEBUG o.d.p.m.i.t.DefaultModuleRegistry - Registring module System Bundle
+15:40:08.584 [FelixStartLevel] DEBUG o.d.p.m.i.t.DefaultModuleRegistry -   - http://www.nlb.no/pipeline/modules/braille/html-to-pef.xpl

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuites tests="40" failures="0" time="104.652" errors="0" name="testdtbooktopefvolumebreaking"><testsuite timestamp="2018-04-20T13:47:16.925Z" hostname="localhost" tests="4" errors="0" failures="0" skipped="0" id="d200086e1" name="ThereShouldAlwaysBeSomethingOtherThanGeneratedContentInThePEFEvenThoughThatMeansSplittingAChapterThatWouldveFitInASeparateVolume" package="http://www.nlb.no/ns/pipeline/xproc" time="2.42">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: show-print-page-numbers" value="false"/>
+<property name="option: show-braille-page-numbers" value="false"/>
+<property name="option: toc-depth" value="1"/>
+<property name="option: maximum-number-of-pages" value="10"/>
+<property name="option: include-obfl" value="true"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/0/pef-output-dir"/>
+<property name="option: obfl-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/0/obfl-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/0/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/0/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="8PagesOfContentIncluding1HeadlineAndWithTocEnabledShouldBecome2Volumes" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>8 pages of content, including 1 headline, and with toc enabled, should become 2 volumes: SUCCESS</system-out>
+<system-err/></testcase><testcase name="AtLeast20OfTheContentRowsShouldBeInTheFirstVolume" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>At least 20% of the content rows should be in the first volume: SUCCESS</system-out>
+<system-err/></testcase><testcase name="AtLeast20OfTheContentRowsShouldBeInTheSecondVolume" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>At least 20% of the content rows should be in the second volume: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:47:16.932Z" hostname="localhost" tests="4" errors="0" failures="0" skipped="0" id="d200098e1" name="IfABookConsistOfMoreThanTheSetMaxPageNumberItMustBeSplitIntoVolumesSeekingABalancedPageNumberBetweenTheseVolumes" package="http://www.nlb.no/ns/pipeline/xproc" time="3.172">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: show-print-page-numbers" value="false"/>
+<property name="option: show-braille-page-numbers" value="false"/>
+<property name="option: toc-depth" value="0"/>
+<property name="option: maximum-number-of-pages" value="10"/>
+<property name="option: include-obfl" value="true"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/1/pef-output-dir"/>
+<property name="option: obfl-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/1/obfl-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/1/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/1/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="9PagesOfContentWith246ShortParagraphsShouldBecome2Volumes" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>9 pages of content, with 246 short paragraphs, should become 2 volumes: SUCCESS</system-out>
+<system-err/></testcase><testcase name="AtLeast20OfTheContentRowsShouldBeInTheFirstBodymatterVolume" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>At least 20% of the content rows should be in the first bodymatter volume: SUCCESS</system-out>
+<system-err/></testcase><testcase name="AtLeast20OfTheContentRowsShouldBeInTheSecondBodymatterVolume" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>At least 20% of the content rows should be in the second bodymatter volume: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:47:16.938Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d200109e1" name="WithPartsPartsWillBeTopLevelSplittingPoints" package="http://www.nlb.no/ns/pipeline/xproc" time="1.52">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: show-print-page-numbers" value="false"/>
+<property name="option: show-braille-page-numbers" value="false"/>
+<property name="option: toc-depth" value="0"/>
+<property name="option: maximum-number-of-pages" value="10"/>
+<property name="option: include-obfl" value="true"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/2/pef-output-dir"/>
+<property name="option: obfl-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/2/obfl-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/2/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/2/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="2ShortParagraphsButInDifferentBookPartsShouldBeSplitAcross2Volumes" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>2 short paragraphs, but in different book 'parts', should be split across 2 volumes: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:47:16.943Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d200116e1" name="WithPartsDontForceAVolumeBreakBeforeTheFirstPart" package="http://www.nlb.no/ns/pipeline/xproc" time="1.511">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: show-print-page-numbers" value="false"/>
+<property name="option: show-braille-page-numbers" value="false"/>
+<property name="option: toc-depth" value="0"/>
+<property name="option: maximum-number-of-pages" value="10"/>
+<property name="option: include-obfl" value="true"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/3/pef-output-dir"/>
+<property name="option: obfl-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/3/obfl-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/3/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/3/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="everythingShouldFitInASingleVolume" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>everything should fit in a single volume: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:47:16.959Z" hostname="localhost" tests="13" errors="0" failures="0" skipped="0" id="d200123e1" name="WithPartsFitSmallChaptersInSameVolumeMediumChaptersInSeparateVolumesAndBigChaptersInMultipleVolumes" package="http://www.nlb.no/ns/pipeline/xproc" time="9.146">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: show-print-page-numbers" value="false"/>
+<property name="option: show-braille-page-numbers" value="false"/>
+<property name="option: toc-depth" value="0"/>
+<property name="option: maximum-number-of-pages" value="10"/>
+<property name="option: include-obfl" value="true"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/4/pef-output-dir"/>
+<property name="option: obfl-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/4/obfl-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/4/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/4/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="thereShouldBe7Volumes" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>there should be 7 volumes: SUCCESS</system-out>
+<system-err/></testcase><testcase name="volume1ShouldHaveTheHeadlinesFor2SmallChapters" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>volume 1 should have the headlines for 2 small chapters: SUCCESS</system-out>
+<system-err/></testcase><testcase name="volume2ShouldHaveTheHeadlineFor1MediumChapter" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>volume 2 should have the headline for 1 medium chapter: SUCCESS</system-out>
+<system-err/></testcase><testcase name="volume2ShouldHaveNoContentBeforeTheFirstHeadline" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>volume 2 should have no content before the first headline: SUCCESS</system-out>
+<system-err/></testcase><testcase name="volume3ShouldHaveTheHeadlineFor1MediumChapter" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>volume 3 should have the headline for 1 medium chapter: SUCCESS</system-out>
+<system-err/></testcase><testcase name="volume3ShouldHaveNoContentBeforeTheFirstHeadline" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>volume 3 should have no content before the first headline: SUCCESS</system-out>
+<system-err/></testcase><testcase name="volume4ShouldHaveTheHeadlineFor1BigChapter" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>volume 4 should have the headline for 1 big chapter: SUCCESS</system-out>
+<system-err/></testcase><testcase name="volume4ShouldHaveNoContentBeforeTheFirstHeadline" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>volume 4 should have no content before the first headline: SUCCESS</system-out>
+<system-err/></testcase><testcase name="volume5ShouldHaveNoContentOtherThanContentParagraphs" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>volume 5 should have no content other than 'content' paragraphs: SUCCESS</system-out>
+<system-err/></testcase><testcase name="volume6ShouldHaveTheHeadlineFor1BigChapter" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>volume 6 should have the headline for 1 big chapter: SUCCESS</system-out>
+<system-err/></testcase><testcase name="volume6ShouldHaveNoContentBeforeTheFirstHeadline" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>volume 6 should have no content before the first headline: SUCCESS</system-out>
+<system-err/></testcase><testcase name="volume7ShouldHaveNoContentOtherThanContentParagraphs" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>volume 7 should have no content other than 'content' paragraphs: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:47:16.966Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d200152e1" name="RegressionTestVolumeDivisionFailsWithMaximumnumberofpages=8And81Headlines" package="http://www.nlb.no/ns/pipeline/xproc" time="2.713">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: show-print-page-numbers" value="false"/>
+<property name="option: show-braille-page-numbers" value="false"/>
+<property name="option: toc-depth" value="0"/>
+<property name="option: maximum-number-of-pages" value="10"/>
+<property name="option: include-obfl" value="true"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/5/pef-output-dir"/>
+<property name="option: obfl-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/5/obfl-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/5/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/5/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="ThePEFShouldBeGenerated" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>The PEF should be generated: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:47:16.969Z" hostname="localhost" tests="1" errors="0" failures="0" skipped="1" id="d200159e1" name="PreferSplittingAtLowerLevelHeadings" time="0.006">
+<properties>
+
+
+</properties>
+<testcase name="pendingScenario-PreferSplittingAtLowerLevelHeadings" classname="pendingScenario" assertions="1" time="0"><skipped type="xprocspec.skip" message="https://github.com/nlbdev/pipeline/issues/119">https://github.com/nlbdev/pipeline/issues/119</skipped><system-out>_ prefer splitting at lower level headings: SKIPPED</system-out></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:47:16.973Z" hostname="localhost" tests="1" errors="0" failures="0" skipped="1" id="d200162e1" name="ParagraphWithInlineElementsDontSplitVolumesInsideAParagraphUnlessNecessary" time="0.002">
+<properties>
+
+
+</properties>
+<testcase name="pendingScenario-ParagraphWithInlineElementsDontSplitVolumesInsideAParagraphUnlessNecessary" classname="pendingScenario" assertions="1" time="0"><skipped type="xprocspec.skip" message="https://github.com/nlbdev/pipeline/issues/86">https://github.com/nlbdev/pipeline/issues/86</skipped><system-out>_ paragraph with inline elements: don't split volumes inside a paragraph; unless necessary: SKIPPED</system-out></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:47:16.978Z" hostname="localhost" tests="1" errors="0" failures="0" skipped="1" id="d200165e1" name="ParagraphWithoutInlineElementsDontSplitVolumesInsideAParagraphUnlessNecessary" time="0.001">
+<properties>
+
+
+</properties>
+<testcase name="pendingScenario-ParagraphWithoutInlineElementsDontSplitVolumesInsideAParagraphUnlessNecessary" classname="pendingScenario" assertions="1" time="0"><skipped type="xprocspec.skip" message="https://github.com/nlbdev/pipeline/issues/86">https://github.com/nlbdev/pipeline/issues/86</skipped><system-out>_ paragraph without inline elements: don't split volumes inside a paragraph; unless necessary: SKIPPED</system-out></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:47:16.986Z" hostname="localhost" tests="4" errors="0" failures="0" skipped="0" id="d200168e1" name="ContentAtStartOfPartOrChapterShouldBeInSameVolumeAsFirstDescendantChapterOrSubchapterShortLevel1LongLevel2" package="http://www.nlb.no/ns/pipeline/xproc" time="2.9">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: show-print-page-numbers" value="false"/>
+<property name="option: show-braille-page-numbers" value="false"/>
+<property name="option: toc-depth" value="0"/>
+<property name="option: maximum-number-of-pages" value="10"/>
+<property name="option: include-obfl" value="true"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/9.1/pef-output-dir"/>
+<property name="option: obfl-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/9.1/obfl-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/9.1/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/9.1/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="ThereShouldBe2Volumes" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>There should be 2 volumes: SUCCESS</system-out>
+<system-err/></testcase><testcase name="ThePartHeadlineShouldBeInTheFirstVolume" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>The part headline should be in the first volume: SUCCESS</system-out>
+<system-err/></testcase><testcase name="TheChapterHeadlineShouldBeInTheFirstVolumeAsWell" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>The chapter headline should be in the first volume as well: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:47:16.992Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d200179e1" name="ContentAtStartOfPartOrChapterShouldBeInSameVolumeAsFirstDescendantChapterOrSubchapterLongLevel1ShortLevel2" package="http://www.nlb.no/ns/pipeline/xproc" time="1.794">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: show-print-page-numbers" value="false"/>
+<property name="option: show-braille-page-numbers" value="false"/>
+<property name="option: toc-depth" value="0"/>
+<property name="option: maximum-number-of-pages" value="10"/>
+<property name="option: include-obfl" value="true"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/9.2/pef-output-dir"/>
+<property name="option: obfl-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/9.2/obfl-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/9.2/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/9.2/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="TheH2ShouldBeInTheSameVolumeAsTheFollowingPageOfContent" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>The h2 should be in the same volume as the following page of content: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:47:16.997Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d200186e1" name="RegressionTestForIssue121CodingErrorUnexpectedCssbook1cssvolumebreakbeforeModeWasTableattr" package="http://www.nlb.no/ns/pipeline/xproc" time="1.695">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: show-print-page-numbers" value="false"/>
+<property name="option: show-braille-page-numbers" value="false"/>
+<property name="option: toc-depth" value="0"/>
+<property name="option: maximum-number-of-pages" value="10"/>
+<property name="option: include-obfl" value="true"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/10/pef-output-dir"/>
+<property name="option: obfl-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/10/obfl-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/10/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/10/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="thereShouldBeAResultPEF" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>there should be a result PEF: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:47:17.132Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d200193e1" name="RegressionTestForIssue118UsingARealBook561691FailedToCompleteVolumeDivisionInDotifyobfltopef" package="http://www.nlb.no/ns/pipeline/xproc" time="69.78">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/xprocspec/test_dtbook-to-pef_volume-breaking.xprocspec)"/>
+
+<property name="option: show-print-page-numbers" value="false"/>
+<property name="option: show-braille-page-numbers" value="false"/>
+<property name="option: toc-depth" value="0"/>
+<property name="option: maximum-number-of-pages" value="10"/>
+<property name="option: include-obfl" value="true"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/11/pef-output-dir"/>
+<property name="option: obfl-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/11/obfl-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/11/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154532515/11/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="thereShouldBeAResultPEF" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>there should be a result PEF: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        </testsuites>

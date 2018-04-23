@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuites tests="8" failures="0" time="5.759" errors="0" name="testdtbooktopefbigbooks"><testsuite timestamp="2018-04-20T13:40:16.742Z" hostname="localhost" tests="1" errors="0" failures="0" skipped="1" id="d8241e1" name="basicStructure≈10KB" time="0.002">
+<properties>
+
+
+</properties>
+<testcase name="pendingScenario-basicStructure≈10KB" classname="pendingScenario" assertions="1" time="0"><skipped type="xprocspec.skip" message="Takes ≈ 20 minutes to run. Succeeds as of 6738c7d96.">Takes ≈ 20 minutes to run. Succeeds as of 6738c7d96.</skipped><system-out>basic structure ≈ 10 kB: SKIPPED</system-out></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:40:16.753Z" hostname="localhost" tests="1" errors="0" failures="0" skipped="1" id="d8245e1" name="basicStructure≈100KB" time="0.001">
+<properties>
+
+
+</properties>
+<testcase name="pendingScenario-basicStructure≈100KB" classname="pendingScenario" assertions="1" time="0"><skipped type="xprocspec.skip" message="Takes ≈ 20 minutes to run. Succeeds as of 6738c7d96.">Takes ≈ 20 minutes to run. Succeeds as of 6738c7d96.</skipped><system-out>basic structure ≈ 100 kB: SKIPPED</system-out></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:40:16.763Z" hostname="localhost" tests="1" errors="0" failures="0" skipped="1" id="d8248e1" name="basicStructure≈500KB" time="0.001">
+<properties>
+
+
+</properties>
+<testcase name="pendingScenario-basicStructure≈500KB" classname="pendingScenario" assertions="1" time="0"><skipped type="xprocspec.skip" message="Takes ≈ 20 minutes to run. Succeeds as of 6738c7d96.">Takes ≈ 20 minutes to run. Succeeds as of 6738c7d96.</skipped><system-out>basic structure ≈ 500 kB: SKIPPED</system-out></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:40:16.773Z" hostname="localhost" tests="1" errors="0" failures="0" skipped="1" id="d8251e1" name="basicStructure≈1MB" time="0.001">
+<properties>
+
+
+</properties>
+<testcase name="pendingScenario-basicStructure≈1MB" classname="pendingScenario" assertions="1" time="0"><skipped type="xprocspec.skip" message="Takes ≈ 20 minutes to run. Succeeds as of 6738c7d96.">Takes ≈ 20 minutes to run. Succeeds as of 6738c7d96.</skipped><system-out>basic structure ≈ 1 MB: SKIPPED</system-out></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:40:16.783Z" hostname="localhost" tests="1" errors="0" failures="0" skipped="1" id="d8254e1" name="basicStructure≈15MB" time="0.001">
+<properties>
+
+
+</properties>
+<testcase name="pendingScenario-basicStructure≈15MB" classname="pendingScenario" assertions="1" time="0"><skipped type="xprocspec.skip" message="Takes ≈ 20 minutes to run. Succeeds as of 6738c7d96.">Takes ≈ 20 minutes to run. Succeeds as of 6738c7d96.</skipped><system-out>basic structure ≈ 1.5 MB: SKIPPED</system-out></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:40:16.794Z" hostname="localhost" tests="1" errors="0" failures="0" skipped="1" id="d8257e1" name="basicStructure≈2MB" time="0.001">
+<properties>
+
+
+</properties>
+<testcase name="pendingScenario-basicStructure≈2MB" classname="pendingScenario" assertions="1" time="0"><skipped type="xprocspec.skip" message="Takes ≈ 20 minutes to run. Succeeds as of 6738c7d96.">Takes ≈ 20 minutes to run. Succeeds as of 6738c7d96.</skipped><system-out>basic structure ≈ 2 MB: SKIPPED</system-out></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:40:16.804Z" hostname="localhost" tests="1" errors="0" failures="0" skipped="1" id="d8260e1" name="basicStructure≈5MB" time="0.001">
+<properties>
+
+
+</properties>
+<testcase name="pendingScenario-basicStructure≈5MB" classname="pendingScenario" assertions="1" time="0"><skipped type="xprocspec.skip" message="Takes ≈ 20 minutes to run. Succeeds as of 6738c7d96.">Takes ≈ 20 minutes to run. Succeeds as of 6738c7d96.</skipped><system-out>basic structure ≈ 5 MB: SKIPPED</system-out></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:40:16.812Z" hostname="localhost" tests="1" errors="0" failures="0" skipped="1" id="d8263e1" name="basicStructure≈10MB" time="0.001">
+<properties>
+
+
+</properties>
+<testcase name="pendingScenario-basicStructure≈10MB" classname="pendingScenario" assertions="1" time="0"><skipped type="xprocspec.skip" message="Takes ≈ 20 minutes to run. Succeeds as of 6738c7d96.">Takes ≈ 20 minutes to run. Succeeds as of 6738c7d96.</skipped><system-out>basic structure ≈ 10 MB: SKIPPED</system-out></testcase></testsuite>
+        </testsuites>

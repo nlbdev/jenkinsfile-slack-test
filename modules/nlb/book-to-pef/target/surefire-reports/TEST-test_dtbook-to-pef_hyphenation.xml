@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuites tests="10" failures="0" time="9.153" errors="0" name="testdtbooktopefhyphenation"><testsuite timestamp="2018-04-20T13:42:14.346Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d14852e1" name="nonstandardHyphenation1" package="http://www.nlb.no/ns/pipeline/xproc" time="1.62">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: page-width" value="28"/>
+<property name="option: show-print-page-numbers" value="false"/>
+<property name="option: show-braille-page-numbers" value="false"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154205409/1/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154205409/1/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154205409/1/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="result" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>result: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:14.351Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d14858e1" name="nonstandardHyphenation2" package="http://www.nlb.no/ns/pipeline/xproc" time="1.225">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2001/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: show-print-page-numbers" value="false"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154205409/2/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154205409/2/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154205409/2/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="result" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>result: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:14.356Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d14863e1" name="standardHyphenation1" package="http://www.nlb.no/ns/pipeline/xproc" time="0.98">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2001/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: show-print-page-numbers" value="false"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154205409/3/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154205409/3/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154205409/3/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="result" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>result: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:14.36Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d14868e1" name="regressionTestFirstHalfOfWordShouldNotBeDeletedWhenNonstandardHyphenationBreakPointIsAtPageWidthIssueNlbdevpipeline14" package="http://www.nlb.no/ns/pipeline/xproc" time="1.114">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2001/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: braille-standard" value="(dots:6)(grade:0)"/>
+<property name="option: page-width" value="35"/>
+<property name="option: page-height" value="100"/>
+<property name="option: show-braille-page-numbers" value="false"/>
+<property name="option: show-print-page-numbers" value="false"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154205409/4/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154205409/4/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154205409/4/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="result" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>result: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:42:14.365Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d14873e1" name="hyphenationAndBorders" package="http://www.nlb.no/ns/pipeline/xproc" time="1.054">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2001/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+<property name="option: page-width" value="32"/>
+<property name="option: toc-depth" value="0"/>
+<property name="option: show-print-page-numbers" value="false"/>
+<property name="option: show-braille-page-numbers" value="false"/>
+<property name="option: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154205409/5/pef-output-dir"/>
+<property name="option: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154205409/5/preview-output-dir"/>
+<property name="option: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154205409/5/temp-dir"/>
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="result" classname="dtbook-to-pef" assertions="1" time="0" status="SUCCESS"><system-out>result: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        </testsuites>

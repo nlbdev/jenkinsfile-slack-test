@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuites tests="6" failures="0" time="0.956" errors="0" name="testcsstranslator"><testsuite timestamp="2018-04-20T13:47:18.748Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d2330e1" name="testForTexttransformuncontracted" package="http://www.daisy.org/ns/pipeline/xproc/internal" time="0.102">
+<properties><property name="input: source" value="&lt;div xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/div&gt; (Base URI: file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/xprocspec/test_css_translator.xprocspec)"/>
+
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="result" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>result: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:47:18.752Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d2336e1" name="testForBlocksOfConsecutiveLettersShouldNotBeContracted" package="http://www.daisy.org/ns/pipeline/xproc/internal" time="0.105">
+<properties><property name="input: source" value="&lt;div xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/div&gt; (Base URI: file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/xprocspec/test_css_translator.xprocspec)"/>
+
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="result" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>result: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        <testsuite timestamp="2018-04-20T13:47:18.756Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d2341e1" name="testForURLsAndEmailAddressesShouldNotBeContracted" package="http://www.daisy.org/ns/pipeline/xproc/internal" time="0.099">
+<properties><property name="input: source" value="&lt;div xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/div&gt; (Base URI: file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/test/xprocspec/test_css_translator.xprocspec)"/>
+
+
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="result" classname="transform" assertions="1" time="0" status="SUCCESS"><system-out>result: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        </testsuites>

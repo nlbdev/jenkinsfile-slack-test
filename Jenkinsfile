@@ -17,6 +17,7 @@ pipeline {
     }
     post {
         always {
+            junit "**/target/surefire-reports*.xml"
             sh 'echo "Finally" | slack-cli -d test'
         }
     }

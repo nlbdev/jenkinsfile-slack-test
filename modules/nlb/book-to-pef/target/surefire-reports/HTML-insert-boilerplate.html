@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns:test="http://www.jenitennison.com/xslt/unit-test" xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>Test Report for home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/main/resources/xml/insert-boilerplate.xsl (45/0/0/45)</title>
+      <link rel="stylesheet" type="text/css" href="xspec-report.css" />
+   </head>
+   <body>
+      <h1>Test Report</h1>
+      <p>Stylesheet: <a href="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/main/resources/xml/insert-boilerplate.xsl">home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/main/resources/xml/insert-boilerplate.xsl</a></p>
+      <p>Tested: 20 April 2018 at 15:58</p>
+      <h2>Contents</h2>
+      <table class="xspec">
+         <col width="85%" />
+         <col width="15%" />
+         <thead>
+            <tr>
+               <th style="text-align: right; font-weight: normal; ">passed/pending/failed/total</th>
+               <th>45/0/0/45</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr class="successful">
+               <th><a href="#d51e3">DTBook: Basic usage</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e152">EPUB/HTML: Basic usage</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e299">DTBook: Use title and author from doctitle and docauthor</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e473">DTBook: normalize whitespace and respect suggested braille line breaks</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e653">DTBook: insert suggested line break between title and subtitle</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e821">DTBook: use only title if fulltitle doesn't fit and title is defined</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e993">DTBook: inform about shortened title</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e1153">EPUB/HTML: Use title and author from doctitle and docauthor</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e1330">EPUB/HTML: normalize whitespace and respect suggested braille line breaks</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e1513">EPUB/HTML: insert suggested line break between title and subtitle</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e1684">EPUB/HTML: use only title if fulltitle doesn't fit and title is defined</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e1860">EPUB/HTML: inform about shortened title</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2023">nlb:strings-to-lines</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2034">nlb:strings-to-lines - words too long, but don't break them</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2045">nlb:strings-to-lines - if words are too long, break them, otherwise only break on
+                     spaces</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2056">nlb:strings-to-lines - fill lines completely before breaking, regardless of where
+                     the spaces are</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2067">nlb:strings-to-lines - 'The Lord of the Rings: The Two Towers' - 0 explicit line breaks</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2078">nlb:strings-to-lines - 'The Lord of the Rings: The Two Towers' - 1 explicit line break</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2089">nlb:strings-to-lines - 'The Lord of the Rings: The Two Towers' - 2 explicit line break</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2100">nlb:strings-to-lines - 'The Lord of the Rings: The Two Towers' - 3 explicit line break</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2111">nlb:fit-name-to-lines - lastname, firstname</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2122">nlb:fit-name-to-lines - 4 lines</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2134">nlb:fit-name-to-lines - 3 lines</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2145">nlb:fit-name-to-lines - 2 lines</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2156">nlb:fit-name-to-lines - 2 lines</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2167">nlb:fit-name-to-lines - 1 lines</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2178">nlb:fit-name-to-lines - 1 lines</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2189">nlb:fit-name-to-lines - ability to suggest line break with names with initials</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2200">nlb:author-lines - 1 long author</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2211">nlb:author-lines - 2 authors</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2222">nlb:author-lines - 3 authors</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2233">nlb:author-lines - 4 authors</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2244">nlb:author-lines - ability to suggest line break</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2256">nlb:translator-lines - 1 long translator</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2267">nlb:translator-lines - 2 translators</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2278">nlb:translator-lines - 3 translators</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2289">nlb:translator-lines - ability to suggest line break</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2300">nlb:title-lines - long title</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2311">nlb:title-lines - too long title</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2322">nlb:title-lines - long title with too long words</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2333">nlb:title-lines - too long title with too long words</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2344">nlb:title-lines - ability to suggest line break between</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2355">nlb:element-text - ' John [br] Ronald[newline]  Reuel Tolkien '</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2369">nlb:element-text - title/subtitle classes</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+            <tr class="successful">
+               <th><a href="#d51e2386">Regression test: br element in doctitle causes too many nested function calls</a></th>
+               <th>1/0/0/1</th>
+            </tr>
+         </tbody>
+      </table>
+      <div id="d51e3">
+         <h2 class="successful">DTBook: Basic usage<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e3">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>DTBook: Basic usage</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e152">
+         <h2 class="successful">EPUB/HTML: Basic usage<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e152">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>EPUB/HTML: Basic usage</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e299">
+         <h2 class="successful">DTBook: Use title and author from doctitle and docauthor<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e299">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>DTBook: Use title and author from doctitle and docauthor</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e473">
+         <h2 class="successful">DTBook: normalize whitespace and respect suggested braille line breaks<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e473">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>DTBook: normalize whitespace and respect suggested braille line breaks</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e653">
+         <h2 class="successful">DTBook: insert suggested line break between title and subtitle<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e653">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>DTBook: insert suggested line break between title and subtitle</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e821">
+         <h2 class="successful">DTBook: use only title if fulltitle doesn't fit and title is defined<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e821">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>DTBook: use only title if fulltitle doesn't fit and title is defined</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e993">
+         <h2 class="successful">DTBook: inform about shortened title<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e993">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>DTBook: inform about shortened title</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e1153">
+         <h2 class="successful">EPUB/HTML: Use title and author from doctitle and docauthor<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e1153">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>EPUB/HTML: Use title and author from doctitle and docauthor</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e1330">
+         <h2 class="successful">EPUB/HTML: normalize whitespace and respect suggested braille line breaks<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e1330">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>EPUB/HTML: normalize whitespace and respect suggested braille line breaks</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e1513">
+         <h2 class="successful">EPUB/HTML: insert suggested line break between title and subtitle<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e1513">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>EPUB/HTML: insert suggested line break between title and subtitle</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e1684">
+         <h2 class="successful">EPUB/HTML: use only title if fulltitle doesn't fit and title is defined<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e1684">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>EPUB/HTML: use only title if fulltitle doesn't fit and title is defined</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e1860">
+         <h2 class="successful">EPUB/HTML: inform about shortened title<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e1860">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>EPUB/HTML: inform about shortened title</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2023">
+         <h2 class="successful">nlb:strings-to-lines<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2023">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:strings-to-lines</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2034">
+         <h2 class="successful">nlb:strings-to-lines - words too long, but don't break them<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2034">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:strings-to-lines - words too long, but don't break them</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2045">
+         <h2 class="successful">nlb:strings-to-lines - if words are too long, break them, otherwise only break on
+            spaces<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2045">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:strings-to-lines - if words are too long, break them, otherwise only break on
+                     spaces
+                  </th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2056">
+         <h2 class="successful">nlb:strings-to-lines - fill lines completely before breaking, regardless of where
+            the spaces are<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2056">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:strings-to-lines - fill lines completely before breaking, regardless of where
+                     the spaces are
+                  </th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2067">
+         <h2 class="successful">nlb:strings-to-lines - 'The Lord of the Rings: The Two Towers' - 0 explicit line breaks<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2067">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:strings-to-lines - 'The Lord of the Rings: The Two Towers' - 0 explicit line breaks</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2078">
+         <h2 class="successful">nlb:strings-to-lines - 'The Lord of the Rings: The Two Towers' - 1 explicit line break<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2078">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:strings-to-lines - 'The Lord of the Rings: The Two Towers' - 1 explicit line break</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2089">
+         <h2 class="successful">nlb:strings-to-lines - 'The Lord of the Rings: The Two Towers' - 2 explicit line break<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2089">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:strings-to-lines - 'The Lord of the Rings: The Two Towers' - 2 explicit line break</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2100">
+         <h2 class="successful">nlb:strings-to-lines - 'The Lord of the Rings: The Two Towers' - 3 explicit line break<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2100">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:strings-to-lines - 'The Lord of the Rings: The Two Towers' - 3 explicit line break</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2111">
+         <h2 class="successful">nlb:fit-name-to-lines - lastname, firstname<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2111">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:fit-name-to-lines - lastname, firstname</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2122">
+         <h2 class="successful">nlb:fit-name-to-lines - 4 lines<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2122">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:fit-name-to-lines - 4 lines</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2134">
+         <h2 class="successful">nlb:fit-name-to-lines - 3 lines<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2134">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:fit-name-to-lines - 3 lines</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2145">
+         <h2 class="successful">nlb:fit-name-to-lines - 2 lines<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2145">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:fit-name-to-lines - 2 lines</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2156">
+         <h2 class="successful">nlb:fit-name-to-lines - 2 lines<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2156">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:fit-name-to-lines - 2 lines</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2167">
+         <h2 class="successful">nlb:fit-name-to-lines - 1 lines<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2167">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:fit-name-to-lines - 1 lines</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2178">
+         <h2 class="successful">nlb:fit-name-to-lines - 1 lines<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2178">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:fit-name-to-lines - 1 lines</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2189">
+         <h2 class="successful">nlb:fit-name-to-lines - ability to suggest line break with names with initials<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2189">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:fit-name-to-lines - ability to suggest line break with names with initials</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2200">
+         <h2 class="successful">nlb:author-lines - 1 long author<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2200">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:author-lines - 1 long author</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2211">
+         <h2 class="successful">nlb:author-lines - 2 authors<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2211">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:author-lines - 2 authors</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2222">
+         <h2 class="successful">nlb:author-lines - 3 authors<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2222">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:author-lines - 3 authors</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2233">
+         <h2 class="successful">nlb:author-lines - 4 authors<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2233">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:author-lines - 4 authors</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2244">
+         <h2 class="successful">nlb:author-lines - ability to suggest line break<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2244">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:author-lines - ability to suggest line break</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2256">
+         <h2 class="successful">nlb:translator-lines - 1 long translator<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2256">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:translator-lines - 1 long translator</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2267">
+         <h2 class="successful">nlb:translator-lines - 2 translators<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2267">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:translator-lines - 2 translators</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2278">
+         <h2 class="successful">nlb:translator-lines - 3 translators<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2278">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:translator-lines - 3 translators</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2289">
+         <h2 class="successful">nlb:translator-lines - ability to suggest line break<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2289">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:translator-lines - ability to suggest line break</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2300">
+         <h2 class="successful">nlb:title-lines - long title<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2300">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:title-lines - long title</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2311">
+         <h2 class="successful">nlb:title-lines - too long title<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2311">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:title-lines - too long title</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2322">
+         <h2 class="successful">nlb:title-lines - long title with too long words<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2322">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:title-lines - long title with too long words</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2333">
+         <h2 class="successful">nlb:title-lines - too long title with too long words<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2333">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:title-lines - too long title with too long words</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2344">
+         <h2 class="successful">nlb:title-lines - ability to suggest line break between<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2344">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:title-lines - ability to suggest line break between</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td></td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2355">
+         <h2 class="successful">nlb:element-text - ' John [br] Ronald[newline]  Reuel Tolkien '<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2355">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:element-text - ' John [br] Ronald[newline]  Reuel Tolkien '</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td>text should be normalized and have newlines at the position of the br element</td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2369">
+         <h2 class="successful">nlb:element-text - title/subtitle classes<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2369">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>nlb:element-text - title/subtitle classes</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td>text should have a newline before the subtitle</td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div id="d51e2386">
+         <h2 class="successful">Regression test: br element in doctitle causes too many nested function calls<span class="scenario-totals">1/0/0/1</span></h2>
+         <table class="xspec" id="t-d51e2386">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="successful">
+                  <th>Regression test: br element in doctitle causes too many nested function calls</th>
+                  <th>1/0/0/1</th>
+               </tr>
+               <tr class="successful">
+                  <td>There should not be an error</td>
+                  <td>Success</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+   </body>
+</html>

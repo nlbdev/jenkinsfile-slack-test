@@ -1,0 +1,20 @@
+Running pre-processing_html
+Testing with SAXON HE 9.5.1.5
+automatically give number to noterefs that are not already numbered
+
+automatically give number to notes that are not already numbered
+
+rename sectioning elements to 'section'
+
+move colophon to backmatter (multiple body elements)
+
+move colophon to backmatter (single body element)
+
+remove titlepage and print toc (multiple body elements)
+Ambiguous rule match for /html/body[3]
+Matches both "html:body[preceding-sibling::html:body and not(following-sibling::html:body)]" on line 84 of file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/main/resources/xml/pre-processing.xsl
+and "html:body[tokenize(@epub:type,'\s+') = ('toc','toc-brief')]" on line 67 of file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/src/main/resources/xml/pre-processing.xsl
+
+remove titlepage and print toc (single body element)
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 130,1 ms

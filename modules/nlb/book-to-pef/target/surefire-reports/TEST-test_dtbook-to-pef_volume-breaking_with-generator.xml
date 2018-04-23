@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuites tests="2" failures="0" time="192.698" errors="0" name="testdtbooktopefvolumebreakingwithgenerator"><testsuite timestamp="2018-04-20T13:45:31.324Z" hostname="localhost" tests="2" errors="0" failures="0" skipped="0" id="d220039e1" name="RegressionTestForIssue118FailedToCompleteVolumeDivisionInDotifyobfltopef" package="http://www.nlb.no/ns/pipeline/xproc" time="190.008">
+<properties><property name="input: source" value="&lt;dtbook xmlns=&#34;http://www.daisy.org/z3986/2005/dtbook/&#34; ...&gt;...&lt;/dtbook&gt; (Base URI: file:/tmp/book.xml)"/>
+
+
+<property name="parameter: show-print-page-numbers" value="false"/>
+<property name="parameter: show-braille-page-numbers" value="false"/>
+<property name="parameter: toc-depth" value="0"/>
+<property name="parameter: maximum-number-of-pages" value="10"/>
+<property name="parameter: pef-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154218326/_/1/pef-output-dir"/>
+<property name="parameter: preview-output-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154218326/_/1/preview-output-dir"/>
+<property name="parameter: temp-dir" value="file:/home/jostein/daisy-pipeline/pipeline/modules/nlb/book-to-pef/target/xprocspec/tmp/xprocspec-20180420154218326/_/1/temp-dir"/>
+</properties>
+<testcase name="theStepShouldExecuteSuccessfullyWithoutThrowingAnyErrors" classname="dtbook-to-pef-test" assertions="1" time="0" status="SUCCESS"><system-out>the step should execute successfully without throwing any errors: SUCCESS</system-out>
+<system-err/></testcase><testcase name="thereShouldBeAResultPEF" classname="dtbook-to-pef-test" assertions="1" time="0" status="SUCCESS"><system-out>there should be a result PEF: SUCCESS</system-out>
+<system-err/></testcase></testsuite>
+        </testsuites>

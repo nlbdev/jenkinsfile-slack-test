@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:test="http://www.jenitennison.com/xslt/unit-test"
+           xmlns:x="http://www.jenitennison.com/xslt/xspec"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           name="xslt.pre-processing_html"
+           errors="0"
+           failures="0"
+           skipped="count(//x:test[@pending='true'])"
+           time="0.13">
+   <testcase classname="xslt.pre-processing_html"
+             name="automatically give number to noterefs that are not already numbered"/>
+   <testcase classname="xslt.pre-processing_html"
+             name="automatically give number to notes that are not already numbered"/>
+   <testcase classname="xslt.pre-processing_html"
+             name="rename sectioning elements to 'section'"/>
+   <testcase classname="xslt.pre-processing_html"
+             name="move colophon to backmatter (multiple body elements)"/>
+   <testcase classname="xslt.pre-processing_html"
+             name="move colophon to backmatter (single body element)"/>
+   <testcase classname="xslt.pre-processing_html"
+             name="remove titlepage and print toc (multiple body elements)"/>
+   <testcase classname="xslt.pre-processing_html"
+             name="remove titlepage and print toc (single body element)"/>
+</testsuite>

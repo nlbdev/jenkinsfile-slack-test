@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuites tests="1" failures="0" time="0.978" errors="0" name="testepub3topefgeneratedcontent"><testsuite timestamp="2018-04-20T13:40:23.889Z" hostname="localhost" tests="1" errors="0" failures="0" skipped="1" id="d1524e1" name="basicTestOfCompleteTitlepage" time="0.001">
+<properties>
+
+
+</properties>
+<testcase name="pendingScenario-basicTestOfCompleteTitlepage" classname="pendingScenario" assertions="1" time="0"><skipped type="xprocspec.skip" message="https://github.com/nlbdev/pipeline/issues/78 https://github.com/nlbdev/pipeline/issues/97">https://github.com/nlbdev/pipeline/issues/78 https://github.com/nlbdev/pipeline/issues/97</skipped><system-out>basic test of complete titlepage: SKIPPED</system-out></testcase></testsuite>
+        </testsuites>

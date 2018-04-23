@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:test="http://www.jenitennison.com/xslt/unit-test"
+           xmlns:x="http://www.jenitennison.com/xslt/xspec"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           name="xslt.pre-processing_dtbook"
+           errors="0"
+           failures="0"
+           skipped="count(//x:test[@pending='true'])"
+           time="0.056">
+   <testcase classname="xslt.pre-processing_dtbook"
+             name="automatically give number to noterefs that are not already numbered"/>
+   <testcase classname="xslt.pre-processing_dtbook"
+             name="automatically give number to notes that are not already numbered"/>
+   <testcase classname="xslt.pre-processing_dtbook"
+             name="the precedingseparator class should be replaced with a hr element"/>
+   <testcase classname="xslt.pre-processing_dtbook"
+             name="the precedingemptyline class should be replaced with a hr element with a emptyline class"/>
+   <testcase classname="xslt.pre-processing_dtbook"
+             name="move colophon to rearmatter (with existing rearmatter)"/>
+   <testcase classname="xslt.pre-processing_dtbook"
+             name="move colophon to rearmatter (without existing rearmatter)"/>
+   <testcase classname="xslt.pre-processing_dtbook"
+             name="remove titlepage and print toc"/>
+</testsuite>
